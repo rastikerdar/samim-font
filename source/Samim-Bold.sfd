@@ -4,7 +4,7 @@ FullName: Samim Bold
 FamilyName: Samim
 Weight: Bold
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\nCopyright (c) 2015 by Saber Rastikerdar. All Rights Reserved.
-Version: 0.1
+Version: 0.1.1
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 100
@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1446381712
+ModificationTime: 1446397067
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -2309,7 +2309,7 @@ ShortTable: maxp 16
   8
   4
 EndShort
-LangName: 1033 "" "" "" "" "" "Version 0.1" "" "" "DejaVu fonts team - Redesigned by Saber Rastikerdar" "" "" "" "" "Changes to Arabic glyphs by me are under SIL Open Font License 1.1+AAoACgAA-Fonts are (c) Bitstream (see below). DejaVu changes are in public domain. Glyphs imported from Arev fonts are (c) Tavmjung Bah (see below)+AAoACgAA-Bitstream Vera Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is+AAoA-a trademark of Bitstream, Inc.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy+AAoA-of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated+AAoA-documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the+AAoA-Font Software, including without limitation the rights to use, copy, merge,+AAoA-publish, distribute, and/or sell copies of the Font Software, and to permit+AAoA-persons to whom the Font Software is furnished to do so, subject to the+AAoA-following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice shall+AAoA-be included in all copies of one or more of the Font Software typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in particular+AAoA-the designs of glyphs or characters in the Fonts may be modified and+AAoA-additional glyphs or characters may be added to the Fonts, only if the fonts+AAoA-are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the word+AAoAIgAA-Vera+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts or Font+AAoA-Software that has been modified and is distributed under the +ACIA-Bitstream+AAoA-Vera+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but no+AAoA-copy of one or more of the Font Software typefaces may be sold by itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS+AAoA-OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY,+AAoA-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT,+AAoA-TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME+AAoA-FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING+AAoA-ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,+AAoA-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF+AAoA-THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE+AAoA-FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the names of Gnome, the Gnome+AAoA-Foundation, and Bitstream Inc., shall not be used in advertising or+AAoA-otherwise to promote the sale, use or other dealings in this Font Software+AAoA-without prior written authorization from the Gnome Foundation or Bitstream+AAoA-Inc., respectively. For further information, contact: fonts at gnome dot+AAoA-org. +AAoACgAA-Arev Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and+AAoA-associated documentation files (the +ACIA-Font Software+ACIA), to reproduce+AAoA-and distribute the modifications to the Bitstream Vera Font Software,+AAoA-including without limitation the rights to use, copy, merge, publish,+AAoA-distribute, and/or sell copies of the Font Software, and to permit+AAoA-persons to whom the Font Software is furnished to do so, subject to+AAoA-the following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice+AAoA-shall be included in all copies of one or more of the Font Software+AAoA-typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in+AAoA-particular the designs of glyphs or characters in the Fonts may be+AAoA-modified and additional glyphs or characters may be added to the+AAoA-Fonts, only if the fonts are renamed to names not containing either+AAoA-the words +ACIA-Tavmjong Bah+ACIA or the word +ACIA-Arev+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts+AAoA-or Font Software that has been modified and is distributed under the +AAoAIgAA-Tavmjong Bah Arev+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but+AAoA-no copy of one or more of the Font Software typefaces may be sold by+AAoA-itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL+AAoA-TAVMJONG BAH BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the name of Tavmjong Bah shall not+AAoA-be used in advertising or otherwise to promote the sale, use or other+AAoA-dealings in this Font Software without prior written authorization+AAoA-from Tavmjong Bah. For further information, contact: tavmjong @ free+AAoA. fr." "http://scripts.sil.org/OFL_web - http://dejavu.sourceforge.net/wiki/index.php/License" "" "Samim" "Bold" 
+LangName: 1033 "" "" "" "Samim Bold 0.1.1" "" "Version 0.1.1" "" "" "DejaVu fonts team - Redesigned by Saber Rastikerdar" "" "" "" "" "Changes to Arabic glyphs by me are under SIL Open Font License 1.1+AAoACgAA-Fonts are (c) Bitstream (see below). DejaVu changes are in public domain. Glyphs imported from Arev fonts are (c) Tavmjung Bah (see below)+AAoACgAA-Bitstream Vera Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is+AAoA-a trademark of Bitstream, Inc.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy+AAoA-of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated+AAoA-documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the+AAoA-Font Software, including without limitation the rights to use, copy, merge,+AAoA-publish, distribute, and/or sell copies of the Font Software, and to permit+AAoA-persons to whom the Font Software is furnished to do so, subject to the+AAoA-following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice shall+AAoA-be included in all copies of one or more of the Font Software typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in particular+AAoA-the designs of glyphs or characters in the Fonts may be modified and+AAoA-additional glyphs or characters may be added to the Fonts, only if the fonts+AAoA-are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the word+AAoAIgAA-Vera+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts or Font+AAoA-Software that has been modified and is distributed under the +ACIA-Bitstream+AAoA-Vera+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but no+AAoA-copy of one or more of the Font Software typefaces may be sold by itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS+AAoA-OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY,+AAoA-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT,+AAoA-TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME+AAoA-FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING+AAoA-ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,+AAoA-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF+AAoA-THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE+AAoA-FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the names of Gnome, the Gnome+AAoA-Foundation, and Bitstream Inc., shall not be used in advertising or+AAoA-otherwise to promote the sale, use or other dealings in this Font Software+AAoA-without prior written authorization from the Gnome Foundation or Bitstream+AAoA-Inc., respectively. For further information, contact: fonts at gnome dot+AAoA-org. +AAoACgAA-Arev Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and+AAoA-associated documentation files (the +ACIA-Font Software+ACIA), to reproduce+AAoA-and distribute the modifications to the Bitstream Vera Font Software,+AAoA-including without limitation the rights to use, copy, merge, publish,+AAoA-distribute, and/or sell copies of the Font Software, and to permit+AAoA-persons to whom the Font Software is furnished to do so, subject to+AAoA-the following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice+AAoA-shall be included in all copies of one or more of the Font Software+AAoA-typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in+AAoA-particular the designs of glyphs or characters in the Fonts may be+AAoA-modified and additional glyphs or characters may be added to the+AAoA-Fonts, only if the fonts are renamed to names not containing either+AAoA-the words +ACIA-Tavmjong Bah+ACIA or the word +ACIA-Arev+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts+AAoA-or Font Software that has been modified and is distributed under the +AAoAIgAA-Tavmjong Bah Arev+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but+AAoA-no copy of one or more of the Font Software typefaces may be sold by+AAoA-itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL+AAoA-TAVMJONG BAH BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the name of Tavmjong Bah shall not+AAoA-be used in advertising or otherwise to promote the sale, use or other+AAoA-dealings in this Font Software without prior written authorization+AAoA-from Tavmjong Bah. For further information, contact: tavmjong @ free+AAoA. fr." "http://scripts.sil.org/OFL_web - http://dejavu.sourceforge.net/wiki/index.php/License" "" "Samim" "Bold" 
 GaspTable: 2 8 2 65535 3 0
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
@@ -3640,7 +3640,7 @@ EndChar
 
 StartChar: uni062C
 Encoding: 1580 1580 49
-Width: 1306
+Width: 1458
 VWidth: 2232
 GlyphClass: 2
 Flags: W
@@ -3649,7 +3649,7 @@ AnchorPoint: "Anchor-7" 574.84 -690 basechar 0
 LayerCount: 2
 Fore
 Refer: 50 1581 N 1 0 0 1 0 0 2
-Refer: 293 -1 N 1.07 0 0 1.07 637.25 65.25 2
+Refer: 293 -1 S 1.07 0 0 1.07 727.25 35.25 2
 Substitution2: "'fina' Terminal Forms in Arabic lookup 9 subtable" uniFE9E
 Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" uniFEA0
 Substitution2: "'init' Initial Forms in Arabic lookup 13 subtable" uniFE9F
@@ -3657,43 +3657,43 @@ EndChar
 
 StartChar: uni062D
 Encoding: 1581 1581 50
-Width: 1306
+Width: 1458
 VWidth: 2232
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-10" 480.5 1347 basechar 0
-AnchorPoint: "Anchor-7" 464.84 -704.5 basechar 0
+AnchorPoint: "Anchor-10" 555.5 1347 basechar 0
+AnchorPoint: "Anchor-7" 539.84 -704.5 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1154.86 892.338 m 1,0,-1
- 1119.68 669.128 l 1,1,-1
- 1082.74 663.549 l 2,2,3
- 319.595 548.324 319.595 548.324 238.231 132.923 c 0,4,5
- 216.064 17.835 216.064 17.835 248.551 -61.8799 c 128,-1,6
- 281.038 -141.596 281.038 -141.596 371.059 -197.86 c 0,7,8
- 594.41 -335.13 594.41 -335.13 901.326 -251.425 c 0,9,10
- 1028.14 -216.84 1028.14 -216.84 1217.96 -118.587 c 2,11,-1
- 1292.4 -80.0566 l 1,12,-1
- 1292.4 -345.577 l 1,13,-1
- 1273.59 -360.884 l 2,14,15
- 1104.1 -498.812 1104.1 -498.812 818.915 -527.945 c 0,16,17
- 491.148 -561.346 491.148 -561.346 276.461 -454.865 c 0,18,19
- 120.174 -376.716 120.174 -376.716 41.6924 -241.46 c 128,-1,20
- -36.7881 -106.204 -36.7881 -106.204 -33.7969 77.6904 c 0,21,22
- -29.0928 326.133 -29.0928 326.133 135.812 504.257 c 128,-1,23
- 300.715 682.382 300.715 682.382 613.705 787.518 c 1,24,25
- 469.904 827.992 469.904 827.992 446.597 832.089 c 1,26,27
- 326.743 842.59 326.743 842.59 207.422 688.724 c 2,28,-1
- 176.29 648.58 l 1,29,-1
- -4.75 787.842 l 1,30,-1
- 19.9434 827.12 l 2,31,32
- 88.0293 935.428 88.0293 935.428 202.919 1021 c 0,33,34
- 297.708 1090.58 297.708 1090.58 459.939 1078.65 c 0,35,36
- 487.614 1076.61 487.614 1076.61 686.503 1016.71 c 0,37,38
- 727.562 1004.34 727.562 1004.34 750.411 997.477 c 0,39,40
- 899.599 952.678 899.599 952.678 1108.85 903.213 c 2,41,-1
- 1154.86 892.338 l 1,0,-1
+1229.86 892.338 m 1,0,-1
+ 1194.68 669.128 l 1,1,-1
+ 1157.74 663.549 l 2,2,3
+ 393.194 548.077 393.194 548.077 313.231 132.923 c 0,4,5
+ 291.064 17.835 291.064 17.835 323.551 -61.8799 c 128,-1,6
+ 356.038 -141.596 356.038 -141.596 446.059 -197.86 c 0,7,8
+ 669.41 -335.13 669.41 -335.13 976.326 -251.425 c 0,9,10
+ 1103.13 -216.842 1103.13 -216.842 1292.96 -118.587 c 2,11,-1
+ 1367.4 -80.0566 l 1,12,-1
+ 1367.4 -345.577 l 1,13,-1
+ 1348.59 -360.884 l 2,14,15
+ 1179.09 -498.814 1179.09 -498.814 893.915 -527.945 c 0,16,17
+ 566.148 -561.346 566.148 -561.346 351.461 -454.865 c 0,18,19
+ 195.174 -376.716 195.174 -376.716 116.692 -241.46 c 128,-1,20
+ 38.2119 -106.204 38.2119 -106.204 41.2031 77.6904 c 0,21,22
+ 47.0582 348.027 47.0582 348.027 255.747 533.238 c 0,23,24
+ 495.747 746.238 495.747 746.238 855.747 788.238 c 1,25,26
+ 734.32 815.237 734.32 815.237 521.597 832.089 c 1,27,28
+ 401.747 842.59 401.747 842.59 282.422 688.724 c 2,29,-1
+ 251.29 648.58 l 1,30,-1
+ 70.25 787.842 l 1,31,-1
+ 94.9434 827.12 l 2,32,33
+ 163.038 935.434 163.038 935.434 277.919 1021 c 0,34,35
+ 372.708 1090.58 372.708 1090.58 534.939 1078.65 c 0,36,37
+ 562.614 1076.61 562.614 1076.61 761.503 1016.71 c 0,38,39
+ 802.562 1004.34 802.562 1004.34 825.411 997.477 c 0,40,41
+ 974.704 952.646 974.704 952.646 1183.85 903.213 c 2,42,-1
+ 1229.86 892.338 l 1,0,-1
 EndSplineSet
 Substitution2: "'fina' Terminal Forms in Arabic lookup 9 subtable" uniFEA2
 Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" uniFEA4
@@ -3702,16 +3702,16 @@ EndChar
 
 StartChar: uni062E
 Encoding: 1582 1582 51
-Width: 1306
+Width: 1458
 VWidth: 2232
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-10" 507.5 1599 basechar 0
+AnchorPoint: "Anchor-10" 558.5 1599 basechar 0
 AnchorPoint: "Anchor-7" 515.84 -689 basechar 0
 LayerCount: 2
 Fore
 Refer: 50 1581 N 1 0 0 1 0 0 2
-Refer: 293 -1 N 1.07 0 0 1.07 507.25 1285 2
+Refer: 293 -1 N 1.07 0 0 1.07 558.25 1285 2
 Substitution2: "'fina' Terminal Forms in Arabic lookup 9 subtable" uniFEA6
 Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" uniFEA8
 Substitution2: "'init' Initial Forms in Arabic lookup 13 subtable" uniFEA7
@@ -5516,7 +5516,7 @@ EndChar
 
 StartChar: afii57507
 Encoding: 1670 1670 107
-Width: 1306
+Width: 1458
 VWidth: 2232
 GlyphClass: 2
 Flags: W
@@ -5989,7 +5989,7 @@ EndChar
 
 StartChar: uniFB7A
 Encoding: 64378 64378 129
-Width: 1371
+Width: 1458
 VWidth: 2232
 GlyphClass: 2
 Flags: W
@@ -6003,7 +6003,7 @@ EndChar
 
 StartChar: uniFB7B
 Encoding: 64379 64379 130
-Width: 1408
+Width: 1436
 VWidth: 2232
 GlyphClass: 2
 Flags: W
@@ -6011,7 +6011,7 @@ AnchorPoint: "Anchor-10" 632.5 1150.5 basechar 0
 AnchorPoint: "Anchor-7" 520.84 -738.5 basechar 0
 LayerCount: 2
 Fore
-Refer: 296 -1 S 1.07 0 0 1.07 354.015 -56.02 2
+Refer: 296 -1 S 1.07 0 0 1.07 414.015 -60.0419 2
 Refer: 202 65186 N 1 0 0 1 0 0 2
 EndChar
 
@@ -7058,7 +7058,7 @@ EndChar
 
 StartChar: uniFE9D
 Encoding: 65181 65181 197
-Width: 1371
+Width: 1458
 VWidth: 2227
 GlyphClass: 2
 Flags: W
@@ -7072,7 +7072,7 @@ EndChar
 
 StartChar: uniFE9E
 Encoding: 65182 65182 198
-Width: 1408
+Width: 1436
 VWidth: 2232
 GlyphClass: 2
 Flags: W
@@ -7081,7 +7081,7 @@ AnchorPoint: "Anchor-7" 520.84 -712.5 basechar 0
 LayerCount: 2
 Fore
 Refer: 202 65186 N 1 0 0 1 0 0 2
-Refer: 293 -1 N 1.07 0 0 1.07 574.1 -92.97 2
+Refer: 293 -1 S 1.07 0 0 1.07 601.1 -89.97 2
 EndChar
 
 StartChar: uniFE9F
@@ -7114,7 +7114,7 @@ EndChar
 
 StartChar: uniFEA1
 Encoding: 65185 65185 201
-Width: 1372
+Width: 1458
 VWidth: 2227
 GlyphClass: 2
 Flags: W
@@ -7127,52 +7127,52 @@ EndChar
 
 StartChar: uniFEA2
 Encoding: 65186 65186 202
-Width: 1408
+Width: 1436
 VWidth: 2232
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-10" 658.5 1184.5 basechar 0
-AnchorPoint: "Anchor-7" 531.84 -767.64 basechar 0
+AnchorPoint: "Anchor-10" 686.5 1184.5 basechar 0
+AnchorPoint: "Anchor-7" 559.84 -767.64 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1207.57 796.38 m 1,0,-1
- 1175.42 604.547 l 2,1,2
- 1174.38 598.515 1174.38 598.515 1172.33 586.299 c 128,-1,3
- 1170.28 574.084 1170.28 574.084 1169.3 568.07 c 1,4,-1
- 1132.74 562.549 l 2,5,6
- 1075.31 553.876 1075.31 553.876 1021.19 543.388 c 1,7,8
- 1054.02 402.2 1054.02 402.2 1133.58 336.79 c 128,-1,9
- 1213.13 271.38 1213.13 271.38 1350.13 271.38 c 2,10,-1
- 1486.94 271.38 l 5,11,-1
- 1486.94 0.5 l 5,12,-1
- 1340.51 0.5 l 2,13,14
- 1113.08 0.5 1113.08 0.5 968.384 122.886 c 128,-1,15
- 823.682 245.271 823.682 245.271 771.344 479.15 c 1,16,17
- 336.083 336.565 336.083 336.565 288.408 65.8662 c 0,18,19
- 254.18 -125.281 254.18 -125.281 354.394 -239.43 c 0,20,21
- 492.586 -398.135 492.586 -398.135 846.087 -342.617 c 0,22,23
- 1006.91 -317.361 1006.91 -317.361 1203.39 -200.196 c 2,24,-1
- 1255.86 -168.906 l 1,25,-1
- 1348.66 -416.888 l 1,26,-1
- 1318.11 -439.799 l 2,27,28
- 1233.76 -503.07 1233.76 -503.07 1036.82 -556.233 c 0,29,30
- 634.768 -664.907 634.768 -664.907 315.034 -528.93 c 0,31,32
- 165.478 -465.304 165.478 -465.304 90.4043 -334.826 c 128,-1,33
- 15.3311 -204.348 15.3311 -204.348 17.002 -17.5 c 0,34,35
- 19.5127 216.882 19.5127 216.882 188.439 393.217 c 128,-1,36
- 357.365 569.552 357.365 569.552 680.122 687.675 c 1,37,38
- 523.21 731.958 523.21 731.958 498.852 736.239 c 1,39,40
- 379.003 746.739 379.003 746.739 259.679 592.873 c 2,41,-1
- 228.547 552.729 l 1,42,-1
- 47.5068 691.991 l 1,43,-1
- 72.2002 731.271 l 2,44,45
- 140.286 839.576 140.286 839.576 255.182 925.158 c 0,46,47
- 349.979 994.743 349.979 994.743 512.196 982.801 c 0,48,49
- 539.865 980.764 539.865 980.764 738.658 920.885 c 0,50,51
- 779.705 908.519 779.705 908.519 802.668 901.626 c 0,52,53
- 951.844 856.831 951.844 856.831 1161.11 807.362 c 2,54,-1
- 1207.57 796.38 l 1,0,-1
+1235.57 796.38 m 1,0,-1
+ 1203.42 604.547 l 2,1,2
+ 1202.38 598.515 1202.38 598.515 1200.33 586.299 c 128,-1,3
+ 1198.28 574.084 1198.28 574.084 1197.3 568.07 c 1,4,-1
+ 1160.74 562.549 l 2,5,6
+ 1103.3 553.873 1103.3 553.873 1049.19 543.388 c 1,7,8
+ 1082.02 402.2 1082.02 402.2 1161.58 336.79 c 128,-1,9
+ 1241.13 271.38 1241.13 271.38 1378.13 271.38 c 2,10,-1
+ 1514.94 271.38 l 1,11,-1
+ 1514.94 0.5 l 1,12,-1
+ 1368.51 0.5 l 2,13,14
+ 1141.08 0.5 1141.08 0.5 996.384 122.886 c 128,-1,15
+ 851.682 245.271 851.682 245.271 799.344 479.15 c 1,16,17
+ 364.083 336.565 364.083 336.565 316.408 65.8662 c 0,18,19
+ 282.18 -125.281 282.18 -125.281 382.394 -239.43 c 0,20,21
+ 520.586 -398.135 520.586 -398.135 874.087 -342.617 c 0,22,23
+ 1034.92 -317.361 1034.92 -317.361 1231.39 -200.196 c 2,24,-1
+ 1283.86 -168.906 l 1,25,-1
+ 1376.66 -416.888 l 1,26,-1
+ 1346.11 -439.799 l 2,27,28
+ 1261.73 -503.077 1261.73 -503.077 1064.82 -556.233 c 0,29,30
+ 662.768 -664.907 662.768 -664.907 343.034 -528.93 c 0,31,32
+ 193.478 -465.304 193.478 -465.304 118.404 -334.826 c 128,-1,33
+ 43.3311 -204.348 43.3311 -204.348 45.002 -17.5 c 0,34,35
+ 47.4107 206.398 47.4107 206.398 216.439 394.217 c 0,36,37
+ 448.453 652.022 448.453 652.022 838.452 694.021 c 1,38,39
+ 700.453 724.022 700.453 724.022 526.852 737.239 c 0,40,41
+ 405.628 744.969 405.628 744.969 287.679 592.873 c 2,42,-1
+ 256.547 552.729 l 1,43,-1
+ 75.5068 691.991 l 1,44,-1
+ 100.2 731.271 l 2,45,46
+ 168.285 839.575 168.285 839.575 283.182 925.158 c 0,47,48
+ 377.979 994.743 377.979 994.743 540.196 982.801 c 0,49,50
+ 567.865 980.764 567.865 980.764 766.658 920.885 c 0,51,52
+ 807.705 908.519 807.705 908.519 830.668 901.626 c 0,53,54
+ 979.864 856.825 979.864 856.825 1189.11 807.362 c 2,55,-1
+ 1235.57 796.38 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -7260,30 +7260,30 @@ EndChar
 
 StartChar: uniFEA5
 Encoding: 65189 65189 205
-Width: 1371
+Width: 1458
 VWidth: 2232
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-10" 530.5 1560 basechar 0
+AnchorPoint: "Anchor-10" 581.5 1560 basechar 0
 AnchorPoint: "Anchor-7" 459.84 -703.5 basechar 0
 LayerCount: 2
 Fore
-Refer: 293 -1 N 1.07 0 0 1.07 492.25 1202 2
+Refer: 293 -1 S 1.07 0 0 1.07 543.25 1202 2
 Refer: 50 1581 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEA6
 Encoding: 65190 65190 206
-Width: 1408
+Width: 1436
 VWidth: 2232
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-10" 486.5 1478 basechar 0
+AnchorPoint: "Anchor-10" 576.5 1478 basechar 0
 AnchorPoint: "Anchor-7" 442.84 -735.5 basechar 0
 LayerCount: 2
 Fore
 Refer: 202 65186 N 1 0 0 1 0 0 2
-Refer: 293 -1 N 1.07 0 0 1.07 510.25 1088 2
+Refer: 293 -1 S 1.07 0 0 1.07 600.25 1088 2
 EndChar
 
 StartChar: uniFEA7
