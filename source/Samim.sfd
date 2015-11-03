@@ -21,7 +21,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1446537699
+ModificationTime: 1446538325
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -2376,7 +2376,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 25 13
+WinInfo: 25 25 13
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -7927,7 +7927,7 @@ EndChar
 
 StartChar: uniFEC8
 Encoding: 65224 65224 240
-Width: 1684
+Width: 1490
 VWidth: 2181
 GlyphClass: 2
 Flags: W
@@ -7936,7 +7936,7 @@ AnchorPoint: "Anchor-7" 362.73 -170 basechar 0
 LayerCount: 2
 Fore
 Refer: 236 65220 N 1 0 0 1 0 0 2
-Refer: 293 -1 S 1.07 0 0 1.07 748.28 1024.07 2
+Refer: 293 -1 N 1.07 0 0 1.07 748.28 1024.07 2
 EndChar
 
 StartChar: uniFEC9
