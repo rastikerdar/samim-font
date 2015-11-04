@@ -7,6 +7,33 @@ A Persian (Farsi) Font
 
 با تشکر از برنامه [FontForge](https://fontforge.github.io)
 
-بر مبنای فونت [وزیر](http://rastikerdar.github.io/vazir-font/)
+بر مبنای فونت [وزیر](http://rastikerdar.github.io/Samim-font/)
 
+
+طریقه استفاده در صفحات وب:
+--------------------------
+<div lang="fa" dir="rtl">
+کد زیر را در قسمت style یا فایل css وارد نمایید:
+</div>
+
+
+```
+    @font-face {
+      font-family: Samim;
+      src: url('Samim.eot');
+      src: url('Samim.eot?#iefix') format('embedded-opentype'),
+           url('Samim.woff') format('woff'),
+           url('Samim.ttf') format('truetype');
+      font-weight: normal;
+    }
+      
+    @font-face {
+      font-family: Samim;
+      src: url('Samim-Bold.eot');
+      src: url('Samim-Bold.eot?#iefix') format('embedded-opentype'),
+           url('Samim-Bold.woff') format('woff'),
+           url('Samim-Bold.ttf') format('truetype');
+      font-weight: bold;
+    }
+```
 
