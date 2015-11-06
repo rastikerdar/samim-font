@@ -4,7 +4,7 @@ FullName: Samim Bold
 FamilyName: Samim
 Weight: Bold
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\nCopyright (c) 2015 by Saber Rastikerdar. All Rights Reserved.
-Version: 0.8.2
+Version: 0.8.3
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 100
@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1446746729
+ModificationTime: 1446817989
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -2032,7 +2032,7 @@ NEG
 MSIRP[no-rp0]
 ENDF
 EndTTInstrs
-ShortTable: cvt  257
+ShortTable: cvt  258
   309
   184
   203
@@ -2290,6 +2290,7 @@ ShortTable: cvt  257
   150
   27
   1403
+  1483
 EndShort
 ShortTable: maxp 16
   1
@@ -2309,7 +2310,7 @@ ShortTable: maxp 16
   8
   4
 EndShort
-LangName: 1033 "" "" "" "Samim Bold 0.8.2" "" "Version 0.8.2" "" "" "DejaVu fonts team - Redesigned by Saber Rastikerdar" "" "" "" "" "Changes to Arabic glyphs by me are under SIL Open Font License 1.1+AAoACgAA-Fonts are (c) Bitstream (see below). DejaVu changes are in public domain. Glyphs imported from Arev fonts are (c) Tavmjung Bah (see below)+AAoACgAA-Bitstream Vera Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is+AAoA-a trademark of Bitstream, Inc.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy+AAoA-of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated+AAoA-documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the+AAoA-Font Software, including without limitation the rights to use, copy, merge,+AAoA-publish, distribute, and/or sell copies of the Font Software, and to permit+AAoA-persons to whom the Font Software is furnished to do so, subject to the+AAoA-following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice shall+AAoA-be included in all copies of one or more of the Font Software typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in particular+AAoA-the designs of glyphs or characters in the Fonts may be modified and+AAoA-additional glyphs or characters may be added to the Fonts, only if the fonts+AAoA-are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the word+AAoAIgAA-Vera+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts or Font+AAoA-Software that has been modified and is distributed under the +ACIA-Bitstream+AAoA-Vera+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but no+AAoA-copy of one or more of the Font Software typefaces may be sold by itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS+AAoA-OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY,+AAoA-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT,+AAoA-TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME+AAoA-FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING+AAoA-ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,+AAoA-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF+AAoA-THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE+AAoA-FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the names of Gnome, the Gnome+AAoA-Foundation, and Bitstream Inc., shall not be used in advertising or+AAoA-otherwise to promote the sale, use or other dealings in this Font Software+AAoA-without prior written authorization from the Gnome Foundation or Bitstream+AAoA-Inc., respectively. For further information, contact: fonts at gnome dot+AAoA-org. +AAoACgAA-Arev Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and+AAoA-associated documentation files (the +ACIA-Font Software+ACIA), to reproduce+AAoA-and distribute the modifications to the Bitstream Vera Font Software,+AAoA-including without limitation the rights to use, copy, merge, publish,+AAoA-distribute, and/or sell copies of the Font Software, and to permit+AAoA-persons to whom the Font Software is furnished to do so, subject to+AAoA-the following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice+AAoA-shall be included in all copies of one or more of the Font Software+AAoA-typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in+AAoA-particular the designs of glyphs or characters in the Fonts may be+AAoA-modified and additional glyphs or characters may be added to the+AAoA-Fonts, only if the fonts are renamed to names not containing either+AAoA-the words +ACIA-Tavmjong Bah+ACIA or the word +ACIA-Arev+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts+AAoA-or Font Software that has been modified and is distributed under the +AAoAIgAA-Tavmjong Bah Arev+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but+AAoA-no copy of one or more of the Font Software typefaces may be sold by+AAoA-itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL+AAoA-TAVMJONG BAH BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the name of Tavmjong Bah shall not+AAoA-be used in advertising or otherwise to promote the sale, use or other+AAoA-dealings in this Font Software without prior written authorization+AAoA-from Tavmjong Bah. For further information, contact: tavmjong @ free+AAoA. fr." "http://scripts.sil.org/OFL_web - http://dejavu.sourceforge.net/wiki/index.php/License" "" "Samim" "Bold" 
+LangName: 1033 "" "" "" "Samim Bold 0.8.3" "" "Version 0.8.3" "" "" "DejaVu fonts team - Redesigned by Saber Rastikerdar" "" "" "" "" "Changes to Arabic glyphs by me are under SIL Open Font License 1.1+AAoACgAA-Fonts are (c) Bitstream (see below). DejaVu changes are in public domain. Glyphs imported from Arev fonts are (c) Tavmjung Bah (see below)+AAoACgAA-Bitstream Vera Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is+AAoA-a trademark of Bitstream, Inc.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy+AAoA-of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated+AAoA-documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the+AAoA-Font Software, including without limitation the rights to use, copy, merge,+AAoA-publish, distribute, and/or sell copies of the Font Software, and to permit+AAoA-persons to whom the Font Software is furnished to do so, subject to the+AAoA-following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice shall+AAoA-be included in all copies of one or more of the Font Software typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in particular+AAoA-the designs of glyphs or characters in the Fonts may be modified and+AAoA-additional glyphs or characters may be added to the Fonts, only if the fonts+AAoA-are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the word+AAoAIgAA-Vera+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts or Font+AAoA-Software that has been modified and is distributed under the +ACIA-Bitstream+AAoA-Vera+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but no+AAoA-copy of one or more of the Font Software typefaces may be sold by itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS+AAoA-OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY,+AAoA-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT,+AAoA-TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME+AAoA-FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING+AAoA-ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,+AAoA-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF+AAoA-THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE+AAoA-FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the names of Gnome, the Gnome+AAoA-Foundation, and Bitstream Inc., shall not be used in advertising or+AAoA-otherwise to promote the sale, use or other dealings in this Font Software+AAoA-without prior written authorization from the Gnome Foundation or Bitstream+AAoA-Inc., respectively. For further information, contact: fonts at gnome dot+AAoA-org. +AAoACgAA-Arev Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and+AAoA-associated documentation files (the +ACIA-Font Software+ACIA), to reproduce+AAoA-and distribute the modifications to the Bitstream Vera Font Software,+AAoA-including without limitation the rights to use, copy, merge, publish,+AAoA-distribute, and/or sell copies of the Font Software, and to permit+AAoA-persons to whom the Font Software is furnished to do so, subject to+AAoA-the following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice+AAoA-shall be included in all copies of one or more of the Font Software+AAoA-typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in+AAoA-particular the designs of glyphs or characters in the Fonts may be+AAoA-modified and additional glyphs or characters may be added to the+AAoA-Fonts, only if the fonts are renamed to names not containing either+AAoA-the words +ACIA-Tavmjong Bah+ACIA or the word +ACIA-Arev+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts+AAoA-or Font Software that has been modified and is distributed under the +AAoAIgAA-Tavmjong Bah Arev+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but+AAoA-no copy of one or more of the Font Software typefaces may be sold by+AAoA-itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL+AAoA-TAVMJONG BAH BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the name of Tavmjong Bah shall not+AAoA-be used in advertising or otherwise to promote the sale, use or other+AAoA-dealings in this Font Software without prior written authorization+AAoA-from Tavmjong Bah. For further information, contact: tavmjong @ free+AAoA. fr." "http://scripts.sil.org/OFL_web - http://dejavu.sourceforge.net/wiki/index.php/License" "" "Samim" "Bold" 
 GaspTable: 2 8 2 65535 3 0
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
@@ -2375,7 +2376,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 25 13
+WinInfo: 25 25 13
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4504,43 +4505,38 @@ Width: 1646
 VWidth: 2232
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-10" 570.722 1082.33 basechar 0
-AnchorPoint: "Anchor-7" 433.423 -615.472 basechar 0
+AnchorPoint: "Anchor-10" 570.722 1133.33 basechar 0
+AnchorPoint: "Anchor-7" 433.423 -564.472 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1369.43 -159.928 m 0,0,1
- 1104.73 -398.846 1104.73 -398.846 715.684 -412.294 c 0,2,3
- 515.858 -419.165 515.858 -419.165 374.163 -352.593 c 128,-1,4
- 232.469 -286.021 232.469 -286.021 158.422 -145.242 c 0,5,6
- 65.8086 31.1504 65.8086 31.1504 118.623 287.701 c 0,7,8
- 159.745 488.825 159.745 488.825 276.368 681.416 c 2,9,-1
- 299.644 719.854 l 1,10,-1
- 532.187 616.508 l 1,11,-1
- 507.276 568.431 l 2,12,13
- 432.07 423.288 432.07 423.288 393.257 299.226 c 0,14,15
- 334.101 110.14 334.101 110.14 401.253 -7.45703 c 0,16,17
- 480.49 -145.227 480.49 -145.227 721.582 -139.343 c 0,18,19
- 943.659 -133.525 943.659 -133.525 1126.78 -28.541 c 0,20,21
- 1206.88 17.3803 1206.88 17.3803 1249.5 59.0047 c 0,22,23
- 1288.92 97.504 1288.92 97.504 1233.5 99.6063 c 0,24,25
- 1216.47 100.252 1216.47 100.252 1195.92 99.7939 c 0,26,27
- 1002.26 95.4756 1002.26 95.4756 915.581 167.71 c 0,28,29
- 856.567 216.891 856.567 216.891 843.613 293.08 c 128,-1,30
- 830.659 369.271 830.659 369.271 860.885 452.239 c 1,31,32
- 926.906 652.157 926.906 652.157 1063.5 739.701 c 0,33,34
- 1208.2 830.674 1208.2 830.674 1357.5 816.798 c 4,35,36
- 1520.89 800.467 1520.89 800.467 1604.55 709.096 c 1,37,-1
- 1507.5 499.701 l 1,38,39
- 1493 524.408 1493 524.408 1399.5 535.701 c 0,40,41
- 1289.09 549.036 1289.09 549.036 1216.77 514.238 c 0,42,43
- 1112.81 463.353 1112.81 463.353 1087.62 372.701 c 0,44,45
- 1081.48 350.589 1081.48 350.589 1111.5 350.535 c 0,46,47
- 1228.05 352.09 1228.05 352.09 1288.36 346.489 c 128,-1,48
- 1348.67 340.888 1348.67 340.888 1391.64 322.724 c 0,49,50
- 1476.04 286.771 1476.04 286.771 1506.12 217.924 c 0,51,52
- 1540.74 136.021 1540.74 136.021 1515.05 55.5039 c 0,53,54
- 1479.16 -60.7598 1479.16 -60.7598 1369.43 -159.928 c 0,0,1
+1331.1 -145.222 m 0,0,1
+ 1055.29 -372.038 1055.29 -372.038 683.889 -384.707 c 0,2,3
+ 262.444 -398.321 262.444 -398.321 121.709 -132.635 c 0,4,5
+ 26.7445 43.9849 26.7445 43.9849 85.9795 311.306 c 0,6,7
+ 129.402 511.954 129.402 511.954 286.648 742.483 c 1,8,-1
+ 509.646 637.463 l 1,9,10
+ 372.27 412.711 372.27 412.711 338.891 251 c 0,11,12
+ 308.997 106.172 308.997 106.172 363.997 5.52148 c 0,13,14
+ 437.607 -129.186 437.607 -129.186 698.651 -117.375 c 0,15,16
+ 957.318 -106.539 957.318 -106.539 1152.46 18.6963 c 0,17,18
+ 1208.63 54.7505 1208.63 54.7505 1241.69 87.226 c 0,19,20
+ 1271.55 116.564 1271.55 116.564 1234.89 119.578 c 0,21,22
+ 1210.98 121.545 1210.98 121.545 1178.77 120.99 c 0,23,24
+ 980.146 117.569 980.146 117.569 893.582 189.71 c 0,25,26
+ 786.002 279.363 786.002 279.363 838.369 472.614 c 0,27,28
+ 887.504 653.938 887.504 653.938 1041 748.906 c 0,29,30
+ 1180.86 835.074 1180.86 835.074 1334 815.583 c 0,31,32
+ 1455.38 799.858 1455.38 799.858 1546 715.399 c 2,33,-1
+ 1571.12 691.989 l 1,34,-1
+ 1479.48 451.841 l 1,35,36
+ 1295.36 573.858 1295.36 573.858 1156.5 520.406 c 0,37,38
+ 1096.68 497.596 1096.68 497.596 1071 441 c 0,39,40
+ 1041.48 375.203 1041.48 375.203 1142.98 371.996 c 0,41,42
+ 1324.93 366.247 1324.93 366.247 1371.56 343.859 c 0,43,44
+ 1443.51 310.164 1443.51 310.164 1474.9 246.256 c 128,-1,45
+ 1506.3 182.348 1506.3 182.348 1492.25 101.288 c 0,46,47
+ 1469.21 -31.6387 1469.21 -31.6387 1331.1 -145.222 c 0,0,1
 EndSplineSet
 Substitution2: "'fina' Terminal Forms in Arabic lookup 9 subtable" uniFEF0
 Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" uniFBE9
@@ -5427,39 +5423,38 @@ AnchorPoint: "Anchor-7" 442 -537 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1106.96 736.854 m 0,0,1
- 1017.83 734.861 1017.83 734.861 978.11 618.715 c 0,2,3
- 965.586 582.529 965.586 582.529 963.686 554.84 c 0,4,5
- 960.651 510.646 960.651 510.646 985.555 489.135 c 128,-1,6
- 1010.46 467.622 1010.46 467.622 1086.37 462.592 c 0,7,8
- 1139.81 459.012 1139.81 459.012 1216.95 474.962 c 1,9,10
- 1215.06 556.833 1215.06 556.833 1202.49 618.054 c 0,11,12
- 1188.6 687.342 1188.6 687.342 1165.46 712.494 c 128,-1,13
- 1142.33 737.646 1142.33 737.646 1106.96 736.854 c 0,0,1
-1460.87 271.176 m 1,14,-1
- 1460.6 266.864 l 2,15,16
- 1443 -18.8217 1443 -18.8217 1265.85 -178.663 c 0,17,18
- 1053.28 -370.463 1053.28 -370.463 685.668 -361.732 c 0,19,20
- 370.53 -354.402 370.53 -354.402 207.961 -188.548 c 0,21,22
- 39.7885 -17.71 39.7885 -17.71 42.8561 219.253 c 0,23,24
- 46.4643 489.168 46.4643 489.168 141.156 680.792 c 2,25,-1
- 159.441 717.795 l 1,26,-1
- 404.501 655.501 l 1,27,-1
- 384.088 602 l 2,28,29
- 301.952 386.729 301.952 386.729 302.783 259.433 c 0,30,31
- 304.083 69.2197 304.083 69.2197 406.333 -19.4648 c 128,-1,32
- 508.582 -108.148 508.582 -108.148 730.993 -105.857 c 0,33,34
- 1003.48 -103.45 1003.48 -103.45 1125.12 39.6738 c 0,35,36
- 1188.73 114.53 1188.73 114.53 1204.15 215.434 c 1,37,38
- 1143.79 207.797 1143.79 207.797 1092.06 207.704 c 0,39,40
- 897.996 207.449 897.996 207.449 803.964 312.73 c 0,41,42
- 710.429 417.453 710.429 417.453 730.913 581.832 c 0,43,44
- 754.874 774.111 754.874 774.111 872.684 888.266 c 0,45,46
- 987.298 999.324 987.298 999.324 1124.13 990.933 c 0,47,48
- 1214.6 985.512 1214.6 985.512 1283.41 939.432 c 128,-1,49
- 1352.21 893.353 1352.21 893.353 1392.64 811.318 c 0,50,51
- 1451.95 690.996 1451.95 690.996 1459.86 533.053 c 0,52,53
- 1467.93 363.655 1467.93 363.655 1460.87 271.176 c 1,14,-1
+1106.1 686.834 m 0,0,1
+ 1019.23 685.028 1019.23 685.028 978.11 568.715 c 0,2,3
+ 965.586 532.529 965.586 532.529 963.686 504.84 c 0,4,5
+ 960.651 460.646 960.651 460.646 985.555 439.135 c 128,-1,6
+ 1010.46 417.622 1010.46 417.622 1086.37 412.592 c 0,7,8
+ 1139.81 409.012 1139.81 409.012 1216.95 424.962 c 1,9,10
+ 1215.06 506.834 1215.06 506.834 1202.49 568.057 c 0,11,12
+ 1188.62 637.248 1188.62 637.248 1165.15 662.439 c 128,-1,13
+ 1141.69 687.631 1141.69 687.631 1106.1 686.834 c 0,0,1
+1460.83 220.723 m 0,14,15
+ 1438.47 -59.3926 1438.47 -59.3926 1266.89 -227.708 c 1,16,17
+ 1058.81 -420.595 1058.81 -420.595 685.667 -411.732 c 0,18,19
+ 370.529 -404.402 370.529 -404.402 207.959 -238.546 c 0,20,21
+ 39.1377 -67.7061 39.1377 -67.7061 42.8555 220.253 c 0,22,23
+ 45.7627 437.738 45.7627 437.738 141.155 630.792 c 2,24,-1
+ 159.44 667.795 l 1,25,-1
+ 404.5 605.501 l 1,26,-1
+ 384.087 552 l 2,27,28
+ 301.95 336.728 301.95 336.728 302.782 209.432 c 0,29,30
+ 304.082 19.2197 304.082 19.2197 406.332 -69.4648 c 128,-1,31
+ 508.581 -158.148 508.581 -158.148 730.992 -155.857 c 0,32,33
+ 1003.48 -153.45 1003.48 -153.45 1125.12 -10.3262 c 0,34,35
+ 1188.73 64.5283 1188.73 64.5283 1204.15 165.433 c 1,36,37
+ 1143.79 157.795 1143.79 157.795 1092.06 157.703 c 0,38,39
+ 897.996 157.448 897.996 157.448 803.964 262.729 c 0,40,41
+ 710.429 367.452 710.429 367.452 730.913 531.832 c 0,42,43
+ 754.874 724.12 754.874 724.12 872.683 838.264 c 0,44,45
+ 987.298 949.323 987.298 949.323 1124.14 940.931 c 0,46,47
+ 1214.59 935.511 1214.59 935.511 1283.4 889.429 c 128,-1,48
+ 1352.21 843.346 1352.21 843.346 1392.63 761.316 c 0,49,50
+ 1451.95 640.994 1451.95 640.994 1459.86 483.096 c 0,51,52
+ 1467.96 313.005 1467.96 313.005 1460.83 220.723 c 0,14,15
 EndSplineSet
 Substitution2: "'init' Initial Forms in Arabic lookup 13 subtable" uni066F.init
 Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" uni066F.medi
@@ -5630,36 +5625,36 @@ AnchorPoint: "Anchor-7" 475 -229.68 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-844.779 0 m 6,0,1
- 526.573 0 526.573 0 358.333 70.3242 c 4,2,3
- 217.718 129.1 217.718 129.1 137.949 237.436 c 132,-1,4
- 58.1816 345.771 58.1816 345.771 44.5908 496.569 c 4,5,6
- 33.5703 614.425 33.5703 614.425 77.752 767.869 c 6,7,-1
- 91.5508 815.794 l 5,8,-1
- 314.14 757.062 l 5,9,-1
- 305.643 710.618 l 6,10,11
- 280.792 574.777 280.792 574.777 283.479 528.761 c 4,12,13
- 287.635 426.534 287.635 426.534 354.743 366.816 c 132,-1,14
- 421.852 307.098 421.852 307.098 568.511 284.789 c 4,15,16
- 641.172 273.559 641.172 273.559 804.387 273.016 c 6,17,-1
- 1056.95 271.004 l 5,18,-1
- 1191.21 271.004 l 6,19,20
- 1429.81 271.004 1429.81 271.004 1446.33 376.699 c 4,21,22
- 1454.71 430.299 1454.71 430.299 1435.11 473.292 c 132,-1,23
- 1415.52 516.285 1415.52 516.285 1362.54 555.607 c 6,24,-1
- 1001.87 823.27 l 6,25,26
- 914.168 888.352 914.168 888.352 905.533 989.106 c 4,27,28
- 902.855 1020.34 902.855 1020.34 905.907 1048.63 c 4,29,30
- 912.419 1109.01 912.419 1109.01 945.971 1156.02 c 132,-1,31
- 979.522 1203.03 979.522 1203.03 1035.42 1231.4 c 6,32,-1
- 1756.09 1597.17 l 5,33,-1
- 1756.09 1317.53 l 5,34,-1
- 1193.2 1023.34 l 5,35,36
- 1378.97 883.984 1378.97 883.984 1553.85 739.123 c 5,37,38
- 1722.55 596.724 1722.55 596.724 1694.52 322.467 c 4,39,40
- 1677.96 163.591 1677.96 163.591 1550.66 79.6025 c 4,41,42
- 1430 0 1430 0 1232.54 -0 c 6,43,-1
- 844.779 0 l 6,0,1
+844.779 0 m 2,0,1
+ 526.573 0 526.573 0 358.333 70.3242 c 0,2,3
+ 217.718 129.1 217.718 129.1 137.949 237.436 c 128,-1,4
+ 58.1816 345.771 58.1816 345.771 44.5908 496.569 c 0,5,6
+ 33.5706 614.421 33.5706 614.421 77.752 767.869 c 2,7,-1
+ 91.5508 815.794 l 1,8,-1
+ 314.14 757.062 l 1,9,-1
+ 305.643 710.618 l 2,10,11
+ 280.792 574.782 280.792 574.782 283.479 528.761 c 0,12,13
+ 287.635 426.534 287.635 426.534 354.743 366.816 c 128,-1,14
+ 421.852 307.098 421.852 307.098 568.511 284.789 c 0,15,16
+ 636.006 274.357 636.006 274.357 804.387 273.016 c 2,17,-1
+ 1056.95 271.004 l 1,18,-1
+ 1191.21 271.004 l 2,19,20
+ 1429.81 271.004 1429.81 271.004 1446.33 376.699 c 0,21,22
+ 1454.71 430.299 1454.71 430.299 1435.11 473.292 c 128,-1,23
+ 1415.52 516.291 1415.52 516.291 1362.54 555.607 c 2,24,-1
+ 1001.87 823.27 l 2,25,26
+ 914.168 888.356 914.168 888.356 905.533 989.106 c 0,27,28
+ 902.855 1020.34 902.855 1020.34 905.907 1048.63 c 0,29,30
+ 912.419 1109.01 912.419 1109.01 945.971 1156.02 c 128,-1,31
+ 979.521 1203.03 979.521 1203.03 1035.42 1231.4 c 2,32,-1
+ 1756.09 1597.17 l 1,33,-1
+ 1756.09 1317.53 l 1,34,-1
+ 1193.2 1023.34 l 1,35,36
+ 1378.97 883.984 1378.97 883.984 1553.85 739.123 c 1,37,38
+ 1723.59 596.671 1723.59 596.671 1697.24 338.283 c 0,39,40
+ 1679.91 172.11 1679.91 172.11 1542.24 81.2832 c 4,41,42
+ 1419.03 0 1419.03 0 1232.54 -0 c 2,43,-1
+ 844.779 0 l 2,0,1
 EndSplineSet
 Substitution2: "'init' Initial Forms in Arabic lookup 13 subtable" uniFB90
 Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" uniFB91
@@ -5685,7 +5680,7 @@ EndChar
 
 StartChar: afii57514
 Encoding: 1722 1722 112
-Width: 1409
+Width: 1420
 VWidth: 2232
 GlyphClass: 2
 Flags: W
@@ -5694,26 +5689,26 @@ AnchorPoint: "Anchor-7" 572.58 -494.02 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1323.76 375.358 m 0,0,1
- 1320.11 60.498 1320.11 60.498 1160.98 -107.58 c 128,-1,2
- 1001.86 -275.657 1001.86 -275.657 699.947 -281.039 c 0,3,4
- 395.556 -286.596 395.556 -286.596 226.325 -145.246 c 128,-1,5
- 57.0947 -3.89551 57.0947 -3.89551 40.6562 274.391 c 0,6,7
- 35.6201 359.556 35.6201 359.556 58.3867 476.9 c 0,8,9
- 81.6533 596.81 81.6533 596.81 132.887 706.761 c 2,10,-1
- 153.018 749.964 l 1,11,-1
- 380.846 662.011 l 1,12,-1
- 361.302 613.924 l 2,13,14
- 275.507 402.839 275.507 402.839 292.996 270.684 c 0,15,16
- 314.077 114.385 314.077 114.385 405.705 41.1562 c 128,-1,17
- 497.332 -32.0713 497.332 -32.0713 674.68 -30.7588 c 0,18,19
- 875.061 -29.2764 875.061 -29.2764 971.242 56.3896 c 128,-1,20
- 1067.42 142.056 1067.42 142.056 1075.8 322.83 c 0,21,22
- 1083.31 485.129 1083.31 485.129 974.25 638.31 c 2,23,-1
- 948.646 674.27 l 1,24,-1
- 1164.69 880.69 l 1,25,-1
- 1196.64 822.537 l 2,26,27
- 1326.03 587.065 1326.03 587.065 1323.76 375.358 c 0,0,1
+1334.76 375.433 m 0,0,1
+ 1333.71 57.4609 1333.71 57.4609 1159.24 -112.491 c 128,-1,2
+ 984.771 -282.443 984.771 -282.443 675.324 -281.997 c 0,3,4
+ 382.917 -281.576 382.917 -281.576 219.919 -141.486 c 128,-1,5
+ 56.9209 -1.39648 56.9209 -1.39648 40.6602 274.391 c 0,6,7
+ 35.624 359.558 35.624 359.558 58.3906 476.901 c 0,8,9
+ 81.6572 596.812 81.6572 596.812 132.891 706.763 c 2,10,-1
+ 153.021 749.965 l 1,11,-1
+ 380.851 662.012 l 1,12,-1
+ 361.307 613.925 l 2,13,14
+ 277.832 408.539 277.832 408.539 293.142 269.522 c 0,15,16
+ 310.247 114.205 310.247 114.205 401.575 41.2061 c 128,-1,17
+ 492.904 -31.792 492.904 -31.792 674.729 -30.7588 c 0,18,19
+ 875.061 -29.2764 875.061 -29.2764 971.247 56.3945 c 128,-1,20
+ 1067.43 142.065 1067.43 142.065 1075.81 322.831 c 0,21,22
+ 1083.32 485.13 1083.32 485.13 974.256 638.31 c 2,23,-1
+ 948.652 674.269 l 1,24,-1
+ 1162.91 878.983 l 1,25,-1
+ 1195.71 824.169 l 2,26,27
+ 1335.44 590.706 1335.44 590.706 1334.76 375.433 c 0,0,1
 EndSplineSet
 Substitution2: "'init' Initial Forms in Arabic lookup 13 subtable" uni06BA.init
 Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" uni06BA.medi
@@ -6112,42 +6107,42 @@ AnchorPoint: "Anchor-7" 499 -239 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-808.834 0 m 6,0,1
- 528.57 0 528.57 0 360.365 70.3086 c 4,2,3
- 219.261 129.053 219.261 129.053 139.212 237.39 c 132,-1,4
- 59.1641 345.727 59.1641 345.727 45.584 496.63 c 4,5,6
- 34.8193 614.605 34.8193 614.605 79.8193 768.105 c 6,7,-1
- 93.7822 815.732 l 5,8,-1
- 315.134 757.327 l 5,9,-1
- 307.833 711.732 l 6,10,11
- 286.816 580.478 286.816 580.478 289.471 528.857 c 4,12,13
- 294.739 426.41 294.739 426.41 361.14 366.612 c 132,-1,14
- 427.539 306.815 427.539 306.815 570.567 284.78 c 4,15,16
- 643.126 273.569 643.126 273.569 801.713 271.48 c 5,17,-1
- 1140.66 271.63 l 6,18,19
- 1218.8 271.664 1218.8 271.664 1252.92 290.817 c 132,-1,20
- 1287.04 309.97 1287.04 309.97 1294.77 345.13 c 4,21,22
- 1302.91 385.586 1302.91 385.586 1291.25 420.337 c 132,-1,23
- 1279.59 455.089 1279.59 455.089 1244.36 490.828 c 6,24,-1
- 985.398 753.548 l 6,25,26
- 905.228 834.883 905.228 834.883 901.361 929.778 c 4,27,28
- 900.104 960.782 900.104 960.782 904.644 989.344 c 4,29,30
- 925.454 1120.27 925.454 1120.27 1061.12 1189.77 c 6,31,-1
- 1788.05 1562.19 l 5,32,-1
- 1788.05 1281.33 l 5,33,34
- 1782.98 1278.62 1782.98 1278.62 1773.42 1273.22 c 132,-1,35
- 1763.85 1267.82 1763.85 1267.82 1761.03 1266.93 c 6,36,-1
- 1159.17 946.154 l 5,37,38
- 1309 780.013 1309 780.013 1441.57 645.535 c 132,-1,39
- 1574.13 511.059 1574.13 511.059 1662.59 432.649 c 132,-1,40
- 1751.04 354.24 1751.04 354.24 1807.87 312.987 c 132,-1,41
- 1864.7 271.734 1864.7 271.734 1883.38 271.791 c 6,42,-1
- 1963.95 272.034 l 5,43,-1
- 1963.95 1 l 5,44,-1
- 1860.21 1 l 6,45,46
- 1688.25 1 1688.25 1 1495.99 224.51 c 5,47,48
- 1404.67 1.2959 1404.67 1.2959 1038.79 0.5 c 6,49,-1
- 808.834 0 l 6,0,1
+808.834 0 m 2,0,1
+ 530.02 -0.606233 530.02 -0.606233 360.365 70.3086 c 0,2,3
+ 219.261 129.053 219.261 129.053 139.212 237.39 c 128,-1,4
+ 59.1641 345.727 59.1641 345.727 45.584 496.63 c 0,5,6
+ 34.8189 614.61 34.8189 614.61 79.8193 768.105 c 2,7,-1
+ 93.7822 815.732 l 1,8,-1
+ 315.134 757.327 l 1,9,-1
+ 307.833 711.732 l 2,10,11
+ 286.816 580.48 286.816 580.48 289.471 528.857 c 0,12,13
+ 294.739 426.41 294.739 426.41 361.14 366.612 c 128,-1,14
+ 427.539 306.815 427.539 306.815 570.567 284.78 c 0,15,16
+ 643.126 273.569 643.126 273.569 801.713 271.48 c 1,17,-1
+ 1140.66 271.63 l 2,18,19
+ 1218.8 271.665 1218.8 271.665 1252.92 290.817 c 128,-1,20
+ 1287.04 309.97 1287.04 309.97 1294.77 345.13 c 0,21,22
+ 1302.91 385.586 1302.91 385.586 1291.25 420.337 c 128,-1,23
+ 1279.59 455.086 1279.59 455.086 1244.36 490.828 c 2,24,-1
+ 985.398 753.548 l 2,25,26
+ 905.228 834.881 905.228 834.881 901.361 929.778 c 0,27,28
+ 900.104 960.782 900.104 960.782 904.644 989.344 c 0,29,30
+ 925.453 1120.27 925.453 1120.27 1061.12 1189.77 c 2,31,-1
+ 1788.05 1562.19 l 1,32,-1
+ 1788.05 1281.33 l 1,33,34
+ 1782.98 1278.62 1782.98 1278.62 1773.42 1273.22 c 128,-1,35
+ 1763.85 1267.82 1763.85 1267.82 1761.03 1266.93 c 2,36,-1
+ 1159.17 946.154 l 1,37,38
+ 1309 780.013 1309 780.013 1441.57 645.535 c 128,-1,39
+ 1574.13 511.059 1574.13 511.059 1662.59 432.649 c 128,-1,40
+ 1751.04 354.24 1751.04 354.24 1807.87 312.987 c 128,-1,41
+ 1864.7 271.735 1864.7 271.735 1883.38 271.791 c 2,42,-1
+ 1963.95 272.034 l 1,43,-1
+ 1963.95 1 l 1,44,-1
+ 1860.21 1 l 2,45,46
+ 1699.25 1 1699.25 1 1506.99 224.51 c 5,47,48
+ 1415.68 1.31948 1415.68 1.31948 1038.79 0.5 c 2,49,-1
+ 808.834 0 l 2,0,1
 EndSplineSet
 EndChar
 
@@ -6235,7 +6230,7 @@ EndChar
 
 StartChar: uniFB9E
 Encoding: 64414 64414 143
-Width: 1409
+Width: 1420
 VWidth: 2232
 GlyphClass: 2
 Flags: W
@@ -6257,33 +6252,33 @@ AnchorPoint: "Anchor-7" 399.494 -670.601 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1261.51 19.0752 m 5,0,1
- 1233.76 -226.727 1233.76 -226.727 1078.57 -355.772 c 132,-1,2
- 923.379 -484.817 923.379 -484.817 655.927 -488.245 c 4,3,4
- 389.621 -491.772 389.621 -491.772 224.302 -360.553 c 4,5,6
- 49.8057 -222.105 49.8057 -222.105 33.4795 57.8652 c 4,7,8
- 28.6553 139.456 28.6553 139.456 50.4033 251.545 c 4,9,10
- 73.0996 368.524 73.0996 368.524 123.533 475.282 c 6,11,-1
- 143.031 516.557 l 5,12,-1
- 381.589 434.66 l 5,13,-1
- 361.017 384.607 l 6,14,15
- 275.122 175.624 275.122 175.624 294.143 56.6924 c 4,16,17
- 307.183 -24.835 307.183 -24.835 317.639 -51.3301 c 5,18,19
- 360.802 -140.614 360.802 -140.614 441.498 -184.668 c 132,-1,20
- 522.193 -228.722 522.193 -228.722 650.063 -229.072 c 4,21,22
- 828.595 -229.558 828.595 -229.558 918.851 -159.755 c 132,-1,23
- 1009.11 -89.9531 1009.11 -89.9531 1027.51 57.3262 c 4,24,25
- 1051.79 251.538 1051.79 251.538 932.624 403.696 c 6,26,-1
- 904.075 440.15 l 5,27,-1
- 1124.12 649.651 l 5,28,-1
- 1152.93 581.946 l 6,29,30
- 1187.97 499.571 1187.97 499.571 1246.02 355.972 c 4,31,32
- 1255.23 330.645 1255.23 330.645 1268.35 313.68 c 4,33,34
- 1301.04 271.38 1301.04 271.38 1369.28 271.38 c 6,35,-1
- 1499.53 271.38 l 5,36,-1
- 1499.53 0.5 l 5,37,-1
- 1350.43 0.5 l 6,38,39
- 1302.46 0.5 1302.46 0.5 1261.51 19.0752 c 5,0,1
+1263.6 18.1328 m 1,0,1
+ 1244.86 -170.944 1244.86 -170.944 1143.54 -290.816 c 0,2,3
+ 985.616 -479.554 985.616 -479.554 656.59 -488.232 c 0,4,5
+ 393.871 -495.146 393.871 -495.146 224.302 -360.553 c 0,6,7
+ 49.8057 -222.105 49.8057 -222.105 33.4795 57.8652 c 0,8,9
+ 28.6553 139.456 28.6553 139.456 50.4033 251.545 c 0,10,11
+ 73.0996 368.524 73.0996 368.524 123.533 475.282 c 2,12,-1
+ 143.031 516.557 l 1,13,-1
+ 381.59 434.66 l 1,14,-1
+ 361.017 384.607 l 2,15,16
+ 249.62 113.578 249.62 113.578 317.573 -51.1953 c 1,17,18
+ 360.815 -140.643 360.815 -140.643 441.478 -184.682 c 128,-1,19
+ 522.14 -228.721 522.14 -228.721 650.063 -229.072 c 0,20,21
+ 828.592 -229.562 828.592 -229.562 918.849 -159.758 c 128,-1,22
+ 1009.11 -89.9521 1009.11 -89.9521 1027.51 57.3262 c 0,23,24
+ 1051.79 251.538 1051.79 251.538 932.624 403.696 c 2,25,-1
+ 904.075 440.15 l 1,26,-1
+ 1127.21 652.595 l 1,27,28
+ 1131.72 640.225 1131.72 640.225 1140.62 616.043 c 128,-1,29
+ 1149.53 591.86 1149.53 591.86 1153.91 579.468 c 0,30,31
+ 1207.12 433.695 1207.12 433.695 1256.91 341.17 c 0,32,33
+ 1259.22 336.872 1259.22 336.872 1261.75 332.879 c 0,34,35
+ 1300.74 271.38 1300.74 271.38 1406.28 271.38 c 2,36,-1
+ 1499.53 271.38 l 1,37,-1
+ 1499.53 0.5 l 1,38,-1
+ 1350.43 0.5 l 2,39,40
+ 1303.14 0.5 1303.14 0.5 1263.6 18.1328 c 1,0,1
 EndSplineSet
 EndChar
 
@@ -8473,11 +8468,11 @@ Width: 1560
 VWidth: 2232
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-10" 365 1381.5 basechar 0
+AnchorPoint: "Anchor-10" 377 1318.5 basechar 0
 AnchorPoint: "Anchor-7" 449 -581 basechar 0
 LayerCount: 2
 Fore
-Refer: 294 -1 N 1.07 0 0 1.07 824.5 1172.28 2
+Refer: 294 -1 S 1.07 0 0 1.07 836.5 1109.28 2
 Refer: 103 1647 N 1 0 0 1 0 0 2
 EndChar
 
@@ -8492,7 +8487,7 @@ AnchorPoint: "Anchor-7" 389 -776.5 basechar 0
 LayerCount: 2
 Fore
 Refer: 303 -1 N 1 0 0 1 0 0 2
-Refer: 294 -1 N 1.07 0 0 1.07 778 939.75 2
+Refer: 294 -1 S 1.07 0 0 1.07 823 944.75 2
 EndChar
 
 StartChar: uniFED7
@@ -8622,18 +8617,18 @@ SplineSet
  252.366 271.004 l 2,3,4
  490.98 271.025 490.98 271.025 507.496 376.698 c 0,5,6
  515.87 430.3 515.87 430.3 496.276 473.294 c 128,-1,7
- 476.683 516.287 476.683 516.287 423.699 555.607 c 2,8,-1
+ 476.683 516.286 476.683 516.286 423.699 555.607 c 2,8,-1
  63.0244 823.27 l 2,9,10
  -24.6689 888.349 -24.6689 888.349 -33.3242 989.315 c 0,11,12
  -35.7705 1020.91 -35.7705 1020.91 -32.5391 1049.28 c 0,13,14
  -25.6758 1109.54 -25.6758 1109.54 7.72949 1156.4 c 128,-1,15
- 41.1357 1203.25 41.1357 1203.25 96.583 1231.4 c 2,16,-1
- 817.25 1597.17 l 5,17,-1
+ 41.1448 1203.26 41.1448 1203.26 96.583 1231.4 c 2,16,-1
+ 817.25 1597.17 l 1,17,-1
  817.25 1317.53 l 1,18,-1
  254.354 1023.34 l 1,19,20
  440.649 883.562 440.649 883.562 615.008 739.123 c 1,21,22
- 783.713 596.721 783.713 596.721 755.683 322.49 c 0,23,24
- 739.115 163.584 739.115 163.584 611.818 79.6025 c 0,25,26
+ 787.779 595.914 787.779 595.914 759.683 328.49 c 4,23,24
+ 742.205 164.567 742.205 164.567 611.818 79.6025 c 0,25,26
  491.159 0 491.159 0 293.7 0 c 2,0,-1
 EndSplineSet
 EndChar
@@ -8654,18 +8649,18 @@ SplineSet
  -71.4004 0 l 1,3,-1
  -71.4004 270.953 l 1,4,-1
  259.848 271.13 l 2,5,6
- 337.997 271.172 337.997 271.172 372.118 290.326 c 128,-1,7
+ 337.998 271.172 337.998 271.172 372.118 290.326 c 128,-1,7
  406.241 309.479 406.241 309.479 413.968 344.631 c 0,8,9
  422.468 386.826 422.468 386.826 410.568 422.465 c 128,-1,10
  398.668 458.107 398.668 458.107 362.76 494.121 c 2,11,-1
  104.803 752.841 l 2,12,13
  24.4607 833.421 24.4607 833.421 20.5576 929.278 c 0,14,15
  19.3594 958.834 19.3594 958.834 23.6191 986.291 c 0,16,17
- 43.7723 1116.18 43.7723 1116.18 179.502 1188.84 c 2,18,-1
- 907.25 1578.41 l 5,19,-1
+ 43.7727 1116.18 43.7727 1116.18 179.502 1188.84 c 2,18,-1
+ 907.25 1578.41 l 1,19,-1
  907.25 1296.44 l 1,20,-1
  279.973 947.842 l 1,21,22
- 933.002 271.177 933.002 271.177 1002.28 271.305 c 2,23,-1
+ 933.024 271.155 933.024 271.155 1008.28 271.305 c 6,23,-1
  1080.15 271.448 l 1,24,-1
  1080.15 0.5 l 1,25,-1
  979.41 0.5 l 2,26,27
@@ -9190,46 +9185,40 @@ VWidth: 2232
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-10" 630.857 719.69 basechar 0
-AnchorPoint: "Anchor-7" 304.067 -823.505 basechar 0
+AnchorPoint: "Anchor-7" 304.067 -830.505 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-966.163 226.146 m 0,0,1
+966.154 226.143 m 0,0,1
  1140.05 299.342 1140.05 299.342 1508.91 271.522 c 1,2,-1
  1582.89 271.057 l 1,3,-1
  1582.89 0.489258 l 1,4,-1
- 1345.59 0.544922 l 1,5,-1
- 1344.41 0.599609 l 2,6,7
- 1299.54 2.68518 1299.54 2.68518 1218.92 4.7832 c 4,8,9
- 1216.52 4.84473 1216.52 4.84473 1214.17 4.90332 c 4,10,11
- 1205.08 1.66602 1205.08 1.66602 1213.42 -4.83398 c 5,12,13
- 1216.19 -5.1543 1216.19 -5.1543 1218.92 -5.49121 c 4,14,15
- 1333.29 -17.6025 1333.29 -17.6025 1378.95 -51.8086 c 0,16,17
- 1441.51 -98.334 1441.51 -98.334 1439.99 -181.973 c 0,18,19
- 1438.72 -248.065 1438.72 -248.065 1392.76 -318.788 c 0,20,21
- 1308.52 -448.432 1308.52 -448.432 1094.74 -543.593 c 0,22,23
- 881.342 -638.588 881.342 -638.588 611.689 -641.451 c 0,24,25
- 411.171 -643.581 411.171 -643.581 263.354 -562.185 c 0,26,27
- 106.771 -475.521 106.771 -475.521 56.5908 -280.638 c 0,28,29
- 33.3604 -189.189 33.3604 -189.189 53.8027 -53.9482 c 1,30,31
- 87.261 156.907 87.261 156.907 220.825 343.289 c 2,32,-1
- 250.486 384.68 l 1,33,-1
- 456.51 237.521 l 1,34,-1
- 431.825 197.033 l 2,35,36
- 350.137 63.0501 350.137 63.0501 326.272 -28.8779 c 0,37,38
- 287.789 -174.205 287.789 -174.205 336.424 -269.812 c 0,39,40
- 389.013 -372.469 389.013 -372.469 596.609 -387.128 c 0,41,42
- 820.095 -403.052 820.095 -403.052 1032.66 -319.926 c 0,43,44
- 1121.17 -285.615 1121.17 -285.615 1174.56 -240.033 c 0,45,46
- 1175.69 -239.066 1175.69 -239.066 1176.81 -238.094 c 0,47,48
- 1185.57 -228.306 1185.57 -228.306 1177.67 -222.413 c 0,49,50
- 1174.31 -219.913 1174.31 -219.913 1169.56 -220.052 c 0,51,52
- 1168.4 -219.981 1168.4 -219.981 1167.25 -219.908 c 0,53,54
- 1046.18 -212.279 1046.18 -212.279 984.936 -191.48 c 0,55,56
- 914.566 -168.124 914.566 -168.124 874.637 -118.719 c 128,-1,57
- 834.707 -69.3135 834.707 -69.3135 833.037 -0.432617 c 0,58,59
- 830.789 78.7383 830.789 78.7383 864.8 138.145 c 128,-1,60
- 898.811 197.551 898.811 197.551 966.163 226.146 c 0,0,1
+ 1345.57 0.544922 l 1,5,-1
+ 1344.38 0.601562 l 2,6,7
+ 1268.63 4.17188 1268.63 4.17188 1212.71 5.16309 c 1,8,9
+ 1317.09 -5.56348 1317.09 -5.56348 1379.3 -52.0781 c 128,-1,10
+ 1441.51 -98.5918 1441.51 -98.5918 1439.99 -181.959 c 0,11,12
+ 1438.56 -256.652 1438.56 -256.652 1391.06 -321.244 c 0,13,14
+ 1285.59 -464.191 1285.59 -464.191 1077.14 -561.134 c 0,15,16
+ 842.062 -671.383 842.062 -671.383 586.119 -657.727 c 0,17,18
+ 379.385 -646.695 379.385 -646.695 245.998 -562.752 c 128,-1,19
+ 112.611 -478.809 112.611 -478.809 64.7822 -322.552 c 0,20,21
+ 23.0703 -186.28 23.0703 -186.28 68.1357 -6.43652 c 0,22,23
+ 112.785 174.718 112.785 174.718 240.243 329.661 c 2,24,-1
+ 269.777 365.563 l 1,25,-1
+ 457.119 238.521 l 1,26,-1
+ 431.825 197.033 l 2,27,28
+ 352.038 66.1689 352.038 66.1689 326.163 -29.2871 c 0,29,30
+ 285.418 -179.601 285.418 -179.601 332.983 -268.967 c 0,31,32
+ 391.167 -377.42 391.167 -377.42 596.879 -393.147 c 0,33,34
+ 821.134 -410.466 821.134 -410.466 1024.58 -320.787 c 0,35,36
+ 1100.84 -287.172 1100.84 -287.172 1154 -245.802 c 0,37,38
+ 1185.34 -221.413 1185.34 -221.413 1146.5 -218.457 c 0,39,40
+ 1040.64 -210.399 1040.64 -210.399 984.938 -191.481 c 0,41,42
+ 914.567 -168.124 914.567 -168.124 874.638 -118.719 c 128,-1,43
+ 834.708 -69.3135 834.708 -69.3135 833.038 -0.432617 c 0,44,45
+ 830.79 78.7383 830.79 78.7383 864.798 138.144 c 128,-1,46
+ 898.805 197.548 898.805 197.548 966.154 226.143 c 0,0,1
 EndSplineSet
 EndChar
 
@@ -9257,7 +9246,7 @@ AnchorPoint: "Anchor-10" 519 826 basechar 0
 AnchorPoint: "Anchor-7" 110 -834.32 basechar 0
 LayerCount: 2
 Fore
-Refer: 294 -1 N 1.07 0 0 1.07 377 -927.82 2
+Refer: 294 -1 N 1.07 0 0 1.07 377 -937.82 2
 Refer: 280 65264 N 1 0 0 1 0 0 2
 EndChar
 
@@ -9532,23 +9521,21 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-239.812 424.368 m 5,0,-1
- 354.341 309.841 l 5,1,-1
- 226 181.5 l 5,2,-1
- 97.6602 309.841 l 5,3,-1
- 226 438.181 l 5,4,-1
- 239.469 424.712 l 5,5,-1
- 239.812 424.368 l 5,0,-1
-386.25 197.09 m 1,6,-1
- 514.59 68.75 l 1,7,-1
- 386.25 -59.5898 l 1,8,-1
- 257.91 68.75 l 1,9,-1
- 386.25 197.09 l 1,6,-1
-68.75 197.09 m 1,10,-1
- 197.09 68.75 l 1,11,-1
- 68.75 -59.59 l 1,12,-1
- -59.59 68.75 l 1,13,-1
- 68.75 197.09 l 1,10,-1
+354.341 309.841 m 1,0,-1
+ 226 181.5 l 1,1,-1
+ 97.6602 309.841 l 1,2,-1
+ 226 438.181 l 1,3,-1
+ 354.341 309.841 l 1,0,-1
+386.25 197.09 m 1,4,-1
+ 514.59 68.75 l 1,5,-1
+ 386.25 -59.5898 l 1,6,-1
+ 257.91 68.75 l 1,7,-1
+ 386.25 197.09 l 1,4,-1
+68.75 197.09 m 1,8,-1
+ 197.09 68.75 l 1,9,-1
+ 68.75 -59.59 l 1,10,-1
+ -59.59 68.75 l 1,11,-1
+ 68.75 197.09 l 1,8,-1
 EndSplineSet
 EndChar
 
