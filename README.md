@@ -7,7 +7,7 @@ A Persian (Farsi) Font
 
 با تشکر از برنامه [FontForge](https://fontforge.github.io)
 
-بر مبنای فونت [وزیر](http://rastikerdar.github.io/Samim-font/)
+بر مبنای فونت [وزیر](http://rastikerdar.github.io/vazir-font/)
 
 
 طریقه استفاده در صفحات وب:
