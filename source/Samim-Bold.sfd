@@ -4,7 +4,7 @@ FullName: Samim Bold
 FamilyName: Samim
 Weight: Bold
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nDejaVu changes are in public domain\nCopyright (c) 2015 by Saber Rastikerdar. All Rights Reserved.
-Version: 0.9.1
+Version: 0.9.2
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 100
@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1447279015
+ModificationTime: 1447331813
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -2310,7 +2310,7 @@ ShortTable: maxp 16
   8
   4
 EndShort
-LangName: 1033 "" "" "" "Samim Bold 0.9.1" "" "Version 0.9.1" "" "" "DejaVu fonts team - Redesigned by Saber Rastikerdar" "" "" "" "" "Changes to Arabic glyphs by me are under SIL Open Font License 1.1+AAoACgAA-Fonts are (c) Bitstream (see below). DejaVu changes are in public domain. +AAoACgAA-Bitstream Vera Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is+AAoA-a trademark of Bitstream, Inc.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy+AAoA-of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated+AAoA-documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the+AAoA-Font Software, including without limitation the rights to use, copy, merge,+AAoA-publish, distribute, and/or sell copies of the Font Software, and to permit+AAoA-persons to whom the Font Software is furnished to do so, subject to the+AAoA-following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice shall+AAoA-be included in all copies of one or more of the Font Software typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in particular+AAoA-the designs of glyphs or characters in the Fonts may be modified and+AAoA-additional glyphs or characters may be added to the Fonts, only if the fonts+AAoA-are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the word+AAoAIgAA-Vera+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts or Font+AAoA-Software that has been modified and is distributed under the +ACIA-Bitstream+AAoA-Vera+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but no+AAoA-copy of one or more of the Font Software typefaces may be sold by itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS+AAoA-OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY,+AAoA-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT,+AAoA-TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME+AAoA-FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING+AAoA-ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,+AAoA-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF+AAoA-THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE+AAoA-FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the names of Gnome, the Gnome+AAoA-Foundation, and Bitstream Inc., shall not be used in advertising or+AAoA-otherwise to promote the sale, use or other dealings in this Font Software+AAoA-without prior written authorization from the Gnome Foundation or Bitstream+AAoA-Inc., respectively. For further information, contact: fonts at gnome dot+AAoA-org. +AAoA" "http://scripts.sil.org/OFL_web - http://dejavu.sourceforge.net/wiki/index.php/License" "" "Samim" "Bold" 
+LangName: 1033 "" "" "" "Samim Bold 0.9.2" "" "Version 0.9.2" "" "" "DejaVu fonts team - Redesigned by Saber Rastikerdar" "" "" "" "" "Changes to Arabic glyphs by me are under SIL Open Font License 1.1+AAoACgAA-Fonts are (c) Bitstream (see below). DejaVu changes are in public domain. +AAoACgAA-Bitstream Vera Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is+AAoA-a trademark of Bitstream, Inc.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy+AAoA-of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated+AAoA-documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the+AAoA-Font Software, including without limitation the rights to use, copy, merge,+AAoA-publish, distribute, and/or sell copies of the Font Software, and to permit+AAoA-persons to whom the Font Software is furnished to do so, subject to the+AAoA-following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice shall+AAoA-be included in all copies of one or more of the Font Software typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in particular+AAoA-the designs of glyphs or characters in the Fonts may be modified and+AAoA-additional glyphs or characters may be added to the Fonts, only if the fonts+AAoA-are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the word+AAoAIgAA-Vera+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts or Font+AAoA-Software that has been modified and is distributed under the +ACIA-Bitstream+AAoA-Vera+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but no+AAoA-copy of one or more of the Font Software typefaces may be sold by itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS+AAoA-OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY,+AAoA-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT,+AAoA-TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME+AAoA-FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING+AAoA-ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,+AAoA-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF+AAoA-THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE+AAoA-FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the names of Gnome, the Gnome+AAoA-Foundation, and Bitstream Inc., shall not be used in advertising or+AAoA-otherwise to promote the sale, use or other dealings in this Font Software+AAoA-without prior written authorization from the Gnome Foundation or Bitstream+AAoA-Inc., respectively. For further information, contact: fonts at gnome dot+AAoA-org. +AAoA" "http://scripts.sil.org/OFL_web - http://dejavu.sourceforge.net/wiki/index.php/License" "" "Samim" "Bold" 
 GaspTable: 2 8 2 65535 3 0
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
@@ -4234,7 +4234,7 @@ AnchorPoint: "Anchor-7" 479 -608 basechar 0
 LayerCount: 2
 Fore
 Refer: 103 1647 N 1 0 0 1 0 0 2
-Refer: 294 -1 N 1.07 0 0 1.07 848.5 1178 2
+Refer: 294 -1 S 1.07 0 0 1.07 850.5 1143 2
 Substitution2: "'fina' Terminal Forms in Arabic lookup 9 subtable" uniFED6
 Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" uniFED8
 Substitution2: "'init' Initial Forms in Arabic lookup 13 subtable" uniFED7
@@ -9462,11 +9462,20 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-74.5 210.84 m 1,0,-1
- 202.84 82.5 l 1,1,-1
- 74.5 -45.8397 l 1,2,-1
- -53.8397 82.5 l 1,3,-1
- 74.5 210.84 l 1,0,-1
+124.752 182.551 m 2,0,-1
+ 137.743 170.953 l 2,1,2
+ 147.8 161.977 147.8 161.977 155.704 152.83 c 0,3,4
+ 188.95 113.898 188.95 113.898 183.797 73.2199 c 0,5,6
+ 178.749 33.3631 178.749 33.3631 137.835 -1.89004 c 2,7,-1
+ 111.914 -24.2218 l 2,8,9
+ 81.3295 -50.5762 81.3295 -50.5762 53.6339 -22.5792 c 2,10,-1
+ 12.1861 19.3204 l 1,11,-1
+ -24.2312 48.5435 l 2,12,13
+ -39.4724 61.6287 -39.4724 61.6287 -39.1495 79.0603 c 0,14,15
+ -38.8501 95.3222 -38.8501 95.3222 -25.9123 108.944 c 2,16,-1
+ 14.0052 150.967 l 1,17,-1
+ 50.2539 184.862 l 2,18,19
+ 85.3737 217.701 85.3737 217.701 124.752 182.551 c 2,0,-1
 EndSplineSet
 EndChar
 
@@ -9478,16 +9487,34 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-364.25 210.84 m 5,0,-1
- 492.59 82.5 l 5,1,-1
- 364.25 -45.8398 l 5,2,-1
- 235.91 82.5 l 5,3,-1
- 364.25 210.84 l 5,0,-1
-87.75 210.84 m 1,4,-1
- 216.09 82.5 l 1,5,-1
- 87.75 -45.8398 l 1,6,-1
- -40.5898 82.5 l 1,7,-1
- 87.75 210.84 l 1,4,-1
+407.205 182.146 m 2,0,-1
+ 419.743 170.953 l 2,1,2
+ 429.801 161.977 429.801 161.977 437.704 152.83 c 0,3,4
+ 470.95 113.898 470.95 113.898 465.797 73.2199 c 0,5,6
+ 460.806 33.8056 460.806 33.8056 420.288 -1.49969 c 2,7,-1
+ 393.914 -24.2218 l 2,8,9
+ 363.33 -50.5764 363.33 -50.5764 335.634 -22.5792 c 2,10,-1
+ 294.186 19.3204 l 1,11,-1
+ 257.769 48.5433 l 2,12,13
+ 242.527 61.6288 242.527 61.6288 242.85 79.0603 c 0,14,15
+ 243.15 95.3222 243.15 95.3222 256.088 108.944 c 2,16,-1
+ 295.903 150.86 l 1,17,-1
+ 332.254 184.862 l 2,18,19
+ 367.373 217.701 367.373 217.701 407.205 182.146 c 2,0,-1
+129.919 182.402 m 2,20,-1
+ 142.743 170.953 l 2,21,22
+ 152.8 161.977 152.8 161.977 160.704 152.83 c 0,23,24
+ 193.95 113.898 193.95 113.898 188.797 73.2199 c 0,25,26
+ 183.749 33.3631 183.749 33.3631 142.835 -1.89004 c 2,27,-1
+ 116.914 -24.2218 l 2,28,29
+ 86.3295 -50.5762 86.3295 -50.5762 58.6339 -22.5792 c 2,30,-1
+ 17.1861 19.3204 l 1,31,-1
+ -19.2311 48.5434 l 2,32,33
+ -34.4724 61.6286 -34.4724 61.6286 -34.1495 79.0603 c 0,34,35
+ -33.8501 95.3222 -33.8501 95.3222 -20.9123 108.944 c 2,36,-1
+ 19.0052 150.967 l 1,37,-1
+ 55.2539 184.862 l 2,38,39
+ 90.3737 217.701 90.3737 217.701 129.919 182.402 c 2,20,-1
 EndSplineSet
 EndChar
 
@@ -9499,21 +9526,48 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-354.341 288.841 m 5,0,-1
- 226 160.5 l 5,1,-1
- 97.6602 288.841 l 5,2,-1
- 226 417.181 l 5,3,-1
- 354.341 288.841 l 5,0,-1
-367.25 197.09 m 1,4,-1
- 495.59 68.75 l 1,5,-1
- 367.25 -59.5898 l 1,6,-1
- 238.91 68.75 l 1,7,-1
- 367.25 197.09 l 1,4,-1
-87.75 197.09 m 1,8,-1
- 216.09 68.75 l 1,9,-1
- 87.75 -59.5898 l 1,10,-1
- -40.5898 68.75 l 1,11,-1
- 87.75 197.09 l 1,8,-1
+269.167 394.064 m 2,0,-1
+ 281.893 382.703 l 2,1,2
+ 291.95 373.728 291.95 373.728 299.854 364.58 c 0,3,4
+ 333.1 325.649 333.1 325.649 327.947 284.97 c 0,5,6
+ 322.9 245.114 322.9 245.114 281.985 209.86 c 2,7,-1
+ 256.064 187.528 l 2,8,9
+ 225.48 161.174 225.48 161.174 197.784 189.171 c 2,10,-1
+ 156.336 231.07 l 1,11,-1
+ 119.919 260.293 l 2,12,13
+ 104.678 273.379 104.678 273.379 105 290.81 c 0,14,15
+ 105.3 307.072 105.3 307.072 118.238 320.694 c 2,16,-1
+ 158.053 362.61 l 1,17,-1
+ 194.404 396.612 l 2,18,19
+ 229.524 429.451 229.524 429.451 269.167 394.064 c 2,0,-1
+410.205 170.146 m 2,20,-1
+ 422.743 158.953 l 2,21,22
+ 432.801 149.976 432.801 149.976 440.704 140.83 c 0,23,24
+ 473.95 101.898 473.95 101.898 468.797 61.2199 c 0,25,26
+ 463.806 21.8056 463.806 21.8056 423.288 -13.4997 c 2,27,-1
+ 396.914 -36.2218 l 2,28,29
+ 366.33 -62.5764 366.33 -62.5764 338.634 -34.5792 c 2,30,-1
+ 297.186 7.32036 l 1,31,-1
+ 260.769 36.5433 l 2,32,33
+ 245.527 49.6288 245.527 49.6288 245.85 67.0603 c 0,34,35
+ 246.15 83.3222 246.15 83.3222 259.088 96.944 c 2,36,-1
+ 298.903 138.86 l 1,37,-1
+ 335.254 172.862 l 2,38,39
+ 370.373 205.701 370.373 205.701 410.205 170.146 c 2,20,-1
+132.807 170.502 m 2,40,-1
+ 145.743 158.953 l 2,41,42
+ 155.8 149.977 155.8 149.977 163.704 140.83 c 0,43,44
+ 196.559 102.355 196.559 102.355 191.805 61.2453 c 0,45,46
+ 186.284 20.9622 186.284 20.9622 145.835 -13.89 c 2,47,-1
+ 119.914 -36.2218 l 2,48,49
+ 89.3295 -62.5763 89.3295 -62.5763 61.6339 -34.5792 c 2,50,-1
+ 20.1861 7.32039 l 1,51,-1
+ -16.2311 36.5435 l 2,52,53
+ -31.4724 49.6286 -31.4724 49.6286 -31.1495 67.0603 c 0,54,55
+ -30.8501 83.3222 -30.8501 83.3222 -17.9123 96.944 c 2,56,-1
+ 22.0052 138.967 l 1,57,-1
+ 58.2539 172.862 l 2,58,59
+ 93.3737 205.701 93.3737 205.701 132.807 170.502 c 2,40,-1
 EndSplineSet
 EndChar
 
@@ -9525,21 +9579,48 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-226 16 m 5,0,-1
- 354.341 -112.341 l 5,1,-1
- 226 -240.682 l 5,2,-1
- 97.6602 -112.341 l 5,3,-1
- 226 16 l 5,0,-1
-366.25 222.004 m 1,4,-1
- 494.59 93.665 l 1,5,-1
- 366.25 -34.6758 l 1,6,-1
- 237.91 93.665 l 1,7,-1
- 366.25 222.004 l 1,4,-1
-87.75 222.004 m 1,8,-1
- 216.09 93.665 l 1,9,-1
- 87.75 -34.6758 l 1,10,-1
- -40.5898 93.665 l 1,11,-1
- 87.75 222.004 l 1,8,-1
+268.683 -12.507 m 2,0,-1
+ 281.393 -23.8545 l 2,1,2
+ 291.449 -32.8289 291.449 -32.8289 299.354 -41.9775 c 0,3,4
+ 332.6 -80.9085 332.6 -80.9085 327.447 -121.587 c 0,5,6
+ 322.4 -161.443 322.4 -161.443 281.485 -196.697 c 2,7,-1
+ 255.564 -219.029 l 2,8,9
+ 224.98 -245.383 224.98 -245.383 197.284 -217.386 c 2,10,-1
+ 155.836 -175.487 l 1,11,-1
+ 119.419 -146.264 l 2,12,13
+ 104.178 -133.179 104.178 -133.179 104.5 -115.747 c 0,14,15
+ 104.8 -99.4849 104.8 -99.4849 117.738 -85.8631 c 2,16,-1
+ 157.655 -43.8395 l 1,17,-1
+ 193.904 -9.9455 l 2,18,19
+ 229.023 22.8938 229.023 22.8938 268.683 -12.507 c 2,0,-1
+410.205 194.146 m 2,20,-1
+ 422.743 182.953 l 2,21,22
+ 432.801 173.977 432.801 173.977 440.704 164.83 c 0,23,24
+ 473.95 125.898 473.95 125.898 468.797 85.2199 c 0,25,26
+ 463.806 45.8056 463.806 45.8056 423.288 10.5003 c 2,27,-1
+ 396.487 -12.5897 l 2,28,29
+ 365.923 -38.1655 365.923 -38.1655 338.634 -10.5792 c 2,30,-1
+ 297.186 31.3204 l 1,31,-1
+ 260.769 60.5433 l 2,32,33
+ 245.527 73.6289 245.527 73.6289 245.85 91.0603 c 0,34,35
+ 246.15 107.322 246.15 107.322 259.088 120.944 c 2,36,-1
+ 298.903 162.86 l 1,37,-1
+ 335.254 196.862 l 2,38,39
+ 370.373 229.701 370.373 229.701 410.205 194.146 c 2,20,-1
+132.807 194.502 m 2,40,-1
+ 145.743 182.953 l 2,41,42
+ 155.8 173.977 155.8 173.977 163.704 164.83 c 0,43,44
+ 196.95 125.898 196.95 125.898 191.797 85.2199 c 0,45,46
+ 186.749 45.3631 186.749 45.3631 145.835 10.11 c 2,47,-1
+ 119.914 -12.2218 l 2,48,49
+ 89.3295 -38.5763 89.3295 -38.5763 61.6339 -10.5792 c 2,50,-1
+ 20.1861 31.3204 l 1,51,-1
+ -16.2311 60.5435 l 2,52,53
+ -31.4724 73.6286 -31.4724 73.6286 -31.1495 91.0603 c 0,54,55
+ -30.8501 107.322 -30.8501 107.322 -17.9123 120.944 c 2,56,-1
+ 22.0052 162.967 l 1,57,-1
+ 58.2539 196.862 l 2,58,59
+ 93.3737 229.701 93.3737 229.701 132.807 194.502 c 2,40,-1
 EndSplineSet
 EndChar
 
