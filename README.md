@@ -35,5 +35,12 @@ A Persian (Farsi) Font
            url('Samim-Bold.ttf') format('truetype');
       font-weight: bold;
     }
+    
+    body {
+        /* optional enhancements for better rendering */
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
 ```
 
