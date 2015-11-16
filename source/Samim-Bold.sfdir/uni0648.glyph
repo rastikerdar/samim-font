@@ -1,11 +1,11 @@
 StartChar: uni0648
 Encoding: 1608 1608 72
-Width: 934
+Width: 939
 VWidth: 2232
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-10" 412.282 1083.17 basechar 0
-AnchorPoint: "Anchor-7" 514.191 -649.443 basechar 0
+AnchorPoint: "Anchor-7" 439.191 -679.443 basechar 0
 LayerCount: 2
 Fore
 SplineSet

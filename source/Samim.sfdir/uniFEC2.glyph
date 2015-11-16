@@ -5,7 +5,7 @@ VWidth: 2181
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-7" 660.13 -225 basechar 0
-AnchorPoint: "Anchor-10" 341.67 1590.79 basechar 0
+AnchorPoint: "Anchor-10" 304.67 1590.79 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -31,9 +31,9 @@ SplineSet
  1083.47 0 1083.47 0 741.7 0 c 2,32,-1
  91.5996 0 l 1,33,-1
  91.5996 168.98 l 1,34,-1
- 245.13 168.98 l 1,35,-1
- 245.13 1398.89 l 5,36,-1
- 407.01 1470.89 l 5,37,-1
+ 246.13 168.98 l 1,35,-1
+ 201.13 1398.89 l 1,36,-1
+ 363.01 1470.89 l 1,37,-1
  363.812 228.834 l 1,13,14
 EndSplineSet
 EndChar
