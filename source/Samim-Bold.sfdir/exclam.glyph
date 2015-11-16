@@ -1,0 +1,22 @@
+StartChar: exclam
+Encoding: 33 33 1
+Width: 934
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+297 1483 m 1,0,-1
+ 637 1483 l 1,1,-1
+ 637 920.608 l 1,2,-1
+ 587.146 512 l 1,3,-1
+ 346.854 512 l 1,4,-1
+ 297 920.608 l 1,5,-1
+ 297 1483 l 1,0,-1
+297 346 m 1,6,-1
+ 637 346 l 1,7,-1
+ 637 10 l 1,8,-1
+ 297 10 l 1,9,-1
+ 297 346 l 1,6,-1
+EndSplineSet
+EndChar

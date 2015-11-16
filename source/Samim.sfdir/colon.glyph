@@ -1,0 +1,20 @@
+StartChar: colon
+Encoding: 58 58 16
+Width: 690
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+250 197 m 5,0,-1
+ 441 197 l 5,1,-1
+ 441 10 l 1,2,-1
+ 250 10 l 1,3,-1
+ 250 197 l 5,0,-1
+250 1007 m 1,4,-1
+ 441 1007 l 1,5,-1
+ 441 815 l 1,6,-1
+ 250 815 l 1,7,-1
+ 250 1007 l 1,4,-1
+EndSplineSet
+EndChar
