@@ -2,7 +2,7 @@ StartChar: uniFDF2
 Encoding: 65010 65010 336
 Width: 2726
 VWidth: 2181
-Flags: WO
+Flags: W
 AnchorPoint: "Anchor-7" 432.88 -186 basechar 0
 LayerCount: 2
 Fore

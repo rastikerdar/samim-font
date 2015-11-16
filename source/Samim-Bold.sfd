@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1447633387
+ModificationTime: 1447644757
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -2376,10 +2376,16 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 25 13
+WinInfo: 25 25 13
 BeginPrivate: 0
 EndPrivate
 Grid
+-2048 1607.37 m 0
+ 4096 1607.37 l 0
+-2048 1850.89 m 0
+ 4096 1850.89 l 0
+-2048 2678.89 m 0
+ 4096 2678.89 l 0
 -2048 1021.85 m 0
  4096 1021.85 l 0
 -2048 1182.28 m 0
@@ -5690,7 +5696,7 @@ AnchorPoint: "Anchor-7" 446 -229 basechar 0
 LayerCount: 2
 Fore
 Refer: 110 1705 N 1 0 0 1 0 0 2
-Refer: 307 -1 N 1.07 0 0 1.07 1029.9 -95.64 2
+Refer: 307 -1 S 1.07 0 0 1.07 1038.9 -58.64 2
 Substitution2: "'init' Initial Forms in Arabic lookup 13 subtable" uniFB94
 Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" uniFB95
 Substitution2: "'fina' Terminal Forms in Arabic lookup 9 subtable" uniFB93
@@ -6195,7 +6201,7 @@ AnchorPoint: "Anchor-10" 403 1271.5 basechar 0
 AnchorPoint: "Anchor-7" 486 -227 basechar 0
 LayerCount: 2
 Fore
-Refer: 307 -1 N 1.07 0 0 1.07 1034.86 -96.99 2
+Refer: 307 -1 S 1.07 0 0 1.07 1037.86 -59.99 2
 Refer: 110 1705 N 1 0 0 1 0 0 2
 EndChar
 
@@ -6210,7 +6216,7 @@ AnchorPoint: "Anchor-7" 534 -225 basechar 0
 LayerCount: 2
 Fore
 Refer: 136 64399 N 1 0 0 1 0 0 2
-Refer: 307 -1 S 1.07 0 0 1.07 1182.9 -113.85 2
+Refer: 307 -1 S 1.07 0 0 1.07 1206.9 -55.85 2
 EndChar
 
 StartChar: uniFB94
@@ -6219,12 +6225,12 @@ Width: 831
 VWidth: 2232
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-10" 305.5 1685.57 basechar 0
+AnchorPoint: "Anchor-10" 318.5 1728.57 basechar 0
 AnchorPoint: "Anchor-7" 355 -266 basechar 0
 LayerCount: 2
 Fore
 Refer: 137 64400 N 1 0 0 1 0 0 2
-Refer: 307 -1 N 1.07 0 0 1.07 82.84 -103.43 2
+Refer: 307 -1 S 1.07 0 0 1.07 95.84 -60.43 2
 EndChar
 
 StartChar: uniFB95
@@ -6233,12 +6239,12 @@ Width: 1023
 VWidth: 2232
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-10" 357.5 1670.22 basechar 0
+AnchorPoint: "Anchor-10" 371.5 1738.22 basechar 0
 AnchorPoint: "Anchor-7" 373 -231 basechar 0
 LayerCount: 2
 Fore
 Refer: 138 64401 N 1 0 0 1 0 0 2
-Refer: 307 -1 N 1.07 0 0 1.07 174.84 -127.78 2
+Refer: 307 -1 S 1.07 0 0 1.07 188.84 -59.78 2
 EndChar
 
 StartChar: uniFB9E
@@ -8620,7 +8626,7 @@ SplineSet
  68.5215 833.649 l 2,7,8
  -25.501 905.248 -25.501 905.248 -33.3066 996.106 c 0,9,10
  -36.0547 1028.16 -36.0547 1028.16 -31.6182 1057.43 c 0,11,12
- -14.623 1169.52 -14.623 1169.52 100.989 1230.09 c 2,13,-1
+ -14.623 1169.52 -14.623 1169.52 100.989 1230.09 c 6,13,-1
  817.249 1605.39 l 1,14,-1
  817.249 1324.55 l 1,15,-1
  248.12 1026.74 l 1,16,17
@@ -9922,8 +9928,8 @@ LayerCount: 2
 Fore
 SplineSet
 666 1673 m 1,0,-1
- 0 1333 l 1,1,-1
- 0 1442 l 1,2,-1
+ 0 1321 l 1,1,-1
+ 0 1430 l 1,2,-1
  666 1782 l 1,3,-1
  666 1673 l 1,0,-1
 EndSplineSet
