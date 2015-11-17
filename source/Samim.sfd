@@ -2410,7 +2410,7 @@ Grid
  -11871.8 -4399.33 l 0
 EndSplineSet
 AnchorClass2: "Anchor-0"  "'mkmk' Mark to Mark in Arabic lookup 0 subtable" "Anchor-1"  "'mkmk' Mark to Mark in Arabic lookup 1 subtable" "Anchor-2"  "'mkmk' Mark to Mark in Lao lookup 2 subtable" "Anchor-3"  "'mkmk' Mark to Mark in Lao lookup 3 subtable" "Anchor-4"  "'mkmk' Mark to Mark lookup 4 anchor 0" "Anchor-5"  "'mkmk' Mark to Mark lookup 4 anchor 1" "Anchor-6"  "'mark' Mark Positioning lookup 5 subtable" "Anchor-7"  "'mark' Mark Positioning lookup 6 subtable" "Anchor-8"  "'mark' Mark Positioning lookup 7 subtable" "Anchor-9"  "'mark' Mark Positioning lookup 8 subtable" "Anchor-10"  "'mark' Mark Positioning lookup 9 subtable" "Anchor-11"  "'mark' Mark Positioning in Lao lookup 10 subtable" "Anchor-12"  "'mark' Mark Positioning in Lao lookup 11 subtable" "Anchor-13"  "'mark' Mark Positioning lookup 12 subtable" "Anchor-14"  "'mark' Mark Positioning lookup 13 anchor 0" "Anchor-15"  "'mark' Mark Positioning lookup 13 anchor 1" "Anchor-16"  "'mark' Mark Positioning lookup 13 anchor 2" "Anchor-17"  "'mark' Mark Positioning lookup 13 anchor 3" "Anchor-18"  "'mark' Mark Positioning lookup 13 anchor 4" "Anchor-19"  "'mark' Mark Positioning lookup 13 anchor 5" 
-BeginChars: 65564 339
+BeginChars: 65564 338
 
 StartChar: space
 Encoding: 32 32 0
@@ -10232,30 +10232,8 @@ Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uniFDF2
-Encoding: 65010 65010 336
-Width: 2726
-VWidth: 2181
-Flags: W
-AnchorPoint: "Anchor-7" 432.88 -186 basechar 0
-LayerCount: 2
-Fore
-SplineSet
-2422.25 1505.11 m 1
-EndSplineSet
-Refer: 338 -1 N 1 0 0 1 1724 0 2
-Refer: 337 -1 N 1 0 0 1 1123 0 2
-Refer: 104 1648 N 1 0 0 1 842 415 2
-Refer: 81 1617 N 1 0 0 1 850 15 2
-Refer: 274 65258 N 1 0 0 1 0 0 2
-Refer: 44 1575 N 1 0 0 1 2236 0 2
-LCarets2: 3 0 0 0 
-Ligature2: "'liga' Standard Ligatures in Arabic lookup 19 subtable" uni0627 uniFEDF uniFEE0 uniFEEA
-Ligature2: "'liga' Standard Ligatures in Arabic lookup 17 subtable" uni0627 uniFEDF uniFEE0 uniFEEA
-EndChar
-
 StartChar: NameMe.337
-Encoding: 65562 -1 337
+Encoding: 65562 -1 336
 Width: 615
 VWidth: 2181
 Flags: W
@@ -10284,7 +10262,7 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.338
-Encoding: 65563 -1 338
+Encoding: 65563 -1 337
 Width: 532
 VWidth: 2181
 Flags: W
