@@ -4,10 +4,10 @@ Width: 1738
 VWidth: 2232
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-10" 725.54 1539.12 basechar 0
+AnchorPoint: "Anchor-10" 750.54 1539.12 basechar 0
 AnchorPoint: "Anchor-7" 791.5 -239 basechar 0
 LayerCount: 2
 Fore
 Refer: 220 65204 N 1 0 0 1 0 0 2
-Refer: 295 -1 S 1.07 0 0 1.07 612.54 871.62 2
+Refer: 295 -1 S 1.07 0 0 1.07 637.54 871.62 2
 EndChar
