@@ -1,13 +1,13 @@
 StartChar: uniFEAB
 Encoding: 65195 65195 211
-Width: 1013
+Width: 997
 VWidth: 2232
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-10" 305.72 1615.54 basechar 0
+AnchorPoint: "Anchor-10" 293.72 1735.54 basechar 0
 AnchorPoint: "Anchor-7" 427.5 -236 basechar 0
 LayerCount: 2
 Fore
-Refer: 293 -1 S 1.07 0 0 1.07 320.47 1255.54 2
+Refer: 293 -1 N 1.07 0 0 1.07 320.47 1255.54 2
 Refer: 52 1583 N 1 0 0 1 0 0 2
 EndChar
