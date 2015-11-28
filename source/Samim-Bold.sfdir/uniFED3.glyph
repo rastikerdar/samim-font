@@ -1,5 +1,5 @@
 StartChar: uniFED3
-Encoding: 65235 65235 251
+Encoding: 65235 65235 231
 Width: 864
 VWidth: 2232
 GlyphClass: 2
@@ -8,6 +8,6 @@ AnchorPoint: "Anchor-10" 387.88 1607.24 basechar 0
 AnchorPoint: "Anchor-7" 415 -245 basechar 0
 LayerCount: 2
 Fore
-Refer: 301 -1 N 1 0 0 1 0 0 2
-Refer: 293 -1 N 1.07 0 0 1.07 335.63 1291.24 2
+Refer: 281 -1 N 1 0 0 1 0 0 2
+Refer: 273 -1 N 1.07 0 0 1.07 335.63 1291.24 2
 EndChar

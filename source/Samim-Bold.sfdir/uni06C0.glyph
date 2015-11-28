@@ -1,0 +1,12 @@
+StartChar: uni06C0
+Encoding: 1728 1728 308
+Width: 966
+VWidth: 2283
+Flags: W
+AnchorPoint: "Anchor-7" 333.864 -233.56 basechar 0
+AnchorPoint: "Anchor-10" 381.924 1626.58 basechar 0
+LayerCount: 2
+Fore
+Refer: 85 1652 N 1 0 0 1 114 -324 2
+Refer: 52 1607 N 1 0 0 1 0 0 2
+EndChar

@@ -1,5 +1,5 @@
 StartChar: uniFE84
-Encoding: 65156 65156 172
+Encoding: 65156 65156 152
 Width: 634
 VWidth: 2232
 GlyphClass: 2
@@ -8,6 +8,6 @@ AnchorPoint: "Anchor-10" 206.95 2119.5 basechar 0
 AnchorPoint: "Anchor-7" 288.95 -221.5 basechar 0
 LayerCount: 2
 Fore
-Refer: 182 65166 N 1 0 0 1 0 0 2
-Refer: 84 1620 S 1 0 0 1 -312.89 233.5 2
+Refer: 162 65166 N 1 0 0 1 0 0 2
+Refer: 65 1620 S 1 0 0 1 -312.89 233.5 2
 EndChar
