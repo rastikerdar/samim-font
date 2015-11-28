@@ -1,5 +1,5 @@
 StartChar: uniFEED
-Encoding: 65261 65261 277
+Encoding: 65261 65261 257
 Width: 883
 VWidth: 2181
 GlyphClass: 2
@@ -8,5 +8,5 @@ AnchorPoint: "Anchor-10" 377 1135 basechar 0
 AnchorPoint: "Anchor-7" 577 -586.5 basechar 0
 LayerCount: 2
 Fore
-Refer: 72 1608 N 1 0 0 1 0 0 2
+Refer: 53 1608 N 1 0 0 1 0 0 2
 EndChar

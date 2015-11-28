@@ -1,5 +1,5 @@
 StartChar: uni0631
-Encoding: 1585 1585 54
+Encoding: 1585 1585 35
 Width: 847
 VWidth: 2186
 GlyphClass: 2
@@ -17,7 +17,11 @@ SplineSet
  659.601 561.5 l 1,8,9
  765.731 261.33 765.731 261.33 735.601 48.5 c 0,0,1
 EndSplineSet
-Kerns2: 55 0 "'kern' Horizontal Kerning lookup 15-1"  54 0 "'kern' Horizontal Kerning lookup 15-1"  133 0 "'kern' Horizontal Kerning lookup 15-1"  108 0 "'kern' Horizontal Kerning lookup 15-1" 
+PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0632 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0631 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB8A dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 15-1" afii57508 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0648 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni06CC dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEEB dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB7C dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
