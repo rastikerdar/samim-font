@@ -1,6 +1,6 @@
 StartChar: uniFB8B
 Encoding: 64395 64395 114
-Width: 963
+Width: 925
 VWidth: 2181
 GlyphClass: 2
 Flags: W
@@ -10,7 +10,7 @@ LayerCount: 2
 Fore
 Refer: 194 65198 N 1 0 0 1 0 0 2
 Refer: 275 -1 S 1.07 0 0 1.07 295.98 805.87 2
-Kerns2: 53 0 "'kern' Horizontal Kerning lookup 15-2"  111 0 "'kern' Horizontal Kerning lookup 15-2" 
+Kerns2: 53 0 "'kern' Horizontal Kerning lookup 15-2" 111 0 "'kern' Horizontal Kerning lookup 15-2"
 PairPos2: "'kern' Horizontal Kerning lookup 15-2" uni0648 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-2" uni0632 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-2" uni0631 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0

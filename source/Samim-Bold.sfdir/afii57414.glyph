@@ -1,6 +1,6 @@
 StartChar: afii57414
 Encoding: 1574 1574 24
-Width: 1580
+Width: 1481
 VWidth: 2232
 GlyphClass: 3
 Flags: W
@@ -10,7 +10,7 @@ LayerCount: 2
 Fore
 Refer: 65 1620 N 1 0 0 1 -13.9822 -435.5 2
 Refer: 54 1609 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 19 subtable" uni064A uni0654
 Substitution2: "'init' Initial Forms in Arabic lookup 13 subtable" uniFE8B
 Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" uniFE8C

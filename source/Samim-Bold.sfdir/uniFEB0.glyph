@@ -4,13 +4,13 @@ Width: 1022
 VWidth: 2232
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-10" 528.36 1305.56 basechar 0
+AnchorPoint: "Anchor-10" 541.36 1315.56 basechar 0
 AnchorPoint: "Anchor-7" 471.5 -701.5 basechar 0
 LayerCount: 2
 Fore
 Refer: 194 65198 N 1 0 0 1 0.5 0 2
-Refer: 273 -1 N 1.07 0 0 1.07 478.11 866.284 2
-Kerns2: 49 0 "'kern' Horizontal Kerning lookup 15-1"  171 0 "'kern' Horizontal Kerning lookup 15-1"  165 0 "'kern' Horizontal Kerning lookup 15-1"  111 0 "'kern' Horizontal Kerning lookup 15-1" 
+Refer: 273 -1 S 1.07 0 0 1.07 491.11 876.284 2
+Kerns2: 49 0 "'kern' Horizontal Kerning lookup 15-1" 171 0 "'kern' Horizontal Kerning lookup 15-1" 165 0 "'kern' Horizontal Kerning lookup 15-1" 111 0 "'kern' Horizontal Kerning lookup 15-1"
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0648 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0632 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0631 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
