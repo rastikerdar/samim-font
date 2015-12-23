@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html dir="rtl" manifest="offline.appcache">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Mohammad Saleh Souzanchi http://soozanchi.ir" />
+<title>صفحه تست  فونت صمیم</title>
+<link type="text/css" href="css/styles.css" rel="stylesheet" charset="utf-8" />
+<link type="text/css" href="css/print.css" rel="stylesheet" media="print" charset="utf-8" />
+<link type="text/css" href="css/spectrum.css" rel="stylesheet"  charset="utf-8" />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Droid+Sans|Noto+Sans|Raleway|Lato' rel='stylesheet' type='text/css'>
+
+<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/fontdrag.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/otfeatures.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/contentEditable.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/constants.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="js/spectrum.min.js" type="text/javascript" charset="utf-8"></script>
+<script>
+localStorage.clear();
+// Include the version in the page title
+var version = '1.5.1';
+
+
+$(document).ready(function(){
+
+	// Tabs
+	var tabContainers = $('div.tabs > div');
+	$('div.tabs ul.tabNavigation a').click(function () {
+		tabContainers.hide().filter(this.hash).show();
+		$('div.tabs ul.tabNavigation a').removeClass('selected');
+		$(this).addClass('selected');
+		return false;
+	}).filter(':first').click();
+
+	// OT Features Panel
+	$('#showhide').click(function () {
+		$('#otfeatures').slideToggle("fast", function() {
+			$("#showhide").text($(this).is(':visible') ? "مخفی کردن ویژگی های اپن تایپ" : "ویژگی های اپن تایپ");
+		  });
+	});
+    
+    
+    // tools
+      var tools = $('.isTools').each(function(){
+        
+        var box = $(this);
+        var texts = $('.tests-container',box); 
+            
+        box.find(".textsColor").spectrum({
+                color: "#000",
+                move: function(color) {
+                    $('.textline', texts).css('color', color.toHexString());
+            }   
+        });    
+        box.find(".textsBgColor").spectrum({
+                color: "#fff",
+                move: function(color) {
+                    $('.textline', texts).css('backgroundColor', color.toHexString());
+            }   
+        });
+        
+        box.find(".alignLeft").click(function(){
+            $('.textline', texts).css('textAlign', 'left');
+        });
+        
+        box.find(".alignCenter").click(function(){
+            $('.textline', texts).css('textAlign', 'center');
+        });
+
+        box.find(".alignRight").click(function(){
+            $('.textline', texts).css('textAlign', 'right');
+        });
+
+        box.find(".alignJustiy").click(function(){
+            $('.textline', texts).css('textAlign', 'justify');
+        });
+        
+       
+    });
+ 
+
+
+	// OT Features initial Run
+	refreshFeatures();
+
+	// Grab the text from the JS constant file, and show it
+	prepareAndShowFontLayout();
+
+	$('#brower-version').html(window.navigator.userAgent);
+    
+
+});
+</script>
+<style>
+    @font-face {
+      font-family: Samim;
+      src: url('../Samim.eot?v=0.9.9');
+      src: url('../Samim.eot?v=0.9.9#iefix') format('embedded-opentype'),
+           url('../Samim.woff?v=0.9.9') format('woff'),
+           url('../Samim.ttf?v=0.9.9') format('truetype');
+      font-weight: normal;
+    }
+
+    @font-face {
+      font-family: Samim;
+      src: url('../Samim-Bold.eot?v=0.9.9');
+      src: url('../Samim-Bold.eot?v=0.9.9#iefix') format('embedded-opentype'),
+           url('../Samim-Bold.woff?v=0.9.9') format('woff'),
+           url('../Samim-Bold.ttf?v=0.9.9') format('truetype');
+      font-weight: bold;
+    }
+    
+    body {
+      font-family: samim, tahoma;
+    }
+</style>
+</head>
+
+<body spellcheck="false">
+<a href="https://github.com/font-store/Persian-Font-Testing-Page"><img style="position: absolute; top: 0px; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+<div id="mainContainer">
+    <!-- Header -->
+    <section id="dropcontainer">
+        <header><h1>تست فونت صمیم</h1></header>
+        <ul id="fonts"></ul>
+    </section>
+
+    <!--
+    OT Features
+    - This table should be redone in a more sophisticated way, for all OT features, ref http://ilovetypography.com/OpenType/opentype-features.html
+    -
+     -->
+        <div id="toggleotfeatures">
+            <a href="javascript://" id="showhide">ویژگی های اپن تایپ</a> 
+            
+        </div>
+        <div id="fontFallBack">FallBack TypeFace Name 
+        <select id="fallbak">
+            <option value="">locale system</option>
+            <option value="Tahoma">Tahoma</option>
+            <option value="Arial">Arial</option>
+            <option value="Trebuchet MS">Trebuchet MS</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Courier">Courier</option>
+            <option value="sans-serif">sans-serif</option>
+            <option value="Open Sans">Open Sans</option>
+            <option value="Roboto">Roboto</option>
+            <option value="Noto Sans">Noto Sans</option>
+            <option value="Droid Sans">Droid Sans</option>
+            <option value="Raleway">Raleway</option>
+            <option value="Lato">Lato</option>
+            
+        </select></div>
+        <div id="otfeatures" style="display: none;">
+            <table width="100%">
+                <tr>
+                    <td valign="top" width="25%">
+                        <input type="checkbox" id="kern" onchange="refreshFeatures()" checked>OpenType Kerning</input><br/>
+                        <input type="checkbox" id="liga" checked onchange="refreshFeatures()">Standard Ligatures</input><br/>
+                        <input type="checkbox" id="calt" checked onchange="refreshFeatures()">Contextual Alternates</input><br/>
+                        <br/>
+                        <input type="checkbox" id="dlig" onchange="refreshFeatures()">Discretionary Ligatures</input><br/>
+                        <input type="checkbox" id="hlig" onchange="refreshFeatures()">Historical Ligatures</input><br/>
+                        <input type="checkbox" id="swsh" onchange="refreshFeatures()">Swashes</input><br/>
+                        <input type="checkbox" id="salt" onchange="refreshFeatures()">Stylistic Alternates</input>
+                    </td>
+                    <td valign="top" width="25%">
+                        <input type="radio" name="smcp" checked onchange="refreshFeatures()">SmallCaps Off</input><br/>
+                        <input type="radio" id="fake-smcp" name="smcp" onchange="refreshFeatures()">Fake SmallCaps</input><br/>
+                        <input type="radio" id="smcp" name="smcp" onchange="refreshFeatures()">True SmallCaps</input><br/>
+                        <input type="checkbox" id="c2sc" onchange="refreshFeatures()">Capitals to Small Caps</input>
+                    </td>
+                    <td valign="top" width="25%">
+                        <input type="radio" name="numsty" checked onchange="refreshFeatures()">Default Figures Style</input><br/>
+                        <input type="radio" id="lnum" name="numsty" onchange="refreshFeatures()">Lining Figures</input><br/>
+                        <input type="radio" id="onum" name="numsty" onchange="refreshFeatures()">Oldstyle Figures</input><br/>
+                        <br/>
+                        <input type="radio" name="numspc" checked onchange="refreshFeatures()">Default Figures Width</input><br/>
+                        <input type="radio" id="pnum" name="numspc" onchange="refreshFeatures()">Proportional Figures</input><br/>
+                        <input type="radio" id="tnum" name="numspc" onchange="refreshFeatures()">Tabular Figures</input>
+                    </td>
+                    <td valign="top" width="25%">
+                        <input type="checkbox" id="frac" name="frac" onchange="refreshFeatures()">Fractions</input><br/>
+                        <input type="checkbox" id="zero" onchange="refreshFeatures()">Slashed zero</input><br/>
+                        <br/>
+                        <input type="checkbox" id="ordn" onchange="refreshFeatures()">Ordinals</input><br/>
+                        <br/>
+                        <input type="checkbox" id="sups" onchange="refreshFeatures()">Superiors</input><br/>
+                        <input type="checkbox" id="sinf" onchange="refreshFeatures()">Inferiors</input><br/>
+                        <input type="checkbox" id="numr" onchange="refreshFeatures()">Numerator</input><br/>
+                        <input type="checkbox" id="dnom" onchange="refreshFeatures()">Denominator</input>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" valign="top">
+                       <input type="checkbox" id="ss01" onchange="refreshFeatures()">ss01</input> &nbsp;
+                       <input type="checkbox" id="ss02" onchange="refreshFeatures()">ss02</input> &nbsp;
+                       <input type="checkbox" id="ss03" onchange="refreshFeatures()">ss03</input> &nbsp;
+                       <input type="checkbox" id="ss04" onchange="refreshFeatures()">ss04</input> &nbsp;
+                       <input type="checkbox" id="ss05" onchange="refreshFeatures()">ss05</input> &nbsp;
+                       <input type="checkbox" id="ss06" onchange="refreshFeatures()">ss06</input> &nbsp;
+                       <input type="checkbox" id="ss07" onchange="refreshFeatures()">ss07</input> &nbsp;
+                       <input type="checkbox" id="ss08" onchange="refreshFeatures()">ss08</input> &nbsp;
+                       <input type="checkbox" id="ss09" onchange="refreshFeatures()">ss09</input> &nbsp;
+                       <input type="checkbox" id="ss10" onchange="refreshFeatures()">ss10</input><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" valign="top">
+                       <input type="checkbox" id="ss11" onchange="refreshFeatures()">ss11</input> &nbsp;
+                       <input type="checkbox" id="ss12" onchange="refreshFeatures()">ss12</input> &nbsp;
+                       <input type="checkbox" id="ss13" onchange="refreshFeatures()">ss13</input> &nbsp;
+                       <input type="checkbox" id="ss14" onchange="refreshFeatures()">ss14</input> &nbsp;
+                       <input type="checkbox" id="ss15" onchange="refreshFeatures()">ss15</input> &nbsp;
+                       <input type="checkbox" id="ss16" onchange="refreshFeatures()">ss16</input> &nbsp;
+                       <input type="checkbox" id="ss17" onchange="refreshFeatures()">ss17</input> &nbsp;
+                       <input type="checkbox" id="ss18" onchange="refreshFeatures()">ss18</input> &nbsp;
+                       <input type="checkbox" id="ss19" onchange="refreshFeatures()">ss19</input> &nbsp;
+                       <input type="checkbox" id="ss20" onchange="refreshFeatures()">ss20</input><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <p style="margin: 0 0 6px;">Recommended CSS:</p>
+                        <p id="csscode"></p>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    <!-- End OT features -->
+
+    <section id="custom">
+
+        <div class="tabs">
+          <!-- Navigation (Ideally, this should be outside the "custom" section, so the navigation's font does not change.) -->
+          <ul class="tabNavigation">
+            <li><a href="#headlines">عنوان‌</a></li>
+            <li><a href="#persian-text-paragraf">پراگراف فارسی</a></li>
+            <li><a href="#arabic-text-paragraf">پراگراف عربی</a></li>
+            <li><a href="#hard-reading">واژه‌های دشوار</a></li>
+            <li><a href="#layout">لایوت</a></li>            
+            <li><a href="#kern">کرنینگ</a></li>
+            <li><a href="#numbers">اعداد</a></li>
+
+
+            <li><a href="#connections">اتصالات</a></li>
+            
+
+            <li><a href="#lettering">کاراکترست</a></li>
+
+            <li><a href="#companionship">همنشینی</a></li>
+            <li><a href="#arabic">عربی</a></li>
+            <li><a href="#nonlatin">More</a></li>
+          </ul>
+
+          <!-- Headlines -->
+          <div id="headlines" class="isTools">
+                <section class="tools">
+                    <a class="alignRight">راست چین</a>
+                    <a class="alignCenter">وسط چین</a>
+                    <a class="alignLeft">چپ چین</a>
+                    <a class="alignJustiy ">تراز</a>
+                    <div> <span>رنگ :</span>  <input class="textsColor" type="color"/></div>
+                    <div> <span>زمینه :</span>   <input class="textsBgColor" type="color"/></div>
+                </section>
+                <section class="tests-container row" style="white-space: nowrap; overflow: hidden; width: 100%;">
+                    
+                    
+                 </section>
+          </div>
+
+          <!-- Text -->
+          <div id="persian-text-paragraf" class="isTools" >
+                <section class="tools">
+                    <a class="alignRight">راست چین</a>
+                    <a class="alignCenter">وسط چین</a>
+                    <a class="alignLeft">چپ چین</a>
+                    <a class="alignJustiy ">تراز</a>
+                    <div> <span>رنگ :</span>  <input class="textsColor" type="color"/></div>
+                    <div> <span>زمینه :</span>   <input class="textsBgColor" type="color"/></div>
+                </section>
+                <section class="tests-container col">
+                    <div class="textsettingCol1"></div>
+                    <div class="textsettingCol2"></div>
+                    <div class="textsettingCol3"></div>
+                </section>
+          </div>
+
+           <div id="arabic-text-paragraf" class="isTools" >
+                <section class="tools">
+                    <a class="alignRight">راست چین</a>
+                    <a class="alignCenter">وسط چین</a>
+                    <a class="alignLeft">چپ چین</a>
+                    <a class="alignJustiy ">تراز</a>
+                    <div> <span>رنگ :</span>  <input class="textsColor" type="color"/></div>
+                    <div> <span>زمینه :</span>   <input class="textsBgColor" type="color"/></div>
+                </section>
+                <section class="tests-container col">
+                    <div class="textsettingCol1"></div>
+                    <div class="textsettingCol2"></div>
+                    <div class="textsettingCol3"></div>
+                </section>
+          </div>         
+          
+          <!-- adhesion -->
+          <div id="numbers">
+                    <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <div style="white-space: nowrap; overflow: hidden; width: 100%; ">
+                    <p class="sizelabel">72px</p>
+                    <div class="box" style="font-size:72px">
+                        <p>۱۲۳۴۵۶۷۸۹۰1234567890</p>
+                        <p>۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹</p>
+                        <p>٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩</p>
+                        <p>۱٬۰۰۰٬۰۰۰ - ۹۹٬۰۰۰ - ۶۶٬۷۷۷٬۵۰۰</p>
+                        <p>۱٫۸۰ - ۷۷٫۰۰ - ۰۰٫۹۹ - ۷۷٫۸۸</p>
+                    </div>
+                    <p class="sizelabel">62px</p>
+                    <div class="box" style="font-size:62px">
+                        <p>۱۲۳۴۵۶۷۸۹۰1234567890</p>
+                        <p>۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹</p>
+                        <p>٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩</p>
+                        <p>۱٬۰۰۰٬۰۰۰ - ۹۹٬۰۰۰ - ۶۶٬۷۷۷٬۵۰۰</p>
+                        <p>۱٫۸۰ - ۷۷٫۰۰ - ۰۰٫۹۹ - ۷۷٫۸۸</p>
+                    </div> 
+                    <p class="sizelabel">52px</p>
+                    <div class="box" style="font-size:52px">
+                        <p>۱۲۳۴۵۶۷۸۹۰1234567890</p>
+                        <p>۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹</p>
+                        <p>٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩</p>
+                        <p>۱٬۰۰۰٬۰۰۰ - ۹۹٬۰۰۰ - ۶۶٬۷۷۷٬۵۰۰</p>
+                        <p>۱٫۸۰ - ۷۷٫۰۰ - ۰۰٫۹۹ - ۷۷٫۸۸</p>
+                    </div>   
+                    <p class="sizelabel">42px</p>
+                    <div class="box" style="font-size:42px">
+                        <p>۱۲۳۴۵۶۷۸۹۰1234567890</p>
+                        <p>۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹</p>
+                        <p>٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩</p>
+                        <p>۱٬۰۰۰٬۰۰۰ - ۹۹٬۰۰۰ - ۶۶٬۷۷۷٬۵۰۰</p>
+                        <p>۱٫۸۰ - ۷۷٫۰۰ - ۰۰٫۹۹ - ۷۷٫۸۸</p>
+                    </div>   
+                    <p class="sizelabel">32px</p>
+                    <div class="box" style="font-size:32px">
+                        <p>۱۲۳۴۵۶۷۸۹۰1234567890</p>
+                        <p>۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹</p>
+                        <p>٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩</p>
+                        <p>۱٬۰۰۰٬۰۰۰ - ۹۹٬۰۰۰ - ۶۶٬۷۷۷٬۵۰۰</p>
+                        <p>۱٫۸۰ - ۷۷٫۰۰ - ۰۰٫۹۹ - ۷۷٫۸۸</p>
+                    </div>                       
+                    <p class="sizelabel">22px</p>
+                    <div class="box" style="font-size:22px">
+                        <p>۱۲۳۴۵۶۷۸۹۰1234567890</p>
+                        <p>۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹</p>
+                        <p>٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩</p>
+                        <p>۱٬۰۰۰٬۰۰۰ - ۹۹٬۰۰۰ - ۶۶٬۷۷۷٬۵۰۰</p>
+                        <p>۱٫۸۰ - ۷۷٫۰۰ - ۰۰٫۹۹ - ۷۷٫۸۸</p>
+                    </div>                       
+                    <p class="sizelabel">12px</p>
+                    <div class="box" style="font-size:12px">
+                        <p>۱۲۳۴۵۶۷۸۹۰1234567890</p>
+                        <p>۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹</p>
+                        <p>٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩</p>
+                        <p>۱٬۰۰۰٬۰۰۰ - ۹۹٬۰۰۰ - ۶۶٬۷۷۷٬۵۰۰</p>
+                        <p>۱٫۸۰ - ۷۷٫۰۰ - ۰۰٫۹۹ - ۷۷٫۸۸</p>
+                    </div>                       
+                </div>
+ 
+          </div>
+
+          <!-- hard-reading -->
+          <div id="hard-reading">
+                <div style="white-space: nowrap; overflow: hidden; width: 100%;" ></div>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <div style="width: 100%;">
+                    <div class="textsettingCol1"></div>
+                    <div class="textsettingCol2"></div>
+                </div>
+          </div>
+
+          <!-- Lowercases a-z -->
+          <div id="lowercases">
+                <div style="white-space: nowrap; overflow: hidden; width: 100%;"></div>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <div style="width: 100%;">
+                    <div class="textsettingCol1"></div>
+                    <div class="textsettingCol2"></div>
+                </div>
+          </div>
+
+          <!-- Caps -->
+          <div id="caps">
+                <div style="width: 100%;"></div>
+          </div>
+
+
+
+          <!-- Layout -->
+          <div id="layout">
+                <div style="width: 100%;">
+                    <p class="sizelabel">Heading 60px, Subhead 24px, Body 16px</p>
+                    <p style="font-size: 60px;" contenteditable="true">تفاوت خوشنویسی و حروف‌چینی:</p>
+                    <p style="font-size: 24px;" contenteditable="true">پیش از آن‌که به تعریف حروف‌چینی بپردازیم، لازم است مقدمهای دربارهی خوشنویسی (خطاطی) و تفاوت آن با حروف‌چینی ارائه شود. شباهت و یکی دانستن حروف‌چینی و خوشنویسی بر دریافت و آشنایی ما از نوشتن با ماشین حروف‌چینی بیاثر نیست. خوشنویسی ظرف مدت کوتاهی پس از پیدایش خط، تولد یافته و حیات آن با پیدایش ماشین حروف‌چینی پایان نپذیرفته و نمیپذیرد. خط دست‌نویس، مسیر غیرقابل پیشبینی و حسی را طی میکند تا به تکامل برسد، هنگام نوشتن با دست، خطاط از همه حالات نو و بدیع در گردشهای قلم و نقطه‌گذاری‌ها، به‌صورت ناخودآگاه در ترکیببندی نوشته استفاده میکند که شکل تکامل‌یافته‌ی آن در ترکیبات و سیاهمشقهای خوشنویسی کاملاً مشهود است.</p>
+                    <p>&nbsp;</p>
+                    
+                    
+                    <div class="multicolumn3">
+                        <p contenteditable="true">در حروف‌چینی نوشتن واژه‌ها به گونه‌ی دیگری صورت می‌گیرد.<br/>-حروف‌چینی بر خلاف خطاطی، ماهیت خود را به نظام یکپارچه و یکنواخت فرم و اندازهٔ حروف یک شکل متصل می‌یابد. چنان‌که، قبل از تولد حروف چاپی توسط گوتنبرگ در قرن پانزدهم میلادی، حروف‌چینی معنا نداشت. <br/>-هنگام حروف‌چینی از الگوی ثابت و از پیش طراحی شده‌ای برای فرم حروف و فاصله‌های آن‌ها با یکدیگر استفاده می‌کنیم. <br/>-شکل حروف و موقعیت نقطه‌های حروف و اسکلت اصلی حروف دچار تغییر نمی‌شود. <br/>-حضور یک کاربر حرف‌های به‌خصوص یک طراح، برای تعیین اندازهٔ قلم، فاصلهٔ بین سطرها، اندازهٔ سطرها و شکل تراز بندی متن، روند حروف‌چینی را تکامل می‌بخشد. <br/>-در خوشنویسی رسیدن به ترکیب‌بندی زیبا در عین زیبایی تک‌تک مفردات حروف، هدف نهایی طراح است حال آن‌که استفاده از یک قلم مناسب در حروف‌چینی در نهایت باهدف ایجاد خوانایی صورت می‌گیرد. <br/>-خوانایی، کیفیتی است که در امتداد رعایت اصول و قواعد طراحی قلم و سپس رعایت اصول حروف‌چینی توسط کاربر (اعم از حروف‌چین حرف‌های یا طراح) و در نهایت تسلط به خواندن یعنی سواد از سوی مخاطب پدید می‌آید. <br/>-نقش طراح به‌عنوان یک ناظر در کنار حروف‌چین بسیار ضروری و تعیین کننده است. <br/>- رفتار نامناسب با قلم در روند حروف‌چینی، لطمه بزرگی به انتقال دانش و اطلاعات وارد می‌سازد که با نمونه‌های فراوان آن در سطح شهر، معابر عمومی، نشریات و به‌ویژه کتاب‌ها بیگانه نیستیم. <br/>-حروف‌چینی غیراصولی و بی‌قاعده تأثیرات ناهنجاری در نظام خواندن ایجاد می‌کند و سبب ایجاد آشفتگی، اضطراب و سردرگمی در مخاطبان می‌شود. در واقع حروف‌چینی عبارت است از عمل نوشتن به کمک ماشین (اعم از دستی، مکانیکی، الکترونیکی یا دیجیتال) با انجام دادن همهٔ اقداماتی که برای خوانا کردن متن صورت می‌گیرد این اعمال می‌تواند شامل انتخاب تک‌تک مشخصات مربوط به قلم از قبیل: اندازه، سبک، نقطه‌گذاری، فاصله‌گذاری درست، و نیز انتخاب کاغذ، مرکب چاپ، حتی روش چاپ و به‌طور کلی شامل فعالیت‌ها و توجهاتی باشد که منجر به تصمیم‌گیری دربارهٔ ظاهر هر صفحه چاپ شده می‌شود.</p>
+                    </div>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p style="font-size: 24px;">فاصله گذاری مناسب بین کلمات</p>
+                    <p>&nbsp;</p>
+                    <div class="multicolumn3">
+                        <p contenteditable="true">توجه به فاصلهگذاری هنگام حروف‌چینی اهمیت بسزایی در آسان خوانده شدن مطلب دارد. برای جدا کردن کلمات از هم از کلید فاصله استفاده میشود که عبارت است از فاصله استانداردی که مقدار (space) آن هنگام طراحی قلم مشخص شده است. برای جدا کردن کلمات از یک‌دیگر، مجاز به یک‌بار استفاده از این کلید هستیم. چنان‌چه بعد از واژهای از علامتهای «» ():؛،؟! استفاده کنیم این فاصله حذف میشود و بعد از علامت قرار میگیرد.
+در کلمات مرکب مانند: نامگذاری، میشود، رفتهاند و … برای جلوگیری از دوباره شدن واژه، میتوان هنگام حروف‌چینی از اندازهی مناسبتری به‌عنوان نیمفاصله که معمولاً نصف اندازه فاصله است استفاده کرد. چنین عملی مانع از جدا افتادن دوباره کلمه در دو سطر مختلف میشود.
+به مثالهای زیر توجه کنید. در یک متن طولانی مثل یک مقاله، یا متن یک کتاب، کنترل تمام کلمات مرکب برای جلوگیری از دوبارهکاری سخت و غیرحرفه‌ای است. اگر در طراحی قلم نیمفاصله در نظر گرفته شده باشد، از پدید آمدن چنین عملی جلوگیری میشود. 
+نقش یک طراح در کنترل فاصلهها در همین حوزه تعریف میشود و طراح یا حروف‌چین مجاز فاصلهگذاری کاذب بین واژههای متن نیستند. جمع یا فشردن غیر معمول کلمات به یک‌دیگر (از سوی کاربران غیرحرفهای)، تعادل سطح خاکستری (سیاهی و سفیدی) متن را برهم (میزند و خوانده شدن متن را دشوار و گاه غیرممکن میکند.
+افزودن عرض حروف و کشیدن حروف همچنین، تناسبات افقی و عمودی فرم حروف را دگرگون میکند و به خوانده شدن ستون متن لطمه قابل‌توجهی وارد میکند. در قلمهای متنوع لاتین، سبکهای گوناگونی مانند: به‌هم فشرده-Condenced و از هم بازشده-Extend در خانوادهی بسیاری از قلمها گنجانده که اولاً از پیش طراحی شدهاند و با یک دستور اتوماتیک برای همهی حروف پدید نیامدهاند و دوم آن‌که موارد استفاده آن شامل متمایز کردن بخشی از متن و یا در بعضی موارد برای عنوآن‌های کوتاه میباشد.
+برای تنظیم فاصله در حروف عنوان طراحان آزادی عمل بیشتری دارند.
+فاصله طبیعی بین کلمات در برخی عنوآن‌های کوتاه به‌دلیل درشت تر شدن از حد معمول، نیاز به اصلاح دارند.
+</p>
+                        <div contenteditable="true">
+                            <p>&nbsp;</p>
+                            <h1>انتخاب اندازهی قلم</h1>
+                            <p>
+انتخاب اندازه‌ی قلم
+اندازه‌ی قلم رابطه‌ی معقول و مناسبی با کاربرد مطلب دارد. اندازه قلم را عواملی مثل: نوع موضوع، خواننده و شرایط خواندن و در نهایت نگاه طراح تعیین می‌کند. مهم‌ترین نکته برای تعیین اندازه‌ی قلم، کادر و محدوده‌ی بصری، نوع و کاربرد مطلب مورد نظر می‌باشد. از آنجا که حروف، واحدهای سازنده‌ی اسکلت‌بندی ستون نوشته هستند و اساس ساختار متن فارسی را سطرها تشکیل می‌دهند، اندازه‌ی حروف یک قلم ارتباط مستقیمی با طول سطرها و فاصله‌ی آن‌ها از یکدیگر دارد.<br/>
+طولانی شدن سطرها باعث خستگی چشم و نیز گم کردن ابتدای سطرها توسط چشم خواننده می‌شود. بهتر است برای تعیین طول سطرها تعداد معینی از کلمه‌ها را استفاده کنیم تا به سطری با طول متناسب برسیم. برای حجم معینی از مطالب مثلاً در یک اعلان و یا نامه‌های کوتاه اداری مشکل چندانی برای تعیین طول سطرها به چشم نمی‌خورد. وقتی حجم مطلب افزایش می‌یابد (مثل صفحه‌ی کتاب یا مجله و ….) انتخاب طول سطر از حساسیت بیشتری برخوردار است. در این موارد انتخاب سطرهای مناسب کوتاه‌تر کمک به خوانایی بیشتر متن می‌کند. 
+</p>
+                            
+                            <p>&nbsp;</p>
+                        </div>
+                        <p contenteditable="true"><h1>تعیین فاصلهٔ بین سطرها</h1>
+<p>فاصلهٔ بین خط کرسی هر سطر تا خط کرسی سطر بعدی در هر متن را فاصلهٔ بین سطر (Leading) یا پایه حروف می‌گویند. دلیل آن که کلمهٔ متن را بکار می‌بریم این است که مقدار این فاصله را می‌توان هنگام حروف‌چینی متن متناسب با نوع قلم آن تغییر داد..<br/>
+این فاصله نقش مهمی را هنگام خواندن ایفا می‌کند. برای چیدن ستون‌های متن با عرض‌های مختلف، لزوم تغییر پایه حروف را می‌توان کاملاً لمس کرد. هر چه طول سطرهای یک ستون متن کوتاه‌تر شود پایهٔ حروف به‌تناسب باید کاسته شود تا چشم دچار پرش هنگام خواندن نشود و برعکس برای حروف‌چینی سطرهای طولانی، برای جلوگیری از خستگی چشم و گم کردن ابتدای سطرها لازم است پایه حروف را از حالت عادی افزایش دهیم. هرچه اندازهٔ قلمی که برای متن استفاده می‌کنیم ریزتر باشد، لازم است پایهٔ کار را نسبت به‌اندازه حروف افزایش دهیم. وجود فاصلهٔ کم و فشرده بین سطرهایی با اندازه قلم ریز، سبب خستگی و فشار چشم‌های خواننده و گاه خطای دید می‌شود. همچنین فاصله زیاد بین سطرهایی با سایز درشت، تعادل فضای منفی و مثبت حروف‌چینی را برهم میزند و در نتیجه سطح خاکستری ناهمواری به وجود می‌آورد. انتخاب پایهٔ حروف مناسب کمک می‌کند که سطح خاکستری یکنواخت و مناسبی از نوشته‌ها به وجود آید.<br/>
+نکتهٔ مهم برای انتخاب فاصلهٔ سطر این است که در متن یک کتاب یا یک مطلب متوالی اندازهٔ پایهٔ کار باید یکنواخت باشد. متأسفانه بر اثر بی‌توجهی به مسائل گوناگون حروف‌چینی، گاهی شاهد فواصل متفاوت در صفحه‌های مختلف یک کتاب هستیم. تعیین فاصله سطرها از مهارت‌های یک طراح است که هنگام تعیین قالب و شکل اصلی صفحات در مورد آن تصمیم‌گیری می‌کند.
+توجه به فرم و ساختار اصلی قلم می‌تواند طراح را برای رسیدن به مناسب‌ترین فاصله بین سطرها راهنمایی کند.</p></p>
+                    </div>
+                    <p>&nbsp;</p>
+                </div>
+          </div>
+
+          <!-- Lettering Sheet -->
+          <div id="lettering">
+                <div class="box">
+                    <div class="Header">
+                        علامت‌ها
+                    </div>
+                    <ul class="body">
+ <li><p>&#x0020</p><p>s.space</p></li>
+<li><p>&#x000A</p><p>s.eol</p></li>
+<li><p>&#x000D</p><p>s.cr</p></li>
+<li><p>&#x0021</p><p>s.tajjob</p></li>
+<li><p>&#x0028</p><p>s.parenz.o</p></li>
+<li><p>&#x0029</p><p>s.parenz.c</p></li>
+<li><p>&#x002A</p><p>s.Setareh</p></li>
+<li><p>&#x002B</p><p>s.mosbat</p></li>
+<li><p>&#x002D</p><p>s.manfi</p></li>
+<li><p>&#x002E</p><p>s.noghte</p></li>
+<li><p>&#x007C</p><p>s.khat_amoodi</p></li>
+<li><p>&#x002F</p><p>s.slash</p></li>
+<li><p>&#x005C</p><p>s.backSlash</p></li>
+<li><p>&#x003A</p><p>s.colon</p></li>
+<li><p>&#x003D</p><p>s.mosavi</p></li>
+<li><p>&#x005B</p><p>s.koroshe.o</p></li>
+<li><p>&#x005D</p><p>s.koroshe.c</p></li>
+<li><p>&#x007B</p><p>s.akolad.o</p></li>
+<li><p>&#x007D</p><p>s.akolad.c</p></li>
+<li><p>&#x00A0</p><p>s.no_break_space</p></li>
+<li><p>&#x00AB</p><p>s.giumeh.o</p></li>
+<li><p>&#x00BB</p><p>s.giumeh.c</p></li>
+<li><p>&#x00D7</p><p>s.zarb</p></li>
+<li><p>&#x00F7</p><p>s.tagsim</p></li>
+<li><p>&#x200C</p><p>s.zwnj</p></li>
+<li><p>&#x200D</p><p>s.zwj</p></li>
+<li><p>&#x200E</p><p>s.lrm</p></li>
+<li><p>&#x200F</p><p>s.rlm</p></li>
+<li><p>&#x2026</p><p>s.noghte3ta</p></li>
+<li><p>&#x2010</p><p>s.khat_tire</p></li>
+<li><p>&#x2012</p><p>s.figure_dash</p></li>
+<li><p>&#x2013</p><p>s.en_dash</p></li>
+<li><p>&#x2014</p><p>s.em_dash</p></li>
+<li><p>&#x2015</p><p>s.horizontal_bar</p></li>
+<li><p>&#x2022</p><p>s.bullet</p></li>
+<li><p>&#x25CC</p><p>s.dotted_circle</p></li>
+<li><p>&#x25FB</p><p>s.white_medium_square</p></li>
+<li><p>&#x25FC</p><p>s.black_medium_square</p></li>
+<li><p>&#x25FD</p><p>s.white_medium_small_square</p></li>
+<li><p>&#x25FE</p><p>s.black_medium_small_square</p></li>
+<li><p>&#x060C</p><p>s.virgul</p></li>
+<li><p>&#x061B</p><p>s.noqte_virgul</p></li>
+<li><p>&#x061F</p><p>s.soal</p></li>
+<li><p>&#x066B</p><p>s.momaiez.fa</p></li>
+<li><p>&#x066C</p><p>s.hezare.fa</p></li>
+                        </ul>
+                    
+                    
+                    
+                    
+                </div>
+             <div class="box">
+                    <div class="Header">
+                        اعراب . مارکها
+                    </div>
+                    <ul class="body">
+<li><p>&#x064B</p><p>m.tanvin_fatheh</p></li>
+<li><p>&#x064C</p><p>m.tanvin_kasreh</p></li>
+<li><p>&#x064D</p><p>m.tanvin_zameh</p></li>
+<li><p>&#x064E</p><p>m.fatheh</p></li>
+<li><p>&#x064F</p><p>m.zameh</p></li>
+<li><p>&#x0650</p><p>m.kasreh</p></li>
+<li><p>&#x0651</p><p>m.tashdid</p></li>
+<li><p>&#x0652</p><p>m.sokon</p></li>
+<li><p>&#x0653</p><p>m.mad</p></li>
+<li><p>&#x0654</p><p>m.hamze.up</p></li>
+<li><p>&#x0655</p><p>m.hamze.dn</p></li>
+<li><p>&#x0670</p><p>m.alef_maksure.fa</p></li>                       
+
+                        </ul>
+
+                    
+                </div>        
+
+             <div class="box">
+                    <div class="Header">
+                        حروف اصلی
+                    </div>
+                    <ul class="body">
+<li><p>&#x0640</p><p>c.keshideh</p></li>
+<li><p>&#x06F0</p><p>c.num.0.fa</p></li>
+<li><p>&#x06F1</p><p>c.num.1.fa</p></li>
+<li><p>&#x06F2</p><p>c.num.2.fa</p></li>
+<li><p>&#x06F3</p><p>c.num.3.fa</p></li>
+<li><p>&#x06F4</p><p>c.num.4.fa</p></li>
+<li><p>&#x06F5</p><p>c.num.5.fa</p></li>
+<li><p>&#x06F6</p><p>c.num.6.fa</p></li>
+<li><p>&#x06F7</p><p>c.num.7.fa</p></li>
+<li><p>&#x06F8</p><p>c.num.8.fa</p></li>
+<li><p>&#x06F9</p><p>c.num.9.fa</p></li>
+<li><p>&#x0660</p><p>c.num.0.ar</p></li>
+<li><p>&#x0661</p><p>c.num.1.ar</p></li>
+<li><p>&#x0662</p><p>c.num.2.ar</p></li>
+<li><p>&#x0663</p><p>c.num.3.ar</p></li>
+<li><p>&#x0664</p><p>c.num.4.ar</p></li>
+<li><p>&#x0665</p><p>c.num.5.ar</p></li>
+<li><p>&#x0666</p><p>c.num.6.ar</p></li>
+<li><p>&#x0667</p><p>c.num.7.ar</p></li>
+<li><p>&#x0668</p><p>c.num.8.ar</p></li>
+<li><p>&#x0669</p><p>c.num.9.ar</p></li>
+<li><p>&#x0621</p><p>c.hamze</p></li>
+<li><p>&#x0627</p><p>c.alef</p></li>
+<li><p>&#x0622</p><p>c.alef_maad</p></li>
+<li><p>&#x0623</p><p>c.alef_hamzeUp</p></li>
+<li><p>&#x0625</p><p>c.alef_hamzeDown</p></li>
+<li><p>&#x0628</p><p>c.beh</p></li>
+<li><p>&#x0629</p><p>c.teh_gerd</p></li>
+<li><p>&#x067E</p><p>c.peh</p></li>
+<li><p>&#x062A</p><p>c.teh</p></li>
+<li><p>&#x062B</p><p>c.seh</p></li>
+<li><p>&#x062C</p><p>c.jim</p></li>
+<li><p>&#x0686</p><p>c.cheh</p></li>
+<li><p>&#x062D</p><p>c.heh</p></li>
+<li><p>&#x062E</p><p>c.kheh</p></li>
+<li><p>&#x062F</p><p>c.dal</p></li>
+<li><p>&#x0630</p><p>c.zal</p></li>
+<li><p>&#x0631</p><p>c.ree</p></li>
+<li><p>&#x0632</p><p>c.zee</p></li>
+<li><p>&#x0698</p><p>c.zheh</p></li>
+<li><p>&#x0633</p><p>c.sin</p></li>
+<li><p>&#x0634</p><p>c.shin</p></li>
+<li><p>&#x0635</p><p>c.sad</p></li>
+<li><p>&#x0636</p><p>c.zad</p></li>                      
+<li><p>&#x0637</p><p>c.taa</p></li>
+<li><p>&#x0638</p><p>c.zaa</p></li>
+<li><p>&#x0639</p><p>c.ein</p></li>
+<li><p>&#x063A</p><p>c.gein</p></li>
+<li><p>&#x0641</p><p>c.feh</p></li>
+<li><p>&#x0642</p><p>c.ghaf</p></li>
+<li><p>&#x06A9</p><p>c.kaf.fa</p></li>
+<li><p>&#x0643</p><p>c.kaf.ar</p></li>
+<li><p>&#x06AF</p><p>c.gaf</p></li>
+<li><p>&#x0644</p><p>c.lam</p></li>
+<li><p>&#x0645</p><p>c.mim</p></li>
+<li><p>&#x0646</p><p>c.nun</p></li>
+<li><p>&#x0648</p><p>c.vav</p></li>
+<li><p>&#x0647</p><p>c.he8</p></li>
+<li><p>&#x06C0</p><p>c.he_yeh</p></li>
+<li><p>&#x06CC</p><p>c.yeh.fa</p></li>
+<li><p>&#x0626</p><p>c.yeh_hamze</p></li>
+<li><p>&#x064A</p><p>c.yeh.ar</p></li>
+<li><p>&#x0649</p><p>c.yeh_maksure</p></li>
+                        </ul>
+
+                    
+                </div>                   
+
+
+             <div class="box">
+                    <div class="Header">
+                        فرم‌های حروف
+                    </div>
+                    <ul class="body">
+<li><p>&#xFE8D</p><p>g.alef.isol</p></li>
+<li><p>&#xFE8E</p><p>g.alef.fina</p></li>
+<li><p>&#xFE81</p><p>g.alef_maad.isol</p></li>
+<li><p>&#xFE82</p><p>g.alef_maad.fina</p></li>
+<li><p>&#xFE83</p><p>g.alef_hamzeUp.isol</p></li>
+<li><p>&#xFE84</p><p>g.alef_hamzeUp.fina</p></li>
+<li><p>&#xFE87</p><p>g.alef_hamzeDown.isol</p></li>
+<li><p>&#xFE88</p><p>g.alef_hamzeDown.fina</p></li>
+<li><p>&#xFE8F</p><p>g.beh.isol</p></li>
+<li><p>&#xFE90</p><p>g.beh.fina</p></li>
+<li><p>&#xFE92</p><p>g.beh.medi</p></li>
+<li><p>&#xFE91</p><p>g.beh.init</p></li>
+<li><p>&#xFE93</p><p>g.teh_gerd.isol</p></li>
+<li><p>&#xFE94</p><p>g.teh_gerd.fina</p></li>
+<li><p>&#xFB56</p><p>g.peh.isol</p></li>
+<li><p>&#xFB57</p><p>g.peh.fina</p></li>
+<li><p>&#xFB59</p><p>g.peh.medi</p></li>
+<li><p>&#xFB58</p><p>g.peh.init</p></li>
+<li><p>&#xFE95</p><p>g.teh.isol</p></li>
+<li><p>&#xFE96</p><p>g.teh.fina</p></li>
+<li><p>&#xFE98</p><p>g.teh.medi</p></li>
+<li><p>&#xFE97</p><p>g.teh.init</p></li>
+<li><p>&#xFE99</p><p>g.seh.isol</p></li>
+<li><p>&#xFE9A</p><p>g.seh.fina</p></li>
+<li><p>&#xFE9C</p><p>g.seh.medi</p></li>
+<li><p>&#xFE9B</p><p>g.seh.init</p></li>
+<li><p>&#xFE9D</p><p>g.jim.isol</p></li>
+<li><p>&#xFE9E</p><p>g.jim.fina</p></li>
+<li><p>&#xFEA0</p><p>g.jim.medi</p></li>
+<li><p>&#xFE9F</p><p>g.jim.init</p></li>
+<li><p>&#xFB7A</p><p>g.cheh.isol</p></li>
+<li><p>&#xFB7B</p><p>g.cheh.fina</p></li>
+<li><p>&#xFB7D</p><p>g.cheh.medi</p></li>
+<li><p>&#xFB7C</p><p>g.cheh.init</p></li>
+<li><p>&#xFEA1</p><p>g.heh.isol</p></li>
+<li><p>&#xFEA2</p><p>g.heh.fina</p></li>
+<li><p>&#xFEA4</p><p>g.heh.medi</p></li>
+<li><p>&#xFEA3</p><p>g.heh.init</p></li>
+<li><p>&#xFEA5</p><p>g.kheh.isol</p></li>
+<li><p>&#xFEA6</p><p>g.kheh.fina</p></li>
+<li><p>&#xFEA8</p><p>g.kheh.medi</p></li>
+<li><p>&#xFEA7</p><p>g.kheh.init</p></li>
+
+<li><p>&#xFEA9</p><p>g.dal.isol</p></li>
+<li><p>&#xFEAA</p><p>g.dal.fina</p></li>
+
+<li><p>&#xFEAB</p><p>g.zal.isol</p></li>
+<li><p>&#xFEAC</p><p>g.zal.fina</p></li>
+
+<li><p>&#xFEAD</p><p>g.ree.isol</p></li>
+<li><p>&#xFEAE</p><p>g.ree.fina</p></li>
+
+<li><p>&#xFEAF</p><p>g.zeh.isol</p></li>
+<li><p>&#xFEB0</p><p>g.zeh.fina</p></li>
+
+<li><p>&#xFB8A</p><p>g.zheh.isol</p></li>
+<li><p>&#xFB8B</p><p>g.zheh.fina</p></li>
+
+<li><p>&#xFEB1</p><p>g.sin.isol</p></li>
+<li><p>&#xFEB2</p><p>g.sin.fina</p></li>
+<li><p>&#xFEB4</p><p>g.sin.medi</p></li>
+<li><p>&#xFEB3</p><p>g.sin.init</p></li>
+
+<li><p>&#xFEB5</p><p>g.shin.isol</p></li>
+<li><p>&#xFEB6</p><p>g.shin.fina</p></li>
+<li><p>&#xFEB8</p><p>g.shin.medi</p></li>
+<li><p>&#xFEB7</p><p>g.shin.init</p></li>
+
+<li><p>&#xFEB9</p><p>g.sad.isol</p></li>
+<li><p>&#xFEBA</p><p>g.sad.fina</p></li>
+<li><p>&#xFEBC</p><p>g.sad.medi</p></li>
+<li><p>&#xFEBB</p><p>g.sad.init</p></li>                     
+<li><p>&#xFEBD</p><p>g.zad.isol</p></li>
+<li><p>&#xFEBE</p><p>g.zad.fina</p></li>
+<li><p>&#xFEC0</p><p>g.zad.medi</p></li>
+<li><p>&#xFEBF</p><p>g.zad.init</p></li>
+<li><p>&#xFEC1</p><p>g.taa.isol</p></li>
+<li><p>&#xFEC2</p><p>g.taa.fina</p></li>
+<li><p>&#xFEC4</p><p>g.taa.medi</p></li>
+<li><p>&#xFEC3</p><p>g.taa.init</p></li>
+<li><p>&#xFEC5</p><p>g.zaa.isol</p></li>
+<li><p>&#xFEC6</p><p>g.zaa.fina</p></li>
+<li><p>&#xFEC8</p><p>g.zaa.medi</p></li>
+<li><p>&#xFEC7</p><p>g.zaa.init</p></li>
+<li><p>&#xFEC9</p><p>g.ein.isol</p></li>
+<li><p>&#xFECA</p><p>g.ein.fina</p></li>
+<li><p>&#xFECC</p><p>g.ein.medi</p></li>
+<li><p>&#xFECB</p><p>g.ein.init</p></li>
+<li><p>&#xFECD</p><p>g.gein.isol</p></li>
+<li><p>&#xFECE</p><p>g.gein.fina</p></li>
+<li><p>&#xFED0</p><p>g.gein.medi</p></li>
+<li><p>&#xFECF</p><p>g.gein.init</p></li>
+<li><p>&#xFED1</p><p>g.feh.isol</p></li>
+<li><p>&#xFED2</p><p>g.feh.fina</p></li>
+<li><p>&#xFED4</p><p>g.feh.medi</p></li>
+<li><p>&#xFED3</p><p>g.feh.init</p></li>
+<li><p>&#xFED5</p><p>g.ghaf.isol</p></li>
+<li><p>&#xFED6</p><p>g.ghaf.fina</p></li>
+<li><p>&#xFED8</p><p>g.ghaf.medi</p></li>
+<li><p>&#xFED7</p><p>g.ghaf.init</p></li>
+<li><p>&#xFB8E</p><p>g.kaf.isol.fa</p></li>
+<li><p>&#xFB8F</p><p>g.kaf.fina.fa</p></li>
+<li><p>&#xFB91</p><p>g.kaf.medi.fa</p></li>
+<li><p>&#xFB90</p><p>g.kaf.init.fa</p></li>
+<li><p>&#xFEDA</p><p>g.kaf.fina.ar</p></li>
+<li><p>&#xFED9</p><p>g.kaf.isol.ar</p></li>
+<li><p>&#xFEDC</p><p>g.kaf.medi.ar</p></li>
+<li><p>&#xFEDB</p><p>g.kaf.init.ar</p></li>
+<li><p>&#xFB92</p><p>g.gaf.isol</p></li>
+<li><p>&#xFB93</p><p>g.gaf.fina</p></li>
+<li><p>&#xFB95</p><p>g.gaf.medi</p></li>
+<li><p>&#xFB94</p><p>g.gaf.init</p></li>
+<li><p>&#xFEDD</p><p>g.lam.isol</p></li>
+<li><p>&#xFEDE</p><p>g.lam.fina</p></li>
+<li><p>&#xFEE0</p><p>g.lam.medi</p></li>
+<li><p>&#xFEDF</p><p>g.lam.init</p></li>
+<li><p>&#xFEE1</p><p>g.mim.isol</p></li>
+<li><p>&#xFEE2</p><p>g.mim.fina</p></li>
+<li><p>&#xFEE4</p><p>g.mim.medi</p></li>
+<li><p>&#xFEE3</p><p>g.mim.init</p></li>
+<li><p>&#xFEE5</p><p>g.nun.isol</p></li>
+<li><p>&#xFEE6</p><p>g.nun.fina</p></li>
+<li><p>&#xFEE8</p><p>g.nun.medi</p></li>
+<li><p>&#xFEE7</p><p>g.nun.init</p></li>
+
+<li><p>&#xFEED</p><p>g.vav.isol</p></li>
+<li><p>&#xFEEE</p><p>g.vav.fina</p></li>
+<li><p>&#x0624</p><p>c.vav_hamzeUp</p></li>
+<li><p>&#xFE85</p><p>g.vav_hamzeUp.isol</p></li>
+<li><p>&#xFE86</p><p>g.vav_hamzeUp.fina</p></li>
+<li><p>&#xFEE9</p><p>g.he8.isol</p></li>
+<li><p>&#xFEEA</p><p>g.he8.fina</p></li>
+<li><p>&#xFEEC</p><p>g.he8.medi</p></li>
+<li><p>&#xFEEB</p><p>g.he8.init</p></li>
+
+<li><p>&#xFBA4</p><p>g.he_yeh.isol</p></li>
+<li><p>&#xFBA5</p><p>g.he_yeh.fina</p></li>
+
+<li><p>&#xFBFC</p><p>g.yeh.isol.fa</p></li>
+<li><p>&#xFBFD</p><p>g.yeh.fina.fa</p></li>
+<li><p>&#xFBFF</p><p>g.yeh.medi.fa</p></li>
+<li><p>&#xFBFE</p><p>g.yeh.init.fa</p></li>
+
+<li><p>&#xFE89</p><p>g.yeh_hamze.isol</p></li>
+<li><p>&#xFE8A</p><p>g.yeh_hamze.fina</p></li>
+<li><p>&#xFE8C</p><p>g.yeh_hamze.medi</p></li>
+<li><p>&#xFE8B</p><p>g.yeh_hamze.init</p></li>
+
+<li><p>&#xFEF1</p><p>g.yeh.isol.ar</p></li>
+<li><p>&#xFEF2</p><p>g.yeh.fina.ar</p></li>
+<li><p>&#xFEF4</p><p>g.yeh.medi.ar</p></li>
+<li><p>&#xFEF3</p><p>g.yeh.init.ar</p></li>
+
+<li><p>&#xFEEF</p><p>g.yeh_maksure.isol</p></li>
+<li><p>&#xFEF0</p><p>g.yeh_maksure.fina</p></li>
+
+
+                        </ul>
+
+                    
+                </div>                  
+
+                             <div class="box">
+                    <div class="Header">
+                        لیگچرها
+                    </div>
+                    <ul class="body">
+
+<li><p>&#xFEFB</p><p>l.laa.isol</p></li>
+<li><p>&#xFEFC</p><p>l.laa.fina</p></li>
+<li><p>&#xFDF2</p><p>l.allah</p></li>
+
+                        </ul>
+
+                    
+                </div>     
+                
+          </div>
+
+          <!-- Kerning -->
+          <div id="kern">
+                <ul><li>آأآ</li><li>آإآ</li><li>آاآ</li><li>آؤآ</li><li>آوآ</li><li>آئآ</li><li>آیآ</li><li>آبآ</li><li>آتآ</li><li>آثآ</li><li>آ‍آ</li><li>آپآ</li><li>آجآ</li><li>آحآ</li><li>آخآ</li><li>آچآ</li><li>آدآ</li><li>آذآ</li><li>آرآ</li><li>آزآ</li><li>آژآ</li><li>آسآ</li><li>آشآ</li><li>آصآ</li><li>آضآ</li><li>آطآ</li><li>آ‬آ</li><li>آظآ</li><li>آعآ</li><li>آغآ</li><li>آفآ</li><li>آقآ</li><li>آكآ</li><li>آکآ</li><li>آگآ</li><li>آمآ</li><li>آنآ</li></ul>
+                <ul><li>أآأ</li><li>أإأ</li><li>أاأ</li><li>أؤأ</li><li>أوأ</li><li>أئأ</li><li>أیأ</li><li>أبأ</li><li>أتأ</li><li>أثأ</li><li>أ‍أ</li><li>أپأ</li><li>أجأ</li><li>أحأ</li><li>أخأ</li><li>أچأ</li><li>أدأ</li><li>أذأ</li><li>أرأ</li><li>أزأ</li><li>أژأ</li><li>أسأ</li><li>أشأ</li><li>أصأ</li><li>أضأ</li><li>أطأ</li><li>أ‬أ</li><li>أظأ</li><li>أعأ</li><li>أغأ</li><li>أفأ</li><li>أقأ</li><li>أكأ</li><li>أکأ</li><li>أگأ</li><li>أمأ</li><li>أنأ</li></ul>
+                <ul><li>إآإ</li><li>إأإ</li><li>إاإ</li><li>إؤإ</li><li>إوإ</li><li>إئإ</li><li>إیإ</li><li>إبإ</li><li>إتإ</li><li>إثإ</li><li>إ‍إ</li><li>إپإ</li><li>إجإ</li><li>إحإ</li><li>إخإ</li><li>إچإ</li><li>إدإ</li><li>إذإ</li><li>إرإ</li><li>إزإ</li><li>إژإ</li><li>إسإ</li><li>إشإ</li><li>إصإ</li><li>إضإ</li><li>إطإ</li><li>إ‬إ</li><li>إظإ</li><li>إعإ</li><li>إغإ</li><li>إفإ</li><li>إقإ</li><li>إكإ</li><li>إکإ</li><li>إگإ</li><li>إمإ</li><li>إنإ</li></ul>
+                <ul><li>اآا</li><li>اأا</li><li>اإا</li><li>ااا</li><li>اؤا</li><li>اوا</li><li>ائا</li><li>ایا</li><li>ابا</li><li>اتا</li><li>اثا</li><li>ا‍ا</li><li>اپا</li><li>اجا</li><li>احا</li><li>اخا</li><li>اچا</li><li>ادا</li><li>اذا</li><li>ارا</li><li>ازا</li><li>اژا</li><li>اسا</li><li>اشا</li><li>اصا</li><li>اضا</li><li>اطا</li><li>ا‬ا</li><li>اظا</li><li>اعا</li><li>اغا</li><li>افا</li><li>اقا</li><li>اكا</li><li>اکا</li><li>اگا</li><li>اما</li><li>انا</li></ul>
+                <ul><li>ؤآؤ</li><li>ؤأؤ</li><li>ؤإؤ</li><li>ؤاؤ</li><li>ؤؤؤ</li><li>ؤوؤ</li><li>ؤئؤ</li><li>ؤیؤ</li><li>ؤبؤ</li><li>ؤتؤ</li><li>ؤثؤ</li><li>ؤ‍ؤ</li><li>ؤپؤ</li><li>ؤجؤ</li><li>ؤحؤ</li><li>ؤخؤ</li><li>ؤچؤ</li><li>ؤدؤ</li><li>ؤذؤ</li><li>ؤرؤ</li><li>ؤزؤ</li><li>ؤژؤ</li><li>ؤسؤ</li><li>ؤشؤ</li><li>ؤصؤ</li><li>ؤضؤ</li><li>ؤطؤ</li><li>ؤ‬ؤ</li><li>ؤظؤ</li><li>ؤعؤ</li><li>ؤغؤ</li><li>ؤفؤ</li><li>ؤقؤ</li><li>ؤكؤ</li><li>ؤکؤ</li><li>ؤگؤ</li><li>ؤمؤ</li><li>ؤنؤ</li></ul>
+                <ul><li>وآو</li><li>وأو</li><li>وإو</li><li>واو</li><li>وؤو</li><li>ووو</li><li>وئو</li><li>ویو</li><li>وبو</li><li>وتو</li><li>وثو</li><li>و‍و</li><li>وپو</li><li>وجو</li><li>وحو</li><li>وخو</li><li>وچو</li><li>ودو</li><li>وذو</li><li>ورو</li><li>وزو</li><li>وژو</li><li>وسو</li><li>وشو</li><li>وصو</li><li>وضو</li><li>وطو</li><li>و‬و</li><li>وظو</li><li>وعو</li><li>وغو</li><li>وفو</li><li>وقو</li><li>وكو</li><li>وکو</li><li>وگو</li><li>ومو</li><li>ونو</li></ul>
+                <ul><li>ئآئ</li><li>ئأئ</li><li>ئإئ</li><li>ئائ</li><li>ئؤئ</li><li>ئوئ</li><li>ئدئ</li><li>ئذئ</li><li>ئرئ</li><li>ئزئ</li><li>ئژئ</li></ul>
+                <ul><li>یآی</li><li>یأی</li><li>یإی</li><li>یای</li><li>یؤی</li><li>یوی</li><li>یدی</li><li>یذی</li><li>یری</li><li>یزی</li><li>یژی</li></ul>
+                <ul><li>بآب</li><li>بأب</li><li>بإب</li><li>باب</li><li>بؤب</li><li>بوب</li><li>بدب</li><li>بذب</li><li>برب</li><li>بزب</li><li>بژب</li></ul>
+                <ul><li>تآت</li><li>تأت</li><li>تإت</li><li>تات</li><li>تؤت</li><li>توت</li><li>تدت</li><li>تذت</li><li>ترت</li><li>تزت</li><li>تژت</li></ul>
+                <ul><li>ثآث</li><li>ثأث</li><li>ثإث</li><li>ثاث</li><li>ثؤث</li><li>ثوث</li><li>ثدث</li><li>ثذث</li><li>ثرث</li><li>ثزث</li><li>ثژث</li></ul>
+                <ul><li>پآپ</li><li>پأپ</li><li>پإپ</li><li>پاپ</li><li>پؤپ</li><li>پوپ</li><li>پدپ</li><li>پذپ</li><li>پرپ</li><li>پزپ</li><li>پژپ</li></ul>
+                <ul><li>جآج</li><li>جأج</li><li>جإج</li><li>جاج</li><li>جؤج</li><li>جوج</li><li>جدج</li><li>جذج</li><li>جرج</li><li>جزج</li><li>جژج</li></ul>
+                <ul><li>حآح</li><li>حأح</li><li>حإح</li><li>حاح</li><li>حؤح</li><li>حوح</li><li>حدح</li><li>حذح</li><li>حرح</li><li>حزح</li><li>حژح</li></ul>
+                <ul><li>خآخ</li><li>خأخ</li><li>خإخ</li><li>خاخ</li><li>خؤخ</li><li>خوخ</li><li>خدخ</li><li>خذخ</li><li>خرخ</li><li>خزخ</li><li>خژخ</li></ul>
+                <ul><li>چآچ</li><li>چأچ</li><li>چإچ</li><li>چاچ</li><li>چؤچ</li><li>چوچ</li><li>چدچ</li><li>چذچ</li><li>چرچ</li><li>چزچ</li><li>چژچ</li></ul>
+                <ul><li>دآد</li><li>دأد</li><li>دإد</li><li>داد</li><li>دؤد</li><li>دود</li><li>دئد</li><li>دید</li><li>دبد</li><li>دتد</li><li>دثد</li><li>د‍د</li><li>دپد</li><li>دجد</li><li>دحد</li><li>دخد</li><li>دچد</li><li>ددد</li><li>دذد</li><li>درد</li><li>دزد</li><li>دژد</li><li>دسد</li><li>دشد</li><li>دصد</li><li>دضد</li><li>دطد</li><li>د‬د</li><li>دظد</li><li>دعد</li><li>دغد</li><li>دفد</li><li>دقد</li><li>دكد</li><li>دکد</li><li>دگد</li><li>دمد</li><li>دند</li></ul>
+                <ul><li>ذءذ</li><li>ذآذ</li><li>ذأذ</li><li>ذإذ</li><li>ذاذ</li><li>ذؤذ</li><li>ذوذ</li><li>ذئذ</li><li>ذیذ</li><li>ذبذ</li><li>ذتذ</li><li>ذثذ</li><li>ذ‍ذ</li><li>ذپذ</li><li>ذجذ</li><li>ذحذ</li><li>ذخذ</li><li>ذچذ</li><li>ذدذ</li><li>ذذذ</li><li>ذرذ</li><li>ذزذ</li><li>ذژذ</li><li>ذسذ</li><li>ذشذ</li><li>ذصذ</li><li>ذضذ</li><li>ذطذ</li><li>ذ‬ذ</li><li>ذظذ</li><li>ذعذ</li><li>ذغذ</li><li>ذفذ</li><li>ذقذ</li><li>ذكذ</li><li>ذکذ</li><li>ذگذ</li><li>ذمذ</li><li>ذنذ</li></ul>
+                <ul><li>رءر</li><li>رآر</li><li>رأر</li><li>رإر</li><li>رار</li><li>رؤر</li><li>رور</li><li>رئر</li><li>ریر</li><li>ربر</li><li>رتر</li><li>رثر</li><li>ر‍ر</li><li>رپر</li><li>رجر</li><li>رحر</li><li>رخر</li><li>رچر</li><li>ردر</li><li>رذر</li><li>ررر</li><li>رزر</li><li>رژر</li><li>رسر</li><li>رشر</li><li>رصر</li><li>رضر</li><li>رطر</li><li>ر‬ر</li><li>رظر</li><li>رعر</li><li>رغر</li><li>رفر</li><li>رقر</li><li>ركر</li><li>رکر</li><li>رگر</li><li>رمر</li><li>رنر</li></ul>
+                <ul><li>زءز</li><li>زآز</li><li>زأز</li><li>زإز</li><li>زاز</li><li>زؤز</li><li>زوز</li><li>زئز</li><li>زیز</li><li>زبز</li><li>زتز</li><li>زثز</li><li>ز‍ز</li><li>زپز</li><li>زجز</li><li>زحز</li><li>زخز</li><li>زچز</li><li>زدز</li><li>زذز</li><li>زرز</li><li>ززز</li><li>زژز</li><li>زسز</li><li>زشز</li><li>زصز</li><li>زضز</li><li>زطز</li><li>ز‬ز</li><li>زظز</li><li>زعز</li><li>زغز</li><li>زفز</li><li>زقز</li><li>زكز</li><li>زکز</li><li>زگز</li><li>زمز</li><li>زنز</li></ul>
+                <ul><li>ژءژ</li><li>ژآژ</li><li>ژأژ</li><li>ژإژ</li><li>ژاژ</li><li>ژؤژ</li><li>ژوژ</li><li>ژئژ</li><li>ژیژ</li><li>ژبژ</li><li>ژتژ</li><li>ژثژ</li><li>ژ‍ژ</li><li>ژپژ</li><li>ژجژ</li><li>ژحژ</li><li>ژخژ</li><li>ژچژ</li><li>ژدژ</li><li>ژذژ</li><li>ژرژ</li><li>ژزژ</li><li>ژژژ</li><li>ژسژ</li><li>ژشژ</li><li>ژصژ</li><li>ژضژ</li><li>ژطژ</li><li>ژ‬ژ</li><li>ژظژ</li><li>ژعژ</li><li>ژغژ</li><li>ژفژ</li><li>ژقژ</li><li>ژكژ</li><li>ژکژ</li><li>ژگژ</li><li>ژمژ</li><li>ژنژ</li></ul>
+                <ul><li>سآس</li><li>سأس</li><li>سإس</li><li>ساس</li><li>سؤس</li><li>سوس</li><li>سدس</li><li>سذس</li><li>سرس</li><li>سزس</li><li>سژس</li></ul>
+                <ul><li>شآش</li><li>شأش</li><li>شإش</li><li>شاش</li><li>شؤش</li><li>شوش</li><li>شدش</li><li>شذش</li><li>شرش</li><li>شزش</li><li>شژش</li></ul>
+                <ul><li>صآص</li><li>صأص</li><li>صإص</li><li>صاص</li><li>صؤص</li><li>صوص</li><li>صدص</li><li>صذص</li><li>صرص</li><li>صزص</li><li>صژص</li></ul>
+                <ul><li>ضآض</li><li>ضأض</li><li>ضإض</li><li>ضاض</li><li>ضؤض</li><li>ضوض</li><li>ضدض</li><li>ضذض</li><li>ضرض</li><li>ضزض</li><li>ضژض</li></ul>
+                <ul><li>طآط</li><li>طأط</li><li>طإط</li><li>طاط</li><li>طؤط</li><li>طوط</li><li>طدط</li><li>طذط</li><li>طرط</li><li>طزط</li><li>طژط</li></ul>
+                <ul><li>ظآظ</li><li>ظأظ</li><li>ظإظ</li><li>ظاظ</li><li>ظؤظ</li><li>ظوظ</li><li>ظدظ</li><li>ظذظ</li><li>ظرظ</li><li>ظزظ</li><li>ظژظ</li></ul>
+                <ul><li>عآع</li><li>عأع</li><li>عإع</li><li>عاع</li><li>عؤع</li><li>عوع</li><li>عدع</li><li>عذع</li><li>عرع</li><li>عزع</li><li>عژع</li></ul>
+                <ul><li>غآغ</li><li>غأغ</li><li>غإغ</li><li>غاغ</li><li>غؤغ</li><li>غوغ</li><li>غدغ</li><li>غذغ</li><li>غرغ</li><li>غزغ</li><li>غژغ</li></ul>
+                <ul><li>فآف</li><li>فأف</li><li>فإف</li><li>فاف</li><li>فؤف</li><li>فوف</li><li>فدف</li><li>فذف</li><li>فرف</li><li>فزف</li><li>فژف</li></ul>
+                <ul><li>قآق</li><li>قأق</li><li>قإق</li><li>قاق</li><li>قؤق</li><li>قوق</li><li>قدق</li><li>قذق</li><li>قرق</li><li>قزق</li><li>قژق</li></ul>
+                <ul><li>كآك</li><li>كأك</li><li>كإك</li><li>كاك</li><li>كؤك</li><li>كوك</li><li>كدك</li><li>كذك</li><li>كرك</li><li>كزك</li><li>كژك</li></ul>
+                <ul><li>کآک</li><li>کأک</li><li>کإک</li><li>کاک</li><li>کؤک</li><li>کوک</li><li>کدک</li><li>کذک</li><li>کرک</li><li>کزک</li><li>کژک</li></ul>
+                <ul><li>گآگ</li><li>گأگ</li><li>گإگ</li><li>گاگ</li><li>گؤگ</li><li>گوگ</li><li>گدگ</li><li>گذگ</li><li>گرگ</li><li>گزگ</li><li>گژگ</li></ul>
+                <ul><li>مآم</li><li>مأم</li><li>مإم</li><li>مام</li><li>مؤم</li><li>موم</li><li>مدم</li><li>مذم</li><li>مرم</li><li>مزم</li><li>مژم</li></ul>
+                <ul><li>نآن</li><li>نأن</li><li>نإن</li><li>نان</li><li>نؤن</li><li>نون</li><li>ندن</li><li>نذن</li><li>نرن</li><li>نزن</li><li>نژن</li></ul>
+          </div>
+
+          <!-- connections -->
+        <div id="connections">
+            
+            <ul><li>آأآ</li><li>آإآ</li><li>آاآ</li><li>آؤآ</li><li>آوآ</li><li>آئآ</li><li>آیآ</li><li>آبآ</li><li>آتآ</li><li>آثآ</li><li>آ‍آ</li><li>آپآ</li><li>آجآ</li><li>آحآ</li><li>آخآ</li><li>آچآ</li><li>آدآ</li><li>آذآ</li><li>آرآ</li><li>آزآ</li><li>آژآ</li><li>آسآ</li><li>آشآ</li><li>آصآ</li><li>آضآ</li><li>آطآ</li><li>آ‬آ</li><li>آظآ</li><li>آعآ</li><li>آغآ</li><li>آفآ</li><li>آقآ</li><li>آكآ</li><li>آکآ</li><li>آگآ</li><li>آمآ</li><li>آنآ</li></ul>
+            <ul><li>أآأ</li><li>أإأ</li><li>أاأ</li><li>أؤأ</li><li>أوأ</li><li>أئأ</li><li>أیأ</li><li>أبأ</li><li>أتأ</li><li>أثأ</li><li>أ‍أ</li><li>أپأ</li><li>أجأ</li><li>أحأ</li><li>أخأ</li><li>أچأ</li><li>أدأ</li><li>أذأ</li><li>أرأ</li><li>أزأ</li><li>أژأ</li><li>أسأ</li><li>أشأ</li><li>أصأ</li><li>أضأ</li><li>أطأ</li><li>أ‬أ</li><li>أظأ</li><li>أعأ</li><li>أغأ</li><li>أفأ</li><li>أقأ</li><li>أكأ</li><li>أکأ</li><li>أگأ</li><li>أمأ</li><li>أنأ</li></ul>
+            <ul><li>إآإ</li><li>إأإ</li><li>إاإ</li><li>إؤإ</li><li>إوإ</li><li>إئإ</li><li>إیإ</li><li>إبإ</li><li>إتإ</li><li>إثإ</li><li>إ‍إ</li><li>إپإ</li><li>إجإ</li><li>إحإ</li><li>إخإ</li><li>إچإ</li><li>إدإ</li><li>إذإ</li><li>إرإ</li><li>إزإ</li><li>إژإ</li><li>إسإ</li><li>إشإ</li><li>إصإ</li><li>إضإ</li><li>إطإ</li><li>إ‬إ</li><li>إظإ</li><li>إعإ</li><li>إغإ</li><li>إفإ</li><li>إقإ</li><li>إكإ</li><li>إکإ</li><li>إگإ</li><li>إمإ</li><li>إنإ</li></ul>
+            <ul><li>اآا</li><li>اأا</li><li>اإا</li><li>ااا</li><li>اؤا</li><li>اوا</li><li>ائا</li><li>ایا</li><li>ابا</li><li>اتا</li><li>اثا</li><li>ا‍ا</li><li>اپا</li><li>اجا</li><li>احا</li><li>اخا</li><li>اچا</li><li>ادا</li><li>اذا</li><li>ارا</li><li>ازا</li><li>اژا</li><li>اسا</li><li>اشا</li><li>اصا</li><li>اضا</li><li>اطا</li><li>ا‬ا</li><li>اظا</li><li>اعا</li><li>اغا</li><li>افا</li><li>اقا</li><li>اكا</li><li>اکا</li><li>اگا</li><li>اما</li><li>انا</li></ul>
+            <ul><li>ؤآؤ</li><li>ؤأؤ</li><li>ؤإؤ</li><li>ؤاؤ</li><li>ؤؤؤ</li><li>ؤوؤ</li><li>ؤئؤ</li><li>ؤیؤ</li><li>ؤبؤ</li><li>ؤتؤ</li><li>ؤثؤ</li><li>ؤ‍ؤ</li><li>ؤپؤ</li><li>ؤجؤ</li><li>ؤحؤ</li><li>ؤخؤ</li><li>ؤچؤ</li><li>ؤدؤ</li><li>ؤذؤ</li><li>ؤرؤ</li><li>ؤزؤ</li><li>ؤژؤ</li><li>ؤسؤ</li><li>ؤشؤ</li><li>ؤصؤ</li><li>ؤضؤ</li><li>ؤطؤ</li><li>ؤ‬ؤ</li><li>ؤظؤ</li><li>ؤعؤ</li><li>ؤغؤ</li><li>ؤفؤ</li><li>ؤقؤ</li><li>ؤكؤ</li><li>ؤکؤ</li><li>ؤگؤ</li><li>ؤمؤ</li><li>ؤنؤ</li></ul>
+            <ul><li>وآو</li><li>وأو</li><li>وإو</li><li>واو</li><li>وؤو</li><li>ووو</li><li>وئو</li><li>ویو</li><li>وبو</li><li>وتو</li><li>وثو</li><li>و‍و</li><li>وپو</li><li>وجو</li><li>وحو</li><li>وخو</li><li>وچو</li><li>ودو</li><li>وذو</li><li>ورو</li><li>وزو</li><li>وژو</li><li>وسو</li><li>وشو</li><li>وصو</li><li>وضو</li><li>وطو</li><li>و‬و</li><li>وظو</li><li>وعو</li><li>وغو</li><li>وفو</li><li>وقو</li><li>وكو</li><li>وکو</li><li>وگو</li><li>ومو</li><li>ونو</li></ul>
+            <ul><li>ئآئ</li><li>ئأئ</li><li>ئإئ</li><li>ئائ</li><li>ئؤئ</li><li>ئوئ</li><li>ئدئ</li><li>ئذئ</li><li>ئرئ</li><li>ئزئ</li><li>ئژئ</li></ul>
+            <ul><li>یآی</li><li>یأی</li><li>یإی</li><li>یای</li><li>یؤی</li><li>یوی</li><li>یدی</li><li>یذی</li><li>یری</li><li>یزی</li><li>یژی</li></ul>
+            <ul><li>بآب</li><li>بأب</li><li>بإب</li><li>باب</li><li>بؤب</li><li>بوب</li><li>بدب</li><li>بذب</li><li>برب</li><li>بزب</li><li>بژب</li></ul>
+            <ul><li>تآت</li><li>تأت</li><li>تإت</li><li>تات</li><li>تؤت</li><li>توت</li><li>تدت</li><li>تذت</li><li>ترت</li><li>تزت</li><li>تژت</li></ul>
+            <ul><li>ثآث</li><li>ثأث</li><li>ثإث</li><li>ثاث</li><li>ثؤث</li><li>ثوث</li><li>ثدث</li><li>ثذث</li><li>ثرث</li><li>ثزث</li><li>ثژث</li></ul>
+            <ul><li>پآپ</li><li>پأپ</li><li>پإپ</li><li>پاپ</li><li>پؤپ</li><li>پوپ</li><li>پدپ</li><li>پذپ</li><li>پرپ</li><li>پزپ</li><li>پژپ</li></ul>
+            <ul><li>جآج</li><li>جأج</li><li>جإج</li><li>جاج</li><li>جؤج</li><li>جوج</li><li>جدج</li><li>جذج</li><li>جرج</li><li>جزج</li><li>جژج</li></ul>
+            <ul><li>حآح</li><li>حأح</li><li>حإح</li><li>حاح</li><li>حؤح</li><li>حوح</li><li>حدح</li><li>حذح</li><li>حرح</li><li>حزح</li><li>حژح</li></ul>
+            <ul><li>خآخ</li><li>خأخ</li><li>خإخ</li><li>خاخ</li><li>خؤخ</li><li>خوخ</li><li>خدخ</li><li>خذخ</li><li>خرخ</li><li>خزخ</li><li>خژخ</li></ul>
+            <ul><li>چآچ</li><li>چأچ</li><li>چإچ</li><li>چاچ</li><li>چؤچ</li><li>چوچ</li><li>چدچ</li><li>چذچ</li><li>چرچ</li><li>چزچ</li><li>چژچ</li></ul>
+            <ul><li>دآد</li><li>دأد</li><li>دإد</li><li>داد</li><li>دؤد</li><li>دود</li><li>دئد</li><li>دید</li><li>دبد</li><li>دتد</li><li>دثد</li><li>د‍د</li><li>دپد</li><li>دجد</li><li>دحد</li><li>دخد</li><li>دچد</li><li>ددد</li><li>دذد</li><li>درد</li><li>دزد</li><li>دژد</li><li>دسد</li><li>دشد</li><li>دصد</li><li>دضد</li><li>دطد</li><li>د‬د</li><li>دظد</li><li>دعد</li><li>دغد</li><li>دفد</li><li>دقد</li><li>دكد</li><li>دکد</li><li>دگد</li><li>دمد</li><li>دند</li></ul>
+            <ul><li>ذءذ</li><li>ذآذ</li><li>ذأذ</li><li>ذإذ</li><li>ذاذ</li><li>ذؤذ</li><li>ذوذ</li><li>ذئذ</li><li>ذیذ</li><li>ذبذ</li><li>ذتذ</li><li>ذثذ</li><li>ذ‍ذ</li><li>ذپذ</li><li>ذجذ</li><li>ذحذ</li><li>ذخذ</li><li>ذچذ</li><li>ذدذ</li><li>ذذذ</li><li>ذرذ</li><li>ذزذ</li><li>ذژذ</li><li>ذسذ</li><li>ذشذ</li><li>ذصذ</li><li>ذضذ</li><li>ذطذ</li><li>ذ‬ذ</li><li>ذظذ</li><li>ذعذ</li><li>ذغذ</li><li>ذفذ</li><li>ذقذ</li><li>ذكذ</li><li>ذکذ</li><li>ذگذ</li><li>ذمذ</li><li>ذنذ</li></ul>
+            <ul><li>رءر</li><li>رآر</li><li>رأر</li><li>رإر</li><li>رار</li><li>رؤر</li><li>رور</li><li>رئر</li><li>ریر</li><li>ربر</li><li>رتر</li><li>رثر</li><li>ر‍ر</li><li>رپر</li><li>رجر</li><li>رحر</li><li>رخر</li><li>رچر</li><li>ردر</li><li>رذر</li><li>ررر</li><li>رزر</li><li>رژر</li><li>رسر</li><li>رشر</li><li>رصر</li><li>رضر</li><li>رطر</li><li>ر‬ر</li><li>رظر</li><li>رعر</li><li>رغر</li><li>رفر</li><li>رقر</li><li>ركر</li><li>رکر</li><li>رگر</li><li>رمر</li><li>رنر</li></ul>
+            <ul><li>زءز</li><li>زآز</li><li>زأز</li><li>زإز</li><li>زاز</li><li>زؤز</li><li>زوز</li><li>زئز</li><li>زیز</li><li>زبز</li><li>زتز</li><li>زثز</li><li>ز‍ز</li><li>زپز</li><li>زجز</li><li>زحز</li><li>زخز</li><li>زچز</li><li>زدز</li><li>زذز</li><li>زرز</li><li>ززز</li><li>زژز</li><li>زسز</li><li>زشز</li><li>زصز</li><li>زضز</li><li>زطز</li><li>ز‬ز</li><li>زظز</li><li>زعز</li><li>زغز</li><li>زفز</li><li>زقز</li><li>زكز</li><li>زکز</li><li>زگز</li><li>زمز</li><li>زنز</li></ul>
+            <ul><li>ژءژ</li><li>ژآژ</li><li>ژأژ</li><li>ژإژ</li><li>ژاژ</li><li>ژؤژ</li><li>ژوژ</li><li>ژئژ</li><li>ژیژ</li><li>ژبژ</li><li>ژتژ</li><li>ژثژ</li><li>ژ‍ژ</li><li>ژپژ</li><li>ژجژ</li><li>ژحژ</li><li>ژخژ</li><li>ژچژ</li><li>ژدژ</li><li>ژذژ</li><li>ژرژ</li><li>ژزژ</li><li>ژژژ</li><li>ژسژ</li><li>ژشژ</li><li>ژصژ</li><li>ژضژ</li><li>ژطژ</li><li>ژ‬ژ</li><li>ژظژ</li><li>ژعژ</li><li>ژغژ</li><li>ژفژ</li><li>ژقژ</li><li>ژكژ</li><li>ژکژ</li><li>ژگژ</li><li>ژمژ</li><li>ژنژ</li></ul>
+            <ul><li>سآس</li><li>سأس</li><li>سإس</li><li>ساس</li><li>سؤس</li><li>سوس</li><li>سدس</li><li>سذس</li><li>سرس</li><li>سزس</li><li>سژس</li></ul>
+            <ul><li>شآش</li><li>شأش</li><li>شإش</li><li>شاش</li><li>شؤش</li><li>شوش</li><li>شدش</li><li>شذش</li><li>شرش</li><li>شزش</li><li>شژش</li></ul>
+            <ul><li>صآص</li><li>صأص</li><li>صإص</li><li>صاص</li><li>صؤص</li><li>صوص</li><li>صدص</li><li>صذص</li><li>صرص</li><li>صزص</li><li>صژص</li></ul>
+            <ul><li>ضآض</li><li>ضأض</li><li>ضإض</li><li>ضاض</li><li>ضؤض</li><li>ضوض</li><li>ضدض</li><li>ضذض</li><li>ضرض</li><li>ضزض</li><li>ضژض</li></ul>
+            <ul><li>طآط</li><li>طأط</li><li>طإط</li><li>طاط</li><li>طؤط</li><li>طوط</li><li>طدط</li><li>طذط</li><li>طرط</li><li>طزط</li><li>طژط</li></ul>
+            <ul><li>ظآظ</li><li>ظأظ</li><li>ظإظ</li><li>ظاظ</li><li>ظؤظ</li><li>ظوظ</li><li>ظدظ</li><li>ظذظ</li><li>ظرظ</li><li>ظزظ</li><li>ظژظ</li></ul>
+            <ul><li>عآع</li><li>عأع</li><li>عإع</li><li>عاع</li><li>عؤع</li><li>عوع</li><li>عدع</li><li>عذع</li><li>عرع</li><li>عزع</li><li>عژع</li></ul>
+            <ul><li>غآغ</li><li>غأغ</li><li>غإغ</li><li>غاغ</li><li>غؤغ</li><li>غوغ</li><li>غدغ</li><li>غذغ</li><li>غرغ</li><li>غزغ</li><li>غژغ</li></ul>
+            <ul><li>فآف</li><li>فأف</li><li>فإف</li><li>فاف</li><li>فؤف</li><li>فوف</li><li>فدف</li><li>فذف</li><li>فرف</li><li>فزف</li><li>فژف</li></ul>
+            <ul><li>قآق</li><li>قأق</li><li>قإق</li><li>قاق</li><li>قؤق</li><li>قوق</li><li>قدق</li><li>قذق</li><li>قرق</li><li>قزق</li><li>قژق</li></ul>
+            <ul><li>كآك</li><li>كأك</li><li>كإك</li><li>كاك</li><li>كؤك</li><li>كوك</li><li>كدك</li><li>كذك</li><li>كرك</li><li>كزك</li><li>كژك</li></ul>
+            <ul><li>کآک</li><li>کأک</li><li>کإک</li><li>کاک</li><li>کؤک</li><li>کوک</li><li>کدک</li><li>کذک</li><li>کرک</li><li>کزک</li><li>کژک</li></ul>
+            <ul><li>گآگ</li><li>گأگ</li><li>گإگ</li><li>گاگ</li><li>گؤگ</li><li>گوگ</li><li>گدگ</li><li>گذگ</li><li>گرگ</li><li>گزگ</li><li>گژگ</li></ul>
+            <ul><li>مآم</li><li>مأم</li><li>مإم</li><li>مام</li><li>مؤم</li><li>موم</li><li>مدم</li><li>مذم</li><li>مرم</li><li>مزم</li><li>مژم</li></ul>
+            <ul><li>نآن</li><li>نأن</li><li>نإن</li><li>نان</li><li>نؤن</li><li>نون</li><li>ندن</li><li>نذن</li><li>نرن</li><li>نزن</li><li>نژن</li></ul>
+                
+
+        </div>
+
+        <div id="companionship">
+       
+                <p>&nbsp;</p>
+                <div style="white-space: nowrap; overflow: hidden; width: 100%; ">
+               
+                    <div class="box" style="font-size:72px">
+                             <p class="sizelabel">72px</p>
+                        <p contenteditable="true" >فونتfont</p>
+                        <p contenteditable="true">ااااااااااااHHHHHHآاآاآاآاآاآاIIIII</p>
+                        <p contenteditable="true">٠0١1٢2٣3٤4٥5٦6٧7٨8٩9</p>
+                        <p contenteditable="true">للللللللWظطWککگکMnMOگکگ</p>
+                        <p contenteditable="true">٠0١1٢2٣3۴4۵5۶6٧7٨8٩9</p>
+                        <p contenteditable="true">کرجgggننننyyyyجج</p>
+                         <p>&nbsp;</p>
+                    </div>
+                    <div class="box" style="font-size:62px">
+                             <p class="sizelabel">72px</p>
+                        <p contenteditable="true" >فونتfont</p>
+                        <p contenteditable="true">ااااااااااااHHHHHHآاآاآاآاآاآاIIIII</p>
+                        <p contenteditable="true">٠0١1٢2٣3٤4٥5٦6٧7٨8٩9</p>
+                        <p contenteditable="true">للللللللWظطWککگکMnMOگکگ</p>
+                        <p contenteditable="true">٠0١1٢2٣3۴4۵5۶6٧7٨8٩9</p>
+                        <p contenteditable="true">کرجgggننننyyyyجج</p>
+                         <p>&nbsp;</p>
+                    </div> 
+                    <div class="box" style="font-size:52px">
+                             <p class="sizelabel">72px</p>
+                        <p contenteditable="true" >فونتfont</p>
+                        <p contenteditable="true">ااااااااااااHHHHHHآاآاآاآاآاآاIIIII</p>
+                        <p contenteditable="true">٠0١1٢2٣3٤4٥5٦6٧7٨8٩9</p>
+                        <p contenteditable="true">للللللللWظطWککگکMnMOگکگ</p>
+                        <p contenteditable="true">٠0١1٢2٣3۴4۵5۶6٧7٨8٩9</p>
+                        <p contenteditable="true">کرجgggننننyyyyجج</p>
+                         <p>&nbsp;</p>
+                    </div>                    
+                    <div class="box" style="font-size:42px">
+                             <p class="sizelabel">72px</p>
+                        <p contenteditable="true" >فونتfont</p>
+                        <p contenteditable="true">ااااااااااااHHHHHHآاآاآاآاآاآاIIIII</p>
+                        <p contenteditable="true">٠0١1٢2٣3٤4٥5٦6٧7٨8٩9</p>
+                        <p contenteditable="true">للللللللWظطWککگکMnMOگکگ</p>
+                        <p contenteditable="true">٠0١1٢2٣3۴4۵5۶6٧7٨8٩9</p>
+                        <p contenteditable="true">کرجgggننننyyyyجج</p>
+                         <p>&nbsp;</p>
+                    </div>
+                    <div class="box" style="font-size:32px">
+                             <p class="sizelabel">72px</p>
+                        <p contenteditable="true" >فونتfont</p>
+                        <p contenteditable="true">ااااااااااااHHHHHHآاآاآاآاآاآاIIIII</p>
+                        <p contenteditable="true">٠0١1٢2٣3٤4٥5٦6٧7٨8٩9</p>
+                        <p contenteditable="true">للللللللWظطWککگکMnMOگکگ</p>
+                        <p contenteditable="true">٠0١1٢2٣3۴4۵5۶6٧7٨8٩9</p>
+                        <p contenteditable="true">کرجgggننننyyyyجج</p>
+                         <p>&nbsp;</p>
+                    </div>
+                    <div class="box" style="font-size:22px">
+                             <p class="sizelabel">72px</p>
+                        <p contenteditable="true" >فونتfont</p>
+                        <p contenteditable="true">ااااااااااااHHHHHHآاآاآاآاآاآاIIIII</p>
+                        <p contenteditable="true">٠0١1٢2٣3٤4٥5٦6٧7٨8٩9</p>
+                        <p contenteditable="true">للللللللWظطWککگکMnMOگکگ</p>
+                        <p contenteditable="true">٠0١1٢2٣3۴4۵5۶6٧7٨8٩9</p>
+                        <p contenteditable="true">کرجgggننننyyyyجج</p>
+                         <p>&nbsp;</p>
+                    </div>
+                    <div class="box" style="font-size:12px">
+                             <p class="sizelabel">72px</p>
+                        <p contenteditable="true" >فونتfont</p>
+                        <p contenteditable="true">ااااااااااااHHHHHHآاآاآاآاآاآاIIIII</p>
+                        <p contenteditable="true">٠0١1٢2٣3٤4٥5٦6٧7٨8٩9</p>
+                        <p contenteditable="true">للللللللWظطWککگکMnMOگکگ</p>
+                        <p contenteditable="true">٠0١1٢2٣3۴4۵5۶6٧7٨8٩9</p>
+                        <p contenteditable="true">کرجgggننننyyyyجج</p>
+                         <p>&nbsp;</p>
+                    </div>                    
+                    <div class="box" style="font-size:8px">
+                             <p class="sizelabel">72px</p>
+                        <p contenteditable="true" >فونتfont</p>
+                        <p contenteditable="true">ااااااااااااHHHHHHآاآاآاآاآاآاIIIII</p>
+                        <p contenteditable="true">٠0١1٢2٣3٤4٥5٦6٧7٨8٩9</p>
+                        <p contenteditable="true">للللللللWظطWککگکMnMOگکگ</p>
+                        <p contenteditable="true">٠0١1٢2٣3۴4۵5۶6٧7٨8٩9</p>
+                        <p contenteditable="true">کرجgggننننyyyyجج</p>
+                         <p>&nbsp;</p>
+                    </div>
+                </div>
+        </div>
+
+          <!-- Non-Latin -->
+          <div id="nonlatin">
+                <div style="width: 100%;">
+                    <p class="sizelabel">Arabic</p>
+                    <p contenteditable="true" style="font-size: 26px;">صِف خَلقَ خَودِ كَمِثلِ الشَمسِ إِذ بَزَغَت — يَحظى الضَجيعُ بِها نَجلاءَ مِعطارِ</p><p>&nbsp;</p>
+
+                    <p class="sizelabel">Armenian</p>
+                    <p contenteditable="true" style="font-size: 26px;">բել դղյակի ձախ ժամն օֆ ազգությանը ցպահանջ չճշտած վնաս էր և փառք</p>
+                    <p contenteditable="true" style="font-size: 26px;">ԲԵԼ ԴՂՅԱԿԻ ՁԱԽ ԺԱՄՆ ՕՖ ԱԶԳՈՒԹՅԱՆԸ ՑՊԱՀԱՆՋ ՉՃՇՏԱԾ ՎՆԱՍ ԷՐ և ՓԱՌՔ</p><p>&nbsp;</p>
+
+                    <p class="sizelabel">Bulgarian</p>
+                    <p contenteditable="true" style="font-size: 26px;">Ах чудна българска земьо, полюшквай цъфтящи жита.</p><p>&nbsp;</p>
+
+                    <p class="sizelabel">Dzongkha</p>
+                    <p contenteditable="true" style="font-size: 26px;">ཨ་ཡིག་དཀར་མཛེས་ལས་འཁྲུངས་ཤེས་བློའི་གཏེར༎ ཕས་རྒོལ་ཝ་སྐྱེས་ཟིལ་གནོན་གདོང་ལྔ་བཞིན༎ ཆགས་ཐོགས་ཀུན་བྲལ་མཚུངས་མེད་འཇམ་དབྱངསམཐུས༎ མཧཱ་མཁས་པའི་གཙོ་བོ་ཉིད་འགྱུར་ཅིག།</p><p>&nbsp;</p>
+
+                    <p class="sizelabel">Greek</p>
+                    <p contenteditable="true" style="font-size: 26px;">Τάχιστη αλώπηξ βαφής ψημένη γη, δρασκελίζει υπέρ νωθρού κυνός</p><p>&nbsp;</p>
+
+                    <p class="sizelabel">Hebrew</p>
+                    <p contenteditable="true" style="font-size: 26px;">כך התרסק נפץ על גוזל קטן, שדחף את צבי למים</p><p>&nbsp;</p>
+
+                    <p class="sizelabel">Hindi</p>
+                    <p contenteditable="true" style="font-size: 26px;">दीवारबंद जयपुर ऐसी दुनिया है जहां लगभग हर दुकान का नाम हिन्दी में लिखा गया है। नामकरण की ऐसी तरतीब हिन्दुस्तान में कम दिखती है। दिल्ली में कॉमनवेल्थ गेम्स के दौरान कनॉट प्लेस और पहाड़गंज की नामपट्टिकाओं को एक समान करने का अभियान चला। पत्रकार लिख</p><p>&nbsp;</p>
+
+                    <p class="sizelabel">Japanese</p>
+                    <p contenteditable="true" style="font-size: 26px;">いろはにほへと　ちりぬるを　わかよたれそ　つねならむ　うゐのおくやま　けふこえて　あさきゆめみし　ゑひもせす 色は匂へど　散りぬるを　我が世誰ぞ　常ならむ　有為の奥山　今日越えて　浅き夢見じ　酔ひもせず（ん）</p><p>&nbsp;</p>
+
+                    <p class="sizelabel">Korean</p>
+                    <p contenteditable="true" style="font-size: 26px;">키스의 고유조건은 입술끼리 만나야 하고 특별한 기술은 필요치 않다.</p><p>&nbsp;</p>
+
+                    <p class="sizelabel">Macedonian</p>
+                    <p contenteditable="true" style="font-size: 26px;">Ѕидарски пејзаж: шугав билмез со чудење џвака ќофте и кељ на туѓ цех. </p><p>&nbsp;</p>
+
+                    <p class="sizelabel">Mongolian</p>
+                    <p contenteditable="true" style="font-size: 26px;">Щётканы фермд пийшин цувъя. Бөгж зогсч хэльюү.</p><p>&nbsp;</p>
+
+                    <p class="sizelabel">Myanmar</p>
+                    <p contenteditable="true" style="font-size: 26px;">သီဟိုဠ်မှ ဉာဏ်ကြီးရှင်သည် အာယုဝဍ္ဎနဆေးညွှန်းစာကို ဇလွန်ဈေးဘေးဗာဒံပင်ထက် အဓိဋ္ဌာန်လျက် ဂဃနဏဖတ်ခဲ့သည်။ </p><p>&nbsp;</p>
+
+                    <p class="sizelabel">Persian</p>
+                    <p contenteditable="true" style="font-size: 26px;">بر اثر چنین تلقین و شستشوی مغزی جامعی، سطح و پایه‌ی ذهن و فهم و نظر بعضی اشخاص واژگونه و معکوس می‌شود.</p><p>&nbsp;</p>
+
+                    <p class="sizelabel">Russian</p>
+                    <p contenteditable="true" style="font-size: 26px;">Съешь же ещё этих мягких французских булок, да выпей чаю.</p><p>&nbsp;</p>
+
+                    <p class="sizelabel">Thai</p>
+                    <p contenteditable="true" style="font-size: 26px;">นายสังฆภัณฑ์ เฮงพิทักษ์ฝั่ง ผู้เฒ่าซึ่งมีอาชีพเป็นฅนขายฃวด ถูกตำรวจปฏิบัติการจับฟ้องศาล ฐานลักนาฬิกาคุณหญิงฉัตรชฎา ฌานสมาธิ</p><p>&nbsp;</p>
+
+                    <p class="sizelabel">Ukrainian</p>
+                    <p contenteditable="true" style="font-size: 26px;">Жебракують філософи при ґанку церкви в Гадячі, ще й шатро їхнє п'яне знаємо.</p><p>&nbsp;</p>
+
+                    <p class="sizelabel">Urdu</p>
+                    <p contenteditable="true" style="font-size: 26px;">ر‌ضائی کو غلط اوڑھے بیٹھی ژوب کی قرۃ العین اور عظمٰی کے پاس گھر کے ذخیرے سے آناً فاناً ڈش میں ثابت جو، صراحی میں چائے اور پلیٹ میں زردہ آیا۔</p><p>&nbsp;</p>
+
+                </div>
+          </div>
+
+        </div><!-- end tabs -->
+
+    </section>
+
+    <section id="brower-version"></section>    
+
+    <!-- Footer -->
+    <section id="pie">
+        <p>صفحه تست فونت فارسی نسخه <span id="pageVersion"><script>document.getElementById('pageVersion').innerHTML = version;</script></span> توسط <a href="http://soozanchi.ir">محمد صالح سوزنچی</a> برای <a href="http://font-store.ir">برای پروژه خانه فونت فارسی</a> بازطراحی و توسعه پیدا کرده است.</p>
+        <p> برای دانلود و ارسال هرگونه پیشنهاد لطفا به <a href="https://github.com/font-store/Persian-Font-Testing-Page">مخزن  این ابزار در گیت هاب</a>  مراجعه کنید</p>
+        <p>این ابزار انشعابی از پروژه <a href="https://github.com/impallari/Font-Testing-Page">Font Testing Page</a> می‌باشد<p>
+        <p>Font Testing Page v<span id="pageVersion"><script>document.getElementById('pageVersion').innerHTML = version;</script></span> by <a href="http://www.impallari.com">Pablo Impallari</a>, <a href="http://www.omnibus-type.com">Pablo Cosgaya</a> and <a href="http://understandingfonts.com/">Dave Crossland</a>. Download the source code and post your comments and suggestions at the <a href="http://www.impallari.com/projects/overview/drag-and-drop-font-testing-page">Project Page</a></p>
+        <p>Based on <a href="http://www.fontdragr.com">Fontdragr</a>. Kerning string by <a href="http://www.terminaldesign.com">James Montalbano</a>. Latin text by <a href="http://www.tipo.net.ar">Eduardo Tunni</a>. Pangrams from <a href="http://en.wikipedia.org/wiki/List_of_pangrams">Wikipedia</a>. OT Panel reworked from Jonathan Kew's <a href="http://people.mozilla.com/~jkew/opentype-feature-playground.html">OpenType Playground</a> for Mozilla.</p>
+    </section>
+    
+</div>    
+
+
+</body>
+</html>

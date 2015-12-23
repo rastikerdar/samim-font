@@ -1,0 +1,6 @@
+Copyright (c) 2011-2013 Pablo Impallari (impallari@gmail.com, @impallari)
+Copyright (c) 2011-2013 Pablo Cosgaya (pc@cosgaya.com.ar, @cosgaya)
+Copyright (c) 2011-2013 Dave Crossland (dave@understandinglimited.com, @davelab6)
+Copyright (c) 2011-2013 James Montalbano (jm@terminaldesign.com, @terminaldesign)
+Copyright (c) 2011-2013 Eduardo Tunni (edu@tipo.net.ar)
+Copyright (c) 2011-2013 Wikipedia contributors to 'List_of_pangrams' page (http://toolserver.org/~daniel/WikiSense/Contributors.php?wikilang=en&wikifam=.wikipedia.org&page=List_of_pangrams&since=&until=&grouped=on&hidebots=on&hideanons=on&order=-edit_count&max=100&order=-edit_count&format=html)

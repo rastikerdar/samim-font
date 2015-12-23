@@ -1,0 +1,15 @@
+CACHE MANIFEST
+# 8/1/2013:v1
+
+CACHE:
+css/styles.css
+css/print.css
+css/spectrum.css
+css/ruler.min.css
+js/constants.js
+js/fontdrag.js
+js/otfeatures.js
+js/contentEditable
+js/jquery-1.11.3.min.js
+js/spectrum.min.js
+
