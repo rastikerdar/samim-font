@@ -44,13 +44,17 @@
 
       header, .sample, footer {
         margin: auto;
-        padding: 100px 50px;
+        padding: 50px 50px;
       }
 
       header {
         text-align: center;
         background-color: #eee;
         color: #222;
+      }
+      
+      header h1 {
+        color: #333;
       }
       
       header .get {
@@ -81,8 +85,26 @@
       .sample.sec-test {
         background-color: #f9f9f9;
         color: #333;
+        box-shadow: 0 0 12px #e0e0e0;
       }
 
+
+    .sample.sec-test .embed {
+        background-color: #404958;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #c5c5c5;
+        color: #f1f1f1;
+        float: left;
+        font-size: 16px;
+        margin: 10px;
+        max-width: 500px;
+        padding: 10px;
+    }
+
+    .sample.sec-test .embed a {
+        color: #F9FF95;
+    }
+    
       .sample.sec-test.second {
         background-color: #f5f8fa;
         color: #292f32;
@@ -90,11 +112,10 @@
       }
 
       .sample.sec-test.second h2 {
-	font-weight: normal;
+    	font-weight: normal;
       }
 
       .sample.sec-test p {
-        font-size: 14px;
         margin-bottom: 30px;
       }
 
@@ -112,7 +133,7 @@
       }
       
       .sample.sec3 {
-        background-color: #45786f;
+        background-color: #25456c;
         color: #fff;
         font-size: 12px;
       }
@@ -122,21 +143,35 @@
       }
             
       footer {
-        background-color: #294e46;
-        color: #eee;
+        background-color: #1d2b2a;
+        background-image: url("paint.jpg");
+        background-size: cover;
+        color: #fff;
         text-align: center;
+
       }
       
       footer a {
-        color: #D7DD77;
-        text-decoration: underline;
+        color: #FEAF3A;
       }
 
+      .clear { clear: both; }
       @media all and (max-width: 480px){
         header, .sample, footer {
           padding: 50px 30px;
         }
+        .sample.sec-test .embed {
+           margin: -50px -30px 10px;
+           border-radius: 0;
+        }
       }
+      
+      @media all and (max-width: 900px) and (min-width: 481px) {
+        .sample.sec-test .embed {
+           margin: 0 auto 10px;
+           float: none;
+        }
+      }      
     </style>
   </head>
   
@@ -164,27 +199,26 @@
       </div>
     </header>
 
-    <section class="sample sec-test">
-      <h2>متن نمونه</h2>
-      <p>درحالی که عمدهٔ تبدیل نگارش معمولی کلمات به خوشنویسی هنرمندانه در جهان اسلام، به‌عهده ایرانیان بوده‌است، رفته رفته ایرانیان سبک و شیوه‌هایی مختص به خود را در خوشنویسی ابداع کردند. هرچند این شیوه‌ها و قلم‌های ابداعی در سایر کشورهای اسلامی هم طرفدارانی دارد اما بیشتر مربوط به ایران و کشورهای تحت نفوذ آن همچون کشورهای آسیای میانه، افغانستان، پاکستان و هند می‌باشد. در این منطقه نیز خوشنویسی همواره به عنوان والاترین شکل هنرهای بصری مورد توجه بوده و دارای لطافتی خاص است.
-      </p>
-      <p>منبع: <a href="https://fa.wikipedia.org/wiki/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86#.D8.AE.D9.88.D8.B4.D9.86.D9.88.DB.8C.D8.B3.DB.8C_.D8.A7.DB.8C.D8.B1.D8.A7.D9.86.DB.8C">ویکی‌پدیا</a></p>
-    </section>
 
     <section class="sample sec-test second">
-      <h2>باران</h2>
+        <section class="embed">
+          <h2>خوشنویسی</h2>
+          <p>درحالی که عمدهٔ تبدیل نگارش معمولی کلمات به خوشنویسی هنرمندانه در جهان اسلام، به‌عهده ایرانیان بوده‌است، رفته رفته ایرانیان سبک و شیوه‌هایی مختص به خود را در خوشنویسی ابداع کردند. هرچند این شیوه‌ها و قلم‌های ابداعی در سایر کشورهای اسلامی هم طرفدارانی دارد اما بیشتر مربوط به ایران و کشورهای تحت نفوذ آن همچون کشورهای آسیای میانه، افغانستان، پاکستان و هند می‌باشد. در این منطقه نیز خوشنویسی همواره به عنوان والاترین شکل هنرهای بصری مورد توجه بوده و دارای لطافتی خاص است.
+          </p>
+          <p>منبع: <a href="https://fa.wikipedia.org/wiki/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86#.D8.AE.D9.88.D8.B4.D9.86.D9.88.DB.8C.D8.B3.DB.8C_.D8.A7.DB.8C.D8.B1.D8.A7.D9.86.DB.8C">ویکی‌پدیا</a></p>
+        </section>
+          
+      <h2>متن آزمایشی</h2>
       <p>وقتی هوای گرم به بالای آسمان صعود می‌کند، بخار آب را هم همراه خودش به بالا به داخل آسمان می‌برد. در بالای آسمان، بخار آب سرد می‌شود و قطره‌های آب دور ذرات ریز گرد و غبار موجود در هوا تشکیل می‌شود. مقداری از بخار آب هم به شکل کریستال‌های ریز یخ منجمد می‌شود که قطرات آب سرد شده را جذب می‌کند. قطرات به شکل کریستال‌های یخ، منجمد می‌شود و کریستال‌های بزرگ تری را تشکیل می‌دهد که ما آنها را برف ریزه می‌نامیم. موقعی که برف ریزه‌ها سنگین می‌شوند، پایین می‌افتند. برف ریزه‌ها در مسیرشان رو به پایین با هوای گرم تر برخورد می‌کنند و ذوب می‌شوند و به صورت قطرات باران در می‌آیند.
       </p>
       <p>منبع: <a href="https://fa.wikipedia.org/wiki/%D8%A8%D8%A7%D8%B1%D8%A7%D9%86">ویکی‌پدیا</a></p>
-    </section>
-
-    <section class="sample sec3">
-      <h2>طراحی</h2>
-      <p>
-این فونت بر مبنای قلم <a href="http://rastikerdar.github.io/vazir-font/">وزیر</a> ساخته شده که خود باز طراحی فونت <a href="http://dejavu-fonts.org">DejaVu 2.35</a> می باشد. توضیحات مربوط به فونت اصلی و مجوز آن را می توانید در تارنمای پروژه فونت DejaVu مشاهده نمایید.</p>
+<div class="clear"></div>
     </section>
         
     <footer>
+      <p>
+این فونت بر مبنای قلم <a href="http://rastikerdar.github.io/vazir-font/">وزیر</a> ساخته شده که خود باز طراحی فونت <a href="http://dejavu-fonts.org">DejaVu 2.35</a> می باشد. توضیحات مربوط به فونت اصلی و مجوز آن را می توانید در تارنمای پروژه فونت DejaVu مشاهده نمایید.</p>
+<br>
       صفحه وبلاگ برای ثبت دیدگاه پیرامون قلم صمیم:
       <a href="http://rastikerdar.blog.ir/1394/08/10/%D9%82%D9%84%D9%85-%D9%81%D9%88%D9%86%D8%AA-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B5%D9%85%DB%8C%D9%85" target="_blank">rastikerdar.blog.ir</a>
       <br>
