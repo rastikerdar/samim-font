@@ -21,7 +21,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1450860600
+ModificationTime: 1450863492
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -3255,7 +3255,7 @@ PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB58 dx=70 dy=0 dh=70 dv=0 
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEF3 dx=70 dy=0 dh=70 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFBFE dx=70 dy=0 dh=70 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEDF dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB90 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB90 dx=-250 dy=0 dh=-250 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni06A9 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0649 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0647 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -3263,7 +3263,7 @@ PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEE7 dx=-150 dy=0 dh=-150 d
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEE3 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0645 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0644 dx=-70 dy=0 dh=-70 dv=0 dx=0 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEDB dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEDB dx=-250 dy=0 dh=-250 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFED7 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0642 dx=-70 dy=0 dh=-70 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFED3 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -3296,7 +3296,7 @@ PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFE91 dx=-70 dy=0 dh=-70 dv=
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0628 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0627 dx=-170 dy=0 dh=-170 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0622 dx=-170 dy=0 dh=-170 dv=0 dx=0 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB94 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB94 dx=-250 dy=0 dh=-250 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" afii57509 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB56 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" afii57506 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -3328,14 +3328,14 @@ PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB58 dx=70 dy=0 dh=70 dv=0 
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEF3 dx=70 dy=0 dh=70 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFBFE dx=70 dy=0 dh=70 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEDF dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB90 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB90 dx=-250 dy=0 dh=-250 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni06A9 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0649 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0647 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEE7 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEE3 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0645 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEDB dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEDB dx=-250 dy=0 dh=-250 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFED7 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0642 dx=-55 dy=0 dh=-55 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFED3 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -3366,7 +3366,7 @@ PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0629 dx=-150 dy=0 dh=-150 d
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0628 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0627 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0622 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB94 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB94 dx=-250 dy=0 dh=-250 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" afii57509 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB56 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" afii57506 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -4284,7 +4284,7 @@ Encoding: 1619 1619 64
 Width: 0
 VWidth: 2186
 GlyphClass: 4
-Flags: WO
+Flags: W
 AnchorPoint: "Anchor-9" 397.84 1276.52 mark 0
 AnchorPoint: "Anchor-10" 397.84 1276.52 mark 0
 AnchorPoint: "Anchor-1" 397.84 1600.5 basemark 0
@@ -4296,13 +4296,12 @@ SplineSet
  20.4096585257 1263.32939343 l 1,1,-1
  30.1518895419 1280.79379169 l 2,2,3
  136 1471 136 1471 345 1471 c 2,4,-1
- 510 1471 l 6,5,6
- 629 1471 629 1471 691 1524 c 1,7,-1
- 742.759765625 1386.1328125 l 1,8,-1
- 735.408203125 1377.24902344 l 2,9,10
- 681 1312 681 1312 514 1312 c 2,11,-1
- 344 1312 l 2,12,13
- 220.422247887 1312 220.422247887 1312 167.628290172 1205.22713763 c 2,14,-1
+ 510 1471 l 2,5,6
+ 653 1471 653 1471 691 1500 c 1,7,-1
+ 742.759765625 1373.1328125 l 1,8,9
+ 694 1312 694 1312 514 1312 c 2,10,-1
+ 344 1312 l 2,11,12
+ 220.422247887 1312 220.422247887 1312 167.628290172 1205.22713763 c 2,13,-1
  158.311391002 1186.38422386 l 1,0,-1
 EndSplineSet
 EndChar
@@ -4777,18 +4776,18 @@ EndChar
 
 StartChar: uni066B
 Encoding: 1643 1643 80
-Width: 711
+Width: 739
 VWidth: 2186
 GlyphClass: 2
-Flags: W
+Flags: WO
 LayerCount: 2
 Fore
 SplineSet
-443.218 502.139 m 1,0,-1
- 568.799 501.203 l 1,1,2
- 342.799 113.203 342.799 113.203 130 -230.265 c 1,3,-1
- 1.59766 -228.502 l 1,4,5
- 94.7988 -78.7969 94.7988 -78.7969 443.218 502.139 c 1,0,-1
+411 503 m 1,0,-1
+ 569 430.599609375 l 1,1,2
+ 206 -230.264648438 l 5,3,-1
+ 48 -155 l 1,4,5
+ 411 503 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -5108,7 +5107,7 @@ EndChar
 
 StartChar: uni06A9
 Encoding: 1705 1705 90
-Width: 1767
+Width: 1799
 VWidth: 2232
 GlyphClass: 2
 Flags: W
@@ -5144,7 +5143,7 @@ SplineSet
  1193.2 1023.34 l 1,35,36
  1378.97 883.984 1378.97 883.984 1553.85 739.123 c 1,37,38
  1723.59 596.671 1723.59 596.671 1697.24 338.283 c 0,39,40
- 1679.91 172.11 1679.91 172.11 1542.24 81.2832 c 4,41,42
+ 1679.91 172.11 1679.91 172.11 1542.24 81.2832 c 0,41,42
  1419.03 0 1419.03 0 1232.54 -0 c 2,43,-1
  844.779 0 l 2,0,1
 EndSplineSet
@@ -5684,7 +5683,7 @@ EndChar
 
 StartChar: uniFB90
 Encoding: 64400 64400 117
-Width: 924
+Width: 948
 VWidth: 2232
 GlyphClass: 2
 Flags: W
@@ -5710,7 +5709,7 @@ EndChar
 
 StartChar: uniFB92
 Encoding: 64402 64402 119
-Width: 1767
+Width: 1799
 VWidth: 2232
 GlyphClass: 2
 Flags: W
@@ -5738,7 +5737,7 @@ EndChar
 
 StartChar: uniFB94
 Encoding: 64404 64404 121
-Width: 924
+Width: 948
 VWidth: 2232
 GlyphClass: 2
 Flags: W
@@ -6991,14 +6990,14 @@ PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB58 dx=70 dy=0 dh=70 dv=0 
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEF3 dx=70 dy=0 dh=70 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFBFE dx=70 dy=0 dh=70 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEDF dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB90 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB90 dx=-250 dy=0 dh=-250 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni06A9 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0649 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0647 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEE7 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEE3 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0645 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEDB dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEDB dx=-250 dy=0 dh=-250 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFED7 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFED3 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0641 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -7029,7 +7028,7 @@ PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0629 dx=-150 dy=0 dh=-150 d
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0628 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0627 dx=-170 dy=0 dh=-170 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0622 dx=-170 dy=0 dh=-170 dv=0 dx=0 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB94 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB94 dx=-250 dy=0 dh=-250 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" afii57509 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB56 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" afii57506 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -7075,14 +7074,14 @@ PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB58 dx=70 dy=0 dh=70 dv=0 
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEF3 dx=70 dy=0 dh=70 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFBFE dx=70 dy=0 dh=70 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEDF dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB90 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB90 dx=-250 dy=0 dh=-250 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni06A9 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0649 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0647 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEE7 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEE3 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0645 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEDB dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEDB dx=-250 dy=0 dh=-250 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFED7 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0642 dx=-41 dy=0 dh=-41 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFED3 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -7112,7 +7111,7 @@ PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0629 dx=-150 dy=0 dh=-150 d
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0628 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0627 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0622 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB94 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB94 dx=-250 dy=0 dh=-250 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" afii57509 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB56 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" afii57506 dx=-150 dy=0 dh=-150 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -8132,7 +8131,7 @@ EndChar
 
 StartChar: uniFEDB
 Encoding: 65243 65243 239
-Width: 924
+Width: 948
 VWidth: 2181
 GlyphClass: 2
 Flags: W
@@ -8142,8 +8141,8 @@ LayerCount: 2
 Fore
 SplineSet
 565.822265625 665.211914062 m 2,0,1
- 686.007649344 531.657796978 686.007649344 531.657796978 675.084960938 368.201171875 c 4,2,3
- 673 336 673 336 665.520507812 306.8046875 c 4,4,5
+ 686.007649344 531.657796978 686.007649344 531.657796978 675.084960938 368.201171875 c 0,2,3
+ 673 336 673 336 665.520507812 306.8046875 c 0,4,5
  628.319101795 153.186345705 628.319101795 153.186345705 497 76.5 c 0,6,7
  366 0 366 0 157.875 0 c 2,8,-1
  -20.400390625 0 l 1,9,-1
@@ -8800,11 +8799,11 @@ Flags: W
 AnchorPoint: "Anchor-9" 906.69 1582 baselig 0
 AnchorPoint: "Anchor-6" 903.69 -209.5 baselig 0
 AnchorPoint: "Anchor-6" 190 -263 baselig 1
-AnchorPoint: "Anchor-9" 166.5 1754.5 baselig 1
+AnchorPoint: "Anchor-9" 210.5 1754.5 baselig 1
 LayerCount: 2
 Fore
-Refer: 271 65275 N 1 0 0 1 0 0 2
-Refer: 64 1619 S 1 0 0 1 -274.993 169 2
+Refer: 271 65275 S 1 0 0 1 0 0 2
+Refer: 64 1619 S 1 0 0 1 -230.993 169 2
 LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 17 subtable" uniFEDF uniFE82
 EndChar
@@ -8822,7 +8821,7 @@ AnchorPoint: "Anchor-9" 228.5 1787.5 baselig 1
 LayerCount: 2
 Fore
 Refer: 272 65276 N 1 0 0 1 0 0 2
-Refer: 64 1619 S 1 0 0 1 -207.34 151 2
+Refer: 64 1619 S 1 0 0 1 -199.34 151 2
 LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 17 subtable" uniFEE0 uniFE82
 EndChar
@@ -9698,34 +9697,34 @@ LayerCount: 2
 Fore
 SplineSet
 604.617 998.098 m 5,0,-1
- 659.855 900.966 l 6,1,2
- 717.145 800.236 717.145 800.236 745.549 702.672 c 4,3,4
- 774.59 602.927 774.59 602.927 774.59 500.617 c 132,-1,5
- 774.59 398.253 774.59 398.253 745.52 297.742 c 4,6,7
- 717.135 199.598 717.135 199.598 659.928 99.4072 c 6,8,-1
- 604.41 2.17773 l 5,9,-1
- 817.965 2.17773 l 5,10,-1
- 837.111 32.3398 l 6,11,12
- 912.115 150.479 912.115 150.479 949.83 265.366 c 4,13,14
- 988.59 383.494 988.59 383.494 988.59 500.617 c 4,15,16
- 988.59 617.344 988.59 617.344 949.8 734.985 c 4,17,18
- 912.117 849.295 912.117 849.295 837.17 967.833 c 6,19,-1
- 818.035 998.098 l 5,20,-1
+ 818.035 998.098 l 5,1,-1
+ 837.17 967.833 l 6,2,3
+ 912.117 849.295 912.117 849.295 949.8 734.985 c 4,4,5
+ 988.59 617.344 988.59 617.344 988.59 500.617 c 4,6,7
+ 988.59 383.494 988.59 383.494 949.83 265.366 c 4,8,9
+ 912.115 150.479 912.115 150.479 837.111 32.3398 c 6,10,-1
+ 817.965 2.17773 l 5,11,-1
+ 604.41 2.17773 l 5,12,-1
+ 659.928 99.4072 l 6,13,14
+ 717.135 199.598 717.135 199.598 745.52 297.742 c 4,15,16
+ 774.59 398.253 774.59 398.253 774.59 500.617 c 132,-1,17
+ 774.59 602.927 774.59 602.927 745.549 702.672 c 4,18,19
+ 717.145 800.236 717.145 800.236 659.855 900.966 c 6,20,-1
  604.617 998.098 l 5,0,-1
 182.617 998.098 m 5,21,-1
- 237.855 900.966 l 6,22,23
- 295.148 800.22 295.148 800.22 323.549 702.672 c 4,24,25
- 352.59 602.928 352.59 602.928 352.59 500.617 c 132,-1,26
- 352.59 398.253 352.59 398.253 323.52 297.742 c 4,27,28
- 295.137 199.601 295.137 199.601 237.928 99.4072 c 6,29,-1
- 182.41 2.17773 l 5,30,-1
- 395.965 2.17773 l 5,31,-1
- 415.111 32.3398 l 6,32,33
- 490.123 150.501 490.123 150.501 527.83 265.366 c 4,34,35
- 566.59 383.494 566.59 383.494 566.59 500.617 c 4,36,37
- 566.59 617.344 566.59 617.344 527.805 734.985 c 4,38,39
- 490.113 849.304 490.113 849.304 415.17 967.833 c 6,40,-1
- 396.035 998.098 l 5,41,-1
+ 396.035 998.098 l 5,22,-1
+ 415.17 967.833 l 6,23,24
+ 490.113 849.304 490.113 849.304 527.805 734.985 c 4,25,26
+ 566.59 617.344 566.59 617.344 566.59 500.617 c 4,27,28
+ 566.59 383.494 566.59 383.494 527.83 265.366 c 4,29,30
+ 490.123 150.501 490.123 150.501 415.111 32.3398 c 6,31,-1
+ 395.965 2.17773 l 5,32,-1
+ 182.41 2.17773 l 5,33,-1
+ 237.928 99.4072 l 6,34,35
+ 295.137 199.601 295.137 199.601 323.52 297.742 c 4,36,37
+ 352.59 398.253 352.59 398.253 352.59 500.617 c 132,-1,38
+ 352.59 602.928 352.59 602.928 323.549 702.672 c 4,39,40
+ 295.148 800.22 295.148 800.22 237.855 900.966 c 6,41,-1
  182.617 998.098 l 5,21,-1
 EndSplineSet
 EndChar
