@@ -4,12 +4,12 @@ Width: 597
 VWidth: 2232
 GlyphClass: 3
 Flags: W
-AnchorPoint: "Anchor-10" 273.317 1877 basechar 0
+AnchorPoint: "Anchor-10" 295.317 1877 basechar 0
 AnchorPoint: "Anchor-7" 293.317 -213.5 basechar 0
 LayerCount: 2
 Fore
 Refer: 25 1575 N 1 0 0 1 54 0 2
-Refer: 64 1619 S 1 0 0 1 -119.522 272.5 2
+Refer: 64 1619 S 1 0 0 1 -97.522 272.5 2
 LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 19 subtable" uni0627 uni0653
 Substitution2: "'fina' Terminal Forms in Arabic lookup 9 subtable" uniFE82

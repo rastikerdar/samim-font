@@ -1,6 +1,6 @@
 StartChar: uni0631
 Encoding: 1585 1585 35
-Width: 955
+Width: 939
 VWidth: 2237
 GlyphClass: 2
 Flags: W
@@ -11,10 +11,10 @@ Fore
 SplineSet
 843.107 92.4199 m 0,0,1
  801.674 -199.028 801.674 -199.028 625.734 -351.103 c 128,-1,2
- 449.794 -503.177 449.794 -503.177 152.218 -505.229 c 6,3,-1
+ 449.794 -503.177 449.794 -503.177 152.218 -505.229 c 2,3,-1
  121.783 -505.438 l 1,4,-1
  0.868164 -284.945 l 1,5,-1
- 80.2871 -279.355 l 6,6,7
+ 80.2871 -279.355 l 2,6,7
  330.221 -261.77 330.221 -261.77 454.869 -162.515 c 128,-1,8
  579.518 -63.2598 579.518 -63.2598 595.879 122.303 c 0,9,10
  604.227 216.253 604.227 216.253 526.381 501.786 c 2,11,-1
@@ -24,6 +24,7 @@ SplineSet
  874.985 317.558 874.985 317.558 843.107 92.4199 c 0,0,1
 EndSplineSet
 Kerns2: 111 0 "'kern' Horizontal Kerning lookup 15-1"
+PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0646 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0648 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0632 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0631 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0

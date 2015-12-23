@@ -29,7 +29,8 @@ SplineSet
  607.972414575 214.760449915 607.972414575 214.760449915 528.476 499.8 c 2,26,-1
  518.916 534.078 l 1,0,-1
 EndSplineSet
-Kerns2: 49 0 "'kern' Horizontal Kerning lookup 15-1" 47 0 "'kern' Horizontal Kerning lookup 15-1" 165 0 "'kern' Horizontal Kerning lookup 15-1" 111 0 "'kern' Horizontal Kerning lookup 15-1"
+Kerns2: 47 0 "'kern' Horizontal Kerning lookup 15-1" 49 0 "'kern' Horizontal Kerning lookup 15-1" 111 0 "'kern' Horizontal Kerning lookup 15-1" 165 0 "'kern' Horizontal Kerning lookup 15-1"
+PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0646 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0648 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0632 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uni0631 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
