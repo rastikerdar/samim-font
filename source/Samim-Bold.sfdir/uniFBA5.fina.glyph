@@ -1,0 +1,12 @@
+StartChar: uniFBA5.fina
+Encoding: 64421 64421 299
+Width: 1125
+VWidth: 2181
+Flags: W
+AnchorPoint: "Anchor-7" 432.88 -186 basechar 0
+AnchorPoint: "Anchor-10" 523.95 1654.81 basechar 0
+LayerCount: 2
+Fore
+Refer: 75 1652 S 1 0 0 1 375 -333 2
+Refer: 244 65258 N 1 0 0 1 0 0 2
+EndChar

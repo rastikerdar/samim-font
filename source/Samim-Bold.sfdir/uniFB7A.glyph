@@ -1,13 +1,12 @@
 StartChar: uniFB7A
-Encoding: 64378 64378 109
-Width: 1285
-VWidth: 2232
+Encoding: 64378 64378 99
+Width: 1331
+VWidth: 2181
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-10" 616.5 1336.5 basechar 0
-AnchorPoint: "Anchor-7" 444.84 -734.5 basechar 0
+AnchorPoint: "Anchor-10" 620.5 1189.5 basechar 0
+AnchorPoint: "Anchor-7" 500.84 -729.5 basechar 0
 LayerCount: 2
 Fore
-Refer: 276 -1 S 1.07 0 0 1.07 532.34 -4 2
-Refer: 31 1581 N 1 0 0 1 0 0 2
+Refer: 77 1670 S 1 0 0 1 0 0 2
 EndChar

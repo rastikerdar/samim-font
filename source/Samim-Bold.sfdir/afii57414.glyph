@@ -1,15 +1,15 @@
 StartChar: afii57414
-Encoding: 1574 1574 24
-Width: 1481
-VWidth: 2232
+Encoding: 1574 1574 14
+Width: 1505
+VWidth: 2181
 GlyphClass: 3
 Flags: W
-AnchorPoint: "Anchor-10" 523 1534.5 basechar 0
-AnchorPoint: "Anchor-7" 462 -600.5 basechar 0
+AnchorPoint: "Anchor-10" 520 1450.5 basechar 0
+AnchorPoint: "Anchor-7" 458 -601.5 basechar 0
 LayerCount: 2
 Fore
-Refer: 65 1620 N 1 0 0 1 -13.9822 -435.5 2
-Refer: 54 1609 N 1 0 0 1 0 0 2
+Refer: 55 1620 S 1 0 0 1 -6.84 -534.5 2
+Refer: 44 1609 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 19 subtable" uni064A uni0654
 Substitution2: "'init' Initial Forms in Arabic lookup 13 subtable" uniFE8B

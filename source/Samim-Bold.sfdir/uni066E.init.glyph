@@ -1,12 +1,12 @@
 StartChar: uni066E.init
-Encoding: 65541 -1 278
+Encoding: 65541 -1 268
 Width: 650
-VWidth: 2232
+VWidth: 2181
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-10" 319.93 1111.5 basechar 0
-AnchorPoint: "Anchor-7" 319.93 -65.5 basechar 0
+AnchorPoint: "Anchor-10" 319.93 1060.5 basechar 0
+AnchorPoint: "Anchor-7" 319.93 -116.5 basechar 0
 LayerCount: 2
 Fore
-Refer: 127 64488 N 1 0 0 1 0 0 2
+Refer: 117 64488 N 1 0 0 1 0 0 2
 EndChar
