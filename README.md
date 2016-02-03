@@ -6,7 +6,7 @@ A Persian (Farsi) Font &mdash; فونت (قلم) فارسی صمیم
 </div>
 
 <a href="http://rastikerdar.github.io/samim-font/">
-    <img src="https://cloud.githubusercontent.com/assets/3202/11165498/7cf1f9fa-8b11-11e5-9d0f-ace39ce634e8.png">
+    <img src="https://cloud.githubusercontent.com/assets/3202/11185401/e3cf9f4e-8c7c-11e5-9617-9d74e30ee7e3.png">
 </a>
 
 <h2 lang="fa" dir="rtl" align="right">طریقه استفاده در صفحات وب</h2>
@@ -41,6 +41,11 @@ A Persian (Farsi) Font &mdash; فونت (قلم) فارسی صمیم
 <p>با تشکر از برنامه <a href="https://fontforge.github.io">FontForge</a></p>
 <p>بر مبنای فونت <a href="http://rastikerdar.github.io/vazir-font/">وزیر</a></p>
 </div>
+
+## Contributors
+
+- Allen Bargi [@aziz] (https://github.com/aziz)
+- Farzan Balkani [@artlesshand] (https://github.com/artlesshand)
 
 ## License
 SIL Open Font License Version 1.1  
