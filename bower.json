@@ -1,6 +1,6 @@
 {
     "name": "samim-font",
-    "version": "0.10.3",
+    "version": "0.10.3-bower",
     "main": [
         "fonts/*"
     ],
