@@ -2,7 +2,12 @@
     "name": "samim-font",
     "version": "0.10.4",
     "main": [
-        "fonts/*"
+        "fonts/Samim.eot",
+        "fonts/Samim.ttf",
+        "fonts/Samim.woff",
+        "fonts/Samim-Bold.eot",
+        "fonts/Samim-Bold.ttf",
+        "fonts/Samim-Bold.woff"
     ],
     "homepage": "http://rastikerdar.github.io/samim-font/",
     "authors": [
@@ -11,7 +16,8 @@
     "license": ["OFL-1.1"],
     "ignore": [
         "*.md",
-        "*.json"
+        "*.json",
+        "source"
     ],
     "keywords": [
         "font",
