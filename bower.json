@@ -2,7 +2,7 @@
     "name": "samim-font",
     "version": "0.10.4",
     "main": [
-        "dist/*",
+        "dist/*"
     ],
     "homepage": "http://rastikerdar.github.io/samim-font/",
     "authors": [
