@@ -42,6 +42,28 @@ A Persian (Farsi) Font &mdash; فونت (قلم) فارسی صمیم
 <p>بر مبنای فونت <a href="http://rastikerdar.github.io/vazir-font/">وزیر</a></p>
 </div>
 
+## Install
+
+Grab the [latest release](https://github.com/rastikerdar/samim-font/releases/latest) file.
+
+Or you can get it on bower:
+
+```
+bower install samim-font --save
+```
+
+Or [RawGit](https://rawgit.com) CDN:
+
+```html
+<link href="https://cdn.rawgit.com/rastikerdar/samim-font/master/dist/font-face.css" rel="stylesheet" type="text/css" />
+```
+
+And integrate the font into your CSS:
+
+```
+font-family: 'Samim', sans-serif;
+```
+
 ## Contributors
 
 - Allen Bargi [@aziz] (https://github.com/aziz)
