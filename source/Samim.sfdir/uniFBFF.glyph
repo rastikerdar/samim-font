@@ -9,5 +9,5 @@ AnchorPoint: "Anchor-7" 244.91 -619 basechar 0
 LayerCount: 2
 Fore
 Refer: 118 64489 N 1 0 0 1 0 0 2
-Refer: 264 -1 N 1.07 0 0 1.07 41.2802 -405.5 2
+Refer: 264 -1 S 1.07 0 0 1.07 41.2802 -405.5 2
 EndChar

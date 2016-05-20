@@ -1,0 +1,13 @@
+StartChar: uniFDFC
+Encoding: 65020 65020 301
+Width: 2882
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 39 1604 N 1 0 0 1 0 0 2
+Refer: 152 65166 N 1 0 0 1 1240 0 2
+Refer: 264 -1 N 1.07 0 0 1.07 1624.28 -315.5 2
+Refer: 117 64488 N 1 0 0 1 1770 0 2
+Refer: 25 1585 N 1 0 0 1 2030 0 2
+EndChar

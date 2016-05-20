@@ -1,6 +1,6 @@
 StartChar: uni0623
 Encoding: 1571 1571 11
-Width: 513
+Width: 593
 VWidth: 2181
 GlyphClass: 3
 Flags: W
@@ -8,7 +8,7 @@ AnchorPoint: "Anchor-10" 225.95 2071.5 basechar 0
 AnchorPoint: "Anchor-7" 315.95 -235.5 basechar 0
 LayerCount: 2
 Fore
-Refer: 55 1620 S 1 0 0 1 -246.89 219.3 2
+Refer: 55 1620 N 1 0 0 1 -246.89 219.3 2
 Refer: 15 1575 N 1 0 0 1 45 0 2
 LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 19 subtable" uni0627 uni0654
