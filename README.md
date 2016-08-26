@@ -61,7 +61,7 @@ Or [RawGit](https://rawgit.com) CDN:
 <link href="https://cdn.rawgit.com/rastikerdar/samim-font/v[X.Y.Z]/dist/font-face.css" rel="stylesheet" type="text/css" />
 ```
 
-Replace [X.Y.Z] with the latest version (e.g. 1.0.0) and integrate the font into your CSS:
+Replace [X.Y.Z] with the latest version (e.g. 1.0.2) and integrate the font into your CSS:
 
 ```
 font-family: 'Samim', sans-serif;
