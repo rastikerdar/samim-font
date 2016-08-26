@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Samim';
-    src: url('https://cdn.rawgit.com/rastikerdar/samim-font/master/dist/Samim.eot');
-    src: url('https://cdn.rawgit.com/rastikerdar/samim-font/master/dist/Samim.eot?#iefix') format('embedded-opentype'),
-		 url('https://cdn.rawgit.com/rastikerdar/samim-font/master/dist/Samim.woff') format('woff'),
-		 url('https://cdn.rawgit.com/rastikerdar/samim-font/master/dist/Samim.ttf') format('truetype');
+    src: url('Samim.eot');
+    src: url('Samim.eot?#iefix') format('embedded-opentype'),
+		 url('Samim.woff') format('woff'),
+		 url('Samim.ttf') format('truetype');
     font-weight: normal;
 }
 @font-face {
     font-family: 'Samim';
-    src: url('https://cdn.rawgit.com/rastikerdar/samim-font/master/dist/Samim-Bold.eot');
-    src: url('https://cdn.rawgit.com/rastikerdar/samim-font/master/dist/Samim-Bold.eot?#iefix') format('embedded-opentype'),
-		 url('https://cdn.rawgit.com/rastikerdar/samim-font/master/dist/Samim-Bold.woff') format('woff'),
-		 url('https://cdn.rawgit.com/rastikerdar/samim-font/master/dist/Samim-Bold.ttf') format('truetype');
+    src: url('Samim-Bold.eot');
+    src: url('Samim-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('Samim-Bold.woff') format('woff'),
+		 url('Samim-Bold.ttf') format('truetype');
     font-weight: bold;
 }
