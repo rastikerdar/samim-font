@@ -69,10 +69,10 @@ font-family: 'Samim', sans-serif;
 
 ####Arch Linux
 
-Arch user's could use [ttf-samim](https://aur.archlinux.org/packages/ttf-samim/) package from [AUR](https://aur.archlinux.org/) repository to install samim font. Use your favourite [AUR helper](https://wiki.archlinux.org/index.php/AUR_helpers) like pacaur or yaourt for installing package:
+Arch user's could use [samim-fonts](https://aur.archlinux.org/packages/samim-fonts/) package from [AUR](https://aur.archlinux.org/) repository to install samim font. Use your favourite [AUR helper](https://wiki.archlinux.org/index.php/AUR_helpers) like pacaur or yaourt for installing package:
 
 ```shell
-pacaur -S ttf-samim
+pacaur -S samim-fonts
 ```
 
 ## Contributors
