@@ -1,0 +1,20 @@
+{
+  "name": "samim-font",
+  "version": "1.0.2",
+  "author": "Yahya SayadArbabi <yahya.arbabi@gmail.com>",
+  "license": "SIL OPEN FONT LICENSE Version 1.1",
+  "description": "A Persian (Farsi) Font - فونت (قلم) فارسی صمیم ",
+  "keywords": ["font", "farsi"],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Take a look at: http://rastikerdar.github.io/samim-font/\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rastikerdar/samim-font"
+  },
+  "bugs": {
+    "url": "https://github.com/rastikerdar/samim-font/issues"
+  },
+  "homepage": "https://github.com/rastikerdar/samim-font#readme"
+}

@@ -1,0 +1,11 @@
+language: node_js
+deploy:
+  email: yahya.arbabi@gmail.com
+  provider: npm
+  on:
+    tags: true
+    repo: rastikerdar/samim-font
+  api_key: 
+env:
+  global:
+    secure: Q0lBgWnk8BrUDGxsAqCMxqpJRvHIt1Fz8zEzP6Ms06zSQwV6WuQGydy3r1HRdDKWxYbYesuUM469eHTIrFqMAPe7A3ryqljreQi4WjvaJCYBlAiZIQGe3948RZluB27ArLfGm+SMm0WjKg9HpuAdYXzwB61jNlY+dzDBjdUWnGKrIAKq3Dynq5oqkQqUT6QUtQe2BKsBc5giF725HZuOhcT26ELXf38P3ExvLdg9gAP85d3fRV8WFD8U90O26Ugth3D7FECjEose2wj/SsXCMjdwOESVOdWFgBqEvWy755+fe9A0IeQcHd7uYFYQ8MmtslVkdtnf+JKb5Ecu2hkKGKRpE8vMyIlo9NJ3P1fwi7Gr7g3wozRYvv+zK6ECylSbzl6eFyQ/TMyw0+M527layJkbF69BfSQ/QyFixdcLnszbdjw6AzrI6oyjmLMSzSEuOxpVilQoM8C4BsODsh37jHFJEP5QmHrOz4FCNl6plK3LftEuW6dybhiKsK9nH0BD5hFxD01JFJAUuzyi4fUgngTleyCFofQDH7S1N7RmY9307vg7tuKC66vlRrPUqnOyLrlT5SZW0iwU9xzvers21OqPuO3ilH7owe/rUgjuiun9NQJA23lN85PQp3ESRd+6KUTrrG41jS+PxLCgKZA7KfMYv2ruf0qZb3/KQp1DWKE=
