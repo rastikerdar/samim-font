@@ -1,6 +1,8 @@
 # [Samim Font](http://rastikerdar.github.io/samim-font/)
 A Persian (Farsi) Font &mdash; فونت (قلم) فارسی صمیم
 
+[![npm version](https://badge.fury.io/js/samim-font.svg)](https://badge.fury.io/js/samim-font)
+
 <div lang="fa" dir="rtl" align="right">
     <h3><a href="http://rastikerdar.github.io/samim-font/">نمایش فونت</a></h3>
 </div>
