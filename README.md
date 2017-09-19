@@ -1,6 +1,8 @@
 # [Samim Font](http://rastikerdar.github.io/samim-font/)
 A Persian (Farsi) Font &mdash; فونت (قلم) فارسی صمیم
 
+[![npm version](https://badge.fury.io/js/samim-font.svg)](https://badge.fury.io/js/samim-font)
+
 <div lang="fa" dir="rtl" align="right">
     <h3><a href="http://rastikerdar.github.io/samim-font/">نمایش فونت</a></h3>
 </div>
@@ -49,13 +51,19 @@ A Persian (Farsi) Font &mdash; فونت (قلم) فارسی صمیم
 
 Grab the [latest release](https://github.com/rastikerdar/samim-font/releases/latest) file.
 
-Or you can get it on bower:
+#### bower
 
-```
+```shell
 bower install samim-font --save
 ```
 
-Or [RawGit](https://rawgit.com) CDN:
+#### npm
+
+```shell
+npm install samim-font
+```
+
+#### [RawGit](https://rawgit.com) CDN
 
 ```html
 <link href="https://cdn.rawgit.com/rastikerdar/samim-font/v[X.Y.Z]/dist/font-face.css" rel="stylesheet" type="text/css" />
@@ -67,7 +75,7 @@ Replace [X.Y.Z] with the latest version (e.g. 1.0.2) and integrate the font into
 font-family: 'Samim', sans-serif;
 ```
 
-####Arch Linux
+#### Arch Linux
 
 Arch user's could use [samim-fonts](https://aur.archlinux.org/packages/samim-fonts/) package from [AUR](https://aur.archlinux.org/) repository to install samim font. Use your favourite [AUR helper](https://wiki.archlinux.org/index.php/AUR_helpers) like pacaur or yaourt for installing package:
 
