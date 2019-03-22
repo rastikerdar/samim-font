@@ -3,18 +3,18 @@ A Persian (Farsi) Font &mdash; فونت (قلم) فارسی صمیم
 
 [![npm version](https://badge.fury.io/js/samim-font.svg)](https://badge.fury.io/js/samim-font)
 
-<div lang="fa" dir="rtl" align="right">
-    <h3><a href="http://rastikerdar.github.io/samim-font/">نمایش فونت</a></h3>
-</div>
-<p dir="rtl">
-<a href="https://github.com/rastikerdar/samim-font/releases">صفحه دریافت (دانلود) بسته فونت شامل فایل های ttf,woff,eot</a> <br />
-نسخه های بدون حروف لاتین یا تمام ارقام فارسی درون بسته فشرده موجود می‌باشد.
-</p>
+فونت فارسی صمیم  
+[نمایش فونت - صفحه رسمی پروژه](https://rastikerdar.github.io/samim-font)  
+[صفحه دریافت (دانلود) بسته فونت شامل فایل های ttf,woff,eot](https://github.com/rastikerdar/samim-font/releases)  
+با تشکر از برنامه [FontForge](https://fontforge.github.io)  
+بر مبنای فونت [وزیر](https://rastikerdar.github.io/vazir-font)  
+نسخه‌های بدون حروف لاتین یا تمام ارقام فارسی درون بسته فشرده موجود می‌باشد.  
+فرآیند تولید بسته نهایی شامل انواع نسخه‌ها و فرمت‌ها توسط ابزار [fontbuilder](https://github.com/rastikerdar/fontbuilder) انجام می‌شود.
 
-<a href="http://rastikerdar.github.io/samim-font/">
-    <img src="https://cloud.githubusercontent.com/assets/3202/11185401/e3cf9f4e-8c7c-11e5-9617-9d74e30ee7e3.png">
-</a>
-<h2 lang="fa" dir="rtl" align="right">طریقه استفاده در صفحات وب</h2>
+## نمونه متن Sample:
+![نمونه متن فونت صمیم](./sample.png)
+
+## طریقه استفاده در صفحات وب:
 
 <p lang="fa" dir="rtl" align="right">
 کد زیر را در قسمت style یا فایل css وارد نمایید:
@@ -69,7 +69,7 @@ npm install samim-font
 <link href="https://cdn.rawgit.com/rastikerdar/samim-font/v[X.Y.Z]/dist/font-face.css" rel="stylesheet" type="text/css" />
 ```
 
-Replace [X.Y.Z] with the latest version (e.g. 2.0.1) and integrate the font into your CSS:
+Replace [X.Y.Z] with the latest version (e.g. 3.0.0) and integrate the font into your CSS:
 
 ```
 font-family: 'Samim', sans-serif;
