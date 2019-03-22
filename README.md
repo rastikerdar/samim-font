@@ -41,12 +41,6 @@ A Persian (Farsi) Font &mdash; فونت (قلم) فارسی صمیم
 }
 ```
 
-
-<div lang="fa" dir="rtl" align="right">
-<p>با تشکر از برنامه‌های <a href="https://fontforge.github.io">FontForge</a> و <a href="https://www.freetype.org/ttfautohint/">ttfautohint</a></p>
-<p>بر مبنای فونت <a href="http://rastikerdar.github.io/vazir-font/">وزیر</a></p>
-</div>
-
 ## Install
 
 Grab the [latest release](https://github.com/rastikerdar/samim-font/releases/latest) file.
