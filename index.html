@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <meta name="description" content="قلم فارسی صمیم">
     <meta name="keywords" content="فونت,فارسی,صمیم,font,farsi,Samim">
-    <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/rastikerdar/samim-font/v2.0.1/dist/font-face.css">
+    <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/rastikerdar/samim-font/v3.0.0/dist/font-face.css">
     <style>
       * {
         margin: 0;
@@ -16,10 +16,13 @@
         text-decoration: none;
         color: #007fba;
       }
+      
+      html {
+        font-size: 16px;
+      }
 
       body {
         color: #000;
-        font-size: 14px;
         direction: rtl;
         line-height: 2;
         font-family: Samim,Tahoma,"DejaVu Sans",helvetica,arial,freesans,sans-serif;
@@ -27,21 +30,32 @@
 
       header, .sample, footer {
         margin: auto;
-        padding: 50px 50px;
+        padding: 30px 50px;
       }
 
       header {
         text-align: center;
-        background-color: #eee;
+        background-color: #fff;
         color: #222;
       }
 
       header h1 {
-        color: #333;
+        color: #cd8b00;
+        font-size: 3rem;
+      }
+
+      header h1 span {
+        color: #009394;
+      }
+
+      header .version {
+        color: #000000;
+        font-weight: bold;
       }
 
       header .get {
-        margin: 20px 0;
+        margin: 10px 0;
+        font-size: 1.5rem;
       }
 
       header .get a {
@@ -53,7 +67,6 @@
 
       header .info{
         color: #999;
-        font-size: 12px;
       }
 
       .infobox {
@@ -63,81 +76,28 @@
           color: #284559;
           font-weight: 900;
           line-height: 2;
-          margin: 15px auto;
+          margin: 0 auto;
           max-width: 600px;
           padding: 5px;
-          text-align: center;
-          font-size: 15px;
       }
+
 
       .sample {
-        text-align: center;
-      }
-
-      .sample.sec0 {
-        background-color: #555;
-        color: #eee;
-      }
-
-      .sample.sec-test {
-        background-color: #f9f9f9;
-        color: #333;
-        box-shadow: 0 0 12px #e0e0e0;
-      }
-
-
-    .sample.sec-test .embed {
-        background-color: #404958;
-        border-radius: 5px;
-        box-shadow: 0 0 5px #c5c5c5;
-        color: #f1f1f1;
-        float: left;
-        font-size: 16px;
-        margin: 10px;
-        max-width: 500px;
-        padding: 10px;
-    }
-
-    .sample.sec-test .embed a {
-        color: #F9FF95;
-    }
-
-      .sample.sec-test.second {
         background-color: #f5f8fa;
-        color: #292f32;
+        color: #181b1d;
         border-top: 1px solid #eee;
       }
 
-      .sample.sec-test.second h2 {
-    	font-weight: normal;
+      .sample h2 {
+        font-weight: normal;
+        color: #00727b;
       }
 
-      .sample.sec-test p {
+      .sample p {
         margin-bottom: 30px;
       }
 
-      .sample.sec-test a { color: #0b6db3; }
-
-      .sample.sec1 {
-        background-color: #5F9D15;
-        color: #fff;
-        font-size: 15px;
-      }
-      .sample.sec2 {
-        background-color: #F2F2EE;
-        color: #222;
-        font-size: 18px;
-      }
-
-      .sample.sec3 {
-        background-color: #25456c;
-        color: #fff;
-        font-size: 12px;
-      }
-
-      .sample.sec3 a {
-        color: #E6FF65;
-      }
+      .sample a { color: #0b6db3; }
 
       footer {
         background-color: #1d2b2a;
@@ -154,35 +114,44 @@
 
       .clear { clear: both; }
       @media all and (max-width: 480px){
-        header, .sample, footer {
-          padding: 50px 30px;
+        html {
+          font-size: 15px;
         }
-        .sample.sec-test .embed {
-           margin: -50px -30px 10px;
-           border-radius: 0;
+
+        header, .sample, footer {
+          padding: 30px 20px;
+        }
+
+        .sample {
+           text-align: right;
+        }
+        
+        header h1 {
+          color: #cd8b00;
+          font-size: 2.5rem;
         }
       }
 
-      @media all and (max-width: 900px) and (min-width: 481px) {
-        .sample.sec-test .embed {
-           margin: 0 auto 10px;
-           float: none;
-        }
-      }
     </style>
   </head>
 
   <body>
     <header>
-      <h1>قلم فارسی صمیم</h1>
+      <h1>قلم فارسی <span>صمیم</span></h1>
       <div class="description">این فونت آزاد است.</div>
       <div class="get">
-        <a href="https://github.com/rastikerdar/samim-font/releases/download/v2.0.1/samim-font-v2.0.1.zip" class="download">دریافت (دانلود)</a>
+        <a href="https://github.com/rastikerdar/samim-font/releases/download/v3.0.0/samim-font-v3.0.0.zip" class="download">دریافت (دانلود)</a>
         <a href="https://github.com/rastikerdar/samim-font" class="github">GitHub</a>
       </div>
       <div class="info">
-        <div class="version">آخرین نسخه: 2.0.1</div>
-        <div class="license">مجوز: SIL Open Font License 1.1</div>
+        <div class="version">نسخه: 3.0.0</div>
+        <div class="license">مجوز: OFL</div>
+        <div class="infobox" style="font-weight: normal">
+          در صورت تمایل به پرداخت هدیه نقدی به صفحه
+          <a href="https://rastikerdar.github.io/vazir-font/" target="_blank">فونت وزیر</a>
+          مراجعه فرمایید.
+        </div>
+
         <div class="other-fonts">سایر قلم‌های آزاد:
           <a href="http://rastikerdar.github.io/sahel-font/" target="_blank">ساحل</a>،
           <a href="http://rastikerdar.github.io/parastoo-font/" target="_blank">پرستو</a>،
@@ -198,16 +167,9 @@
     </header>
 
 
-    <section class="sample sec-test second">
-        <section class="embed">
-          <h2>خوشنویسی</h2>
-          <p>درحالی که عمدهٔ تبدیل نگارش معمولی کلمات به خوشنویسی هنرمندانه در جهان اسلام، به‌عهده ایرانیان بوده‌است، رفته رفته ایرانیان سبک و شیوه‌هایی مختص به خود را در خوشنویسی ابداع کردند. هرچند این شیوه‌ها و قلم‌های ابداعی در سایر کشورهای اسلامی هم طرفدارانی دارد اما بیشتر مربوط به ایران و کشورهای تحت نفوذ آن همچون کشورهای آسیای میانه، افغانستان، پاکستان و هند می‌باشد. در این منطقه نیز خوشنویسی همواره به عنوان والاترین شکل هنرهای بصری مورد توجه بوده و دارای لطافتی خاص است.
-          </p>
-          <p>منبع: <a href="https://fa.wikipedia.org/wiki/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86#.D8.AE.D9.88.D8.B4.D9.86.D9.88.DB.8C.D8.B3.DB.8C_.D8.A7.DB.8C.D8.B1.D8.A7.D9.86.DB.8C">ویکی‌پدیا</a></p>
-        </section>
-
+    <section class="sample">
       <h2>متن آزمایشی</h2>
-      <p>وقتی هوای گرم به بالای آسمان صعود می‌کند، بخار آب را هم همراه خودش به بالا به داخل آسمان می‌برد. در بالای آسمان، بخار آب سرد می‌شود و قطره‌های آب دور ذرات ریز گرد و غبار موجود در هوا تشکیل می‌شود. مقداری از بخار آب هم به شکل کریستال‌های ریز یخ منجمد می‌شود که قطرات آب سرد شده را جذب می‌کند. قطرات به شکل کریستال‌های یخ، منجمد می‌شود و کریستال‌های بزرگ تری را تشکیل می‌دهد که ما آنها را برف ریزه می‌نامیم. موقعی که برف ریزه‌ها سنگین می‌شوند، پایین می‌افتند. برف ریزه‌ها در مسیرشان رو به پایین با هوای گرم تر برخورد می‌کنند و ذوب می‌شوند و به صورت قطرات باران در می‌آیند.
+      <p>وقتی هوای گرم به بالای آسمان صعود می‌کند، بخار آب را هم همراه خودش به بالا به داخل آسمان می‌برد. در بالای آسمان، بخار آب سرد می‌شود و قطره‌های آب دور ذرات ریز گرد و غبار موجود در هوا تشکیل می‌شود. مقداری از بخار آب هم به شکل کریستال‌های ریز یخ منجمد می‌شود که قطرات آب سرد شده را جذب می‌کند. قطرات به شکل کریستال‌های یخ، منجمد می‌شود و کریستال‌های بزرگ تری را تشکیل می‌دهد که ما آنها را برف ریزه می‌نامیم. موقعی که برف ریزه‌ها سنگین می‌شوند، پایین می‌افتند. برف ریزه‌ها در مسیرشان رو به پایین با هوای گرم‌تر برخورد می‌کنند و ذوب می‌شوند و به صورت قطرات باران در می‌آیند.
       </p>
       <p>منبع: <a href="https://fa.wikipedia.org/wiki/%D8%A8%D8%A7%D8%B1%D8%A7%D9%86">ویکی‌پدیا</a></p>
 <div class="clear"></div>
@@ -215,7 +177,7 @@
 
     <footer>
       <p>
-این فونت بر مبنای قلم <a href="http://rastikerdar.github.io/vazir-font/">وزیر</a> ساخته شده که خود باز طراحی فونت <a href="https://dejavu-fonts.github.io/" target="_blank">DejaVu 2.35</a> می باشد. توضیحات مربوط به فونت اصلی و مجوز آن را می توانید در تارنمای پروژه فونت DejaVu مشاهده نمایید.</p>
+این فونت بر مبنای قلم <a href="http://rastikerdar.github.io/vazir-font/">وزیر</a> ساخته شده که خود باز طراحی فونت <a href="https://dejavu-fonts.github.io/" target="_blank">DejaVu 2.35</a> می‌باشد. توضیحات مربوط به فونت اصلی و مجوز آن را می‌توانید در تارنمای پروژه فونت DejaVu مشاهده نمایید.</p>
 <br>
       صفحه وبلاگ برای ثبت دیدگاه پیرامون قلم صمیم:
       <a href="http://rastikerdar.blog.ir/1394/08/10/%D9%82%D9%84%D9%85-%D9%81%D9%88%D9%86%D8%AA-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B5%D9%85%DB%8C%D9%85" target="_blank">rastikerdar.blog.ir</a>
