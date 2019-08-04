@@ -1,20 +1,44 @@
 # [Samim Font](http://rastikerdar.github.io/samim-font/)
-A Persian (Farsi) Font &mdash; فونت (قلم) فارسی صمیم
+<p dir="rtl" align="right">
+  A Persian (Farsi) Font &mdash; فونت (قلم) فارسی صمیم
+</p>
+
 
 [![npm version](https://badge.fury.io/js/samim-font.svg)](https://badge.fury.io/js/samim-font)
 
-فونت فارسی صمیم  
-[نمایش فونت - صفحه رسمی پروژه](https://rastikerdar.github.io/samim-font)  
-[صفحه دریافت (دانلود) بسته فونت شامل فایل های ttf,woff,eot](https://github.com/rastikerdar/samim-font/releases)  
-با تشکر از برنامه [FontForge](https://fontforge.github.io)  
-بر مبنای فونت [وزیر](https://rastikerdar.github.io/vazir-font)  
-نسخه‌های بدون حروف لاتین یا تمام ارقام فارسی درون بسته فشرده موجود می‌باشد.  
-فرآیند تولید بسته نهایی شامل انواع نسخه‌ها و فرمت‌ها توسط ابزار [fontbuilder](https://github.com/rastikerdar/fontbuilder) انجام می‌شود.
+<p dir="rtl" align="right">فونت فارسی صمیم</p>
+<p dir="rtl" align="right">
+  <a href="https://rastikerdar.github.io/samim-font">نمایش فونت - صفحه رسمی پروژه</a>
+</p>
 
-## نمونه متن Sample:
-![نمونه متن فونت صمیم](./sample.png)
+<p dir="rtl" align="right">
+  <a href="https://github.com/rastikerdar/samim-font/releases">صفحه دریافت (دانلود) بسته فونت شامل فایل های ttf,woff,eot</a>
+</p>
 
-## طریقه استفاده در صفحات وب:
+<p dir="rtl" align="right">
+  با تشکر از برنامه
+  <a href="https://fontforge.github.io">FontForge</a>
+</p>
+
+<p dir="rtl" align="right">
+  بر مبنای فونت
+  <a href="https://rastikerdar.github.io/vazir-font">فونت وزیر</a>
+</p>
+
+<p dir="rtl" align="right">
+  نسخه‌های بدون حروف لاتین یا تمام ارقام فارسی درون بسته فشرده موجود است.  
+</p>
+<p dir="rtl" align="right">
+  فرآیند تولید بسته نهایی شامل انواع نسخه‌ها و فرمت‌ها توسط ابزار
+  <a href="https://github.com/rastikerdar/fontbuilder">fontbuilder</a>
+  .انجام می‌شود
+</p>
+
+ <h2 dir="rtl" align="right">نمونه متن Sample:</h2>
+ <img alt="نمونه متن فونت صمیم" src="./sample.png">
+
+
+<h2 dir="rtl" align="right">طریقه استفاده در صفحات وب:</h2>
 
 <p lang="fa" dir="rtl" align="right">
 کد زیر را در قسمت style یا فایل css وارد نمایید:
