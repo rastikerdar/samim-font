@@ -103,8 +103,8 @@ pacaur -S samim-fonts
 
 ## Contributors
 
-- Allen Bargi [@aziz] (https://github.com/aziz)
-- Farzan Balkani [@artlesshand] (https://github.com/artlesshand)
+- Allen Bargi [aziz](https://github.com/aziz)
+- Farzan Balkani [artlesshand](https://github.com/artlesshand)
 
 ## License
 SIL Open Font License Version 1.1  
