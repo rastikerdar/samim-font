@@ -1,4 +1,7 @@
-# [Samim Font](http://rastikerdar.github.io/samim-font/)
+<h1 dir="rtl" align="center">
+  <a href="http://rastikerdar.github.io/samim-font/">Samim Font</a>
+</h1>
+
 <p dir="rtl" align="right">
   A Persian (Farsi) Font &mdash; فونت (قلم) فارسی صمیم
 </p>
