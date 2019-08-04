@@ -34,11 +34,11 @@
   .انجام می‌شود
 </p>
 
- <h2 dir="rtl" align="right">نمونه متن Sample:</h2>
+ <h2 dir="rtl" align="right">نمونه متن Sample</h2>
  <img alt="نمونه متن فونت صمیم" src="./sample.png">
 
 
-<h2 dir="rtl" align="right">طریقه استفاده در صفحات وب:</h2>
+<h2 dir="rtl" align="right">طریقه استفاده در صفحات وب</h2>
 
 <p lang="fa" dir="rtl" align="right">
 کد زیر را در قسمت style یا فایل css وارد نمایید:
