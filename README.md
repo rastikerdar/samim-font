@@ -53,6 +53,7 @@
   font-family: Samim;
   src: url('Samim.eot');
   src: url('Samim.eot?#iefix') format('embedded-opentype'),
+       url('Samim.woff2') format('woff2'),
        url('Samim.woff') format('woff'),
        url('Samim.ttf') format('truetype');
   font-weight: normal;
@@ -62,9 +63,20 @@
   font-family: Samim;
   src: url('Samim-Bold.eot');
   src: url('Samim-Bold.eot?#iefix') format('embedded-opentype'),
+       url('Samim-Bold.woff2') format('woff2'),
        url('Samim-Bold.woff') format('woff'),
        url('Samim-Bold.ttf') format('truetype');
   font-weight: bold;
+}
+
+@font-face {
+  font-family: Samim;
+  src: url('Samim-Medium.eot');
+  src: url('Samim-Medium.eot?#iefix') format('embedded-opentype'),
+       url('Samim-Medium.woff2') format('woff2'),
+       url('Samim-Medium.woff') format('woff'),
+       url('Samim-Medium.ttf') format('truetype');
+  font-weight: 500;
 }
 ```
 
@@ -90,7 +102,7 @@ npm install samim-font
 <link href="https://cdn.rawgit.com/rastikerdar/samim-font/v[X.Y.Z]/dist/font-face.css" rel="stylesheet" type="text/css" />
 ```
 
-Replace [X.Y.Z] with the latest version (e.g. 3.1.0) and integrate the font into your CSS:
+Replace [X.Y.Z] with the latest version (e.g. 4.0.0) and integrate the font into your CSS:
 
 ```
 font-family: 'Samim', sans-serif;
@@ -111,4 +123,4 @@ pacaur -S samim-fonts
 
 ## License
 SIL Open Font License Version 1.1  
-Copyright &copy; 2015, Saber Rastikerdar
+Copyright &copy; 2015, Saber Rastikerdar [rastikerdar](https://github.com/rastikerdar)
