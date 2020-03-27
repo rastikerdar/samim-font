@@ -116,19 +116,11 @@ Arch user's could use [samim-fonts](https://aur.archlinux.org/packages/samim-fon
 pacaur -S samim-fonts
 ```
 
-#### Linux
-gnu/inux users could use [kateb](https://github.com/kiamazi/kateb) font manager, to install samin font.
+#### GNU/Linux
+gnu/linux users could use [kateb](https://github.com/kiamazi/kateb) font manager, to install samin font.
 
-ubuntu users must install this dependensies too:
 ```
-sudo apt install openssl libssl-dev
-````
-
-##### install kateb
-```
-sudo cpan kateb
-
-kateb install samin
+kateb install samim
 or
 kateb update samim
 ```
