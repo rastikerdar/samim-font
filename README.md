@@ -116,6 +116,15 @@ Arch user's could use [samim-fonts](https://aur.archlinux.org/packages/samim-fon
 pacaur -S samim-fonts
 ```
 
+#### GNU/Linux
+gnu/linux users could use [kateb](https://github.com/kiamazi/kateb) font manager, to install samin font.
+
+```
+kateb install samim
+or
+kateb update samim
+```
+
 ## Contributors
 
 - Allen Bargi [aziz](https://github.com/aziz)
