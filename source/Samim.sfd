@@ -1,10 +1,10 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: Samim
 FullName: Samim
 FamilyName: Samim
 Weight: Regular
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nDejaVu changes are in public domain\nCopyright (c) 2015 by Saber Rastikerdar. All Rights Reserved.\nNon-Arabic(Latin) glyphs and data are imported from Open Sans font under the Apache License, Version 2.0.
-Version: 4.0.4
+Version: 4.0.5
 ItalicAngle: 0
 UnderlinePosition: -500
 UnderlineWidth: 100
@@ -23,7 +23,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1575072804
+ModificationTime: 1586862538
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -96,7 +96,7 @@ ChainSub2: coverage "'calt' Contextual Alternates lookup 1 subtable 1" 0 0 0 1
  1
   SeqLookup: 0 "Single Substitution 1"
 EndFPST
-LangName: 1033 "" "" "" "Samim Regular" "" "Version 4.0.4" "" "" "DejaVu fonts team - Redesigned by Saber Rastikerdar" "" "" "" "" "Changes to Arabic glyphs by me are under SIL Open Font License 1.1+AAoA-Glyphs and data from Open Sans font are licensed under the Apache License, Version 2.0.+AAoACgAA-Fonts are (c) Bitstream (see below). DejaVu changes are in public domain. +AAoACgAA-Bitstream Vera Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is+AAoA-a trademark of Bitstream, Inc.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy+AAoA-of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated+AAoA-documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the+AAoA-Font Software, including without limitation the rights to use, copy, merge,+AAoA-publish, distribute, and/or sell copies of the Font Software, and to permit+AAoA-persons to whom the Font Software is furnished to do so, subject to the+AAoA-following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice shall+AAoA-be included in all copies of one or more of the Font Software typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in particular+AAoA-the designs of glyphs or characters in the Fonts may be modified and+AAoA-additional glyphs or characters may be added to the Fonts, only if the fonts+AAoA-are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the word+AAoAIgAA-Vera+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts or Font+AAoA-Software that has been modified and is distributed under the +ACIA-Bitstream+AAoA-Vera+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but no+AAoA-copy of one or more of the Font Software typefaces may be sold by itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS+AAoA-OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY,+AAoA-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT,+AAoA-TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME+AAoA-FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING+AAoA-ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,+AAoA-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF+AAoA-THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE+AAoA-FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the names of Gnome, the Gnome+AAoA-Foundation, and Bitstream Inc., shall not be used in advertising or+AAoA-otherwise to promote the sale, use or other dealings in this Font Software+AAoA-without prior written authorization from the Gnome Foundation or Bitstream+AAoA-Inc., respectively. For further information, contact: fonts at gnome dot+AAoA-org. +AAoA" "http://scripts.sil.org/OFL_web +AAoA-http://dejavu.sourceforge.net/wiki/index.php/License+AAoA-http://www.apache.org/licenses/LICENSE-2.0" "" "Samim" "Regular"
+LangName: 1033 "" "" "" "Samim Regular" "" "Version 4.0.5" "" "" "DejaVu fonts team - Redesigned by Saber Rastikerdar" "" "" "" "" "Changes to Arabic glyphs by me are under SIL Open Font License 1.1+AAoA-Glyphs and data from Open Sans font are licensed under the Apache License, Version 2.0.+AAoACgAA-Fonts are (c) Bitstream (see below). DejaVu changes are in public domain. +AAoACgAA-Bitstream Vera Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is+AAoA-a trademark of Bitstream, Inc.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy+AAoA-of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated+AAoA-documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the+AAoA-Font Software, including without limitation the rights to use, copy, merge,+AAoA-publish, distribute, and/or sell copies of the Font Software, and to permit+AAoA-persons to whom the Font Software is furnished to do so, subject to the+AAoA-following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice shall+AAoA-be included in all copies of one or more of the Font Software typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in particular+AAoA-the designs of glyphs or characters in the Fonts may be modified and+AAoA-additional glyphs or characters may be added to the Fonts, only if the fonts+AAoA-are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the word+AAoAIgAA-Vera+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts or Font+AAoA-Software that has been modified and is distributed under the +ACIA-Bitstream+AAoA-Vera+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but no+AAoA-copy of one or more of the Font Software typefaces may be sold by itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS+AAoA-OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY,+AAoA-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT,+AAoA-TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME+AAoA-FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING+AAoA-ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,+AAoA-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF+AAoA-THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE+AAoA-FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the names of Gnome, the Gnome+AAoA-Foundation, and Bitstream Inc., shall not be used in advertising or+AAoA-otherwise to promote the sale, use or other dealings in this Font Software+AAoA-without prior written authorization from the Gnome Foundation or Bitstream+AAoA-Inc., respectively. For further information, contact: fonts at gnome dot+AAoA-org. +AAoA" "http://scripts.sil.org/OFL_web +AAoA-http://dejavu.sourceforge.net/wiki/index.php/License+AAoA-http://www.apache.org/licenses/LICENSE-2.0" "" "Samim" "Regular"
 GaspTable: 2 8 2 65535 3 0
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
@@ -1232,7 +1232,7 @@ EndChar
 StartChar: uni0645
 Encoding: 1605 1605 40
 GlifName: uni0645
-Width: 1180
+Width: 1166
 VWidth: 2311
 GlyphClass: 2
 Flags: HW
@@ -1244,24 +1244,24 @@ SplineSet
 481 177 m 1
  510 177 l 1
  654 177 l 1
- 755 177 l 2
- 845 177 870 181 891 196 c 0
- 913 210 941 258 941 298 c 0
- 941 384 751 523 626 523 c 0
- 477 523 485 346 481 177 c 1
-756 0 m 2
+ 735 177 l 2
+ 825 177 850 181 871 196 c 0
+ 893 210 921 258 921 298 c 0
+ 921 384 751 503 626 503 c 0
+ 477 503 485 346 481 177 c 1
+736 0 m 2
  413 0 l 2
  294 0 235 -68 235 -229 c 0
  235 -240 235 -253 236 -265 c 2
- 257 -734 l 5
- 95 -800 l 5
+ 257 -734 l 1
+ 95 -800 l 1
  95 -216 l 2
  95 -14.8789673605 180.654296875 144.275390625 329 172 c 1
  328 195 327 204 327 225 c 0
- 327 492.347829606 415.88617264 711 636 711 c 0
- 814 711 1098 485 1098 330 c 0
- 1098 257.846393191 1047.9609375 129.985351562 1001 78.3798828125 c 0
- 952.38542526 24.9572287706 891.414908597 -1.65835434371e-14 756 0 c 2
+ 327 492.347829606 415.885742188 691 636 691 c 0
+ 814 691 1078 485 1078 330 c 0
+ 1078 257.846679688 1027.9609375 129.985351562 981 78.3798828125 c 0
+ 932.385742188 24.95703125 871.415039062 0 736 0 c 2
 EndSplineSet
 Substitution2: "'init' Initial Forms in Arabic lookup 13 subtable" uniFEE3
 Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" uniFEE4
@@ -1328,19 +1328,19 @@ AnchorPoint: "Anchor-10" 424.959 1021.28 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-436.716796875 543.08203125 m 0
- 331.500976562 543.08203125 251.232421875 423.306640625 251.232421875 295.719726562 c 0
- 251.232421875 205.899414062 302.536132812 160.989257812 425.666992188 160.989257812 c 0
- 558.483398438 160.989257812 620 215 620 215 c 1
- 620 406.830078125 564.8359375 543.08203125 436.716796875 543.08203125 c 0
-436.065429688 715.01171875 m 0
- 645.283203125 715.01171875 780.034179688 525.060546875 780.034179688 171.911132812 c 0
+436.716796875 543.08203125 m 4
+ 331.500976562 543.08203125 251.232421875 423.306640625 251.232421875 295.719726562 c 4
+ 251.232421875 205.899414062 302.536132812 160.989257812 425.666992188 160.989257812 c 4
+ 558.483398438 160.989257812 620 215 620 215 c 5
+ 620 406.830078125 564.8359375 543.08203125 436.716796875 543.08203125 c 4
+436.065429688 715.01171875 m 4
+ 645.283203125 715.01171875 780.034179688 525.060546875 780.034179688 171.911132812 c 4
  780.034179688 -273.711718647 509.508789062 -514 101 -514 c 1
  46 -378 l 1
- 386 -357 579 -198 613 40 c 1
- 613 40 544 -5 416 -5 c 0
- 211.345703125 -5 98.9853515625 99.5322265625 98.9853515625 272.520507812 c 0
- 98.9853515625 509.342773438 237.78125 715.01171875 436.065429688 715.01171875 c 0
+ 386 -357 579 -198 613 40 c 5
+ 613 40 544 -5 416 -5 c 4
+ 211.345703125 -5 98.9853515625 99.5322265625 98.9853515625 272.520507812 c 4
+ 98.9853515625 509.342773438 237.78125 715.01171875 436.065429688 715.01171875 c 4
 EndSplineSet
 Substitution2: "'fina' Terminal Forms in Arabic lookup 9 subtable" uniFEEE
 EndChar
@@ -5562,7 +5562,7 @@ EndChar
 StartChar: uniFEE1
 Encoding: 65249 65249 236
 GlifName: uniF_E_E_1
-Width: 1180
+Width: 1166
 VWidth: 2311
 GlyphClass: 2
 Flags: HW

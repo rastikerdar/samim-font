@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Samim FD WOL;
+  src: url('Samim-FD-WOL.eot');
+  src: url('Samim-FD-WOL.eot?#iefix') format('embedded-opentype'),
+       url('Samim-FD-WOL.woff2') format('woff2'),
+       url('Samim-FD-WOL.woff') format('woff'),
+       url('Samim-FD-WOL.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Samim FD WOL;
+  src: url('Samim-Bold-FD-WOL.eot');
+  src: url('Samim-Bold-FD-WOL.eot?#iefix') format('embedded-opentype'),
+       url('Samim-Bold-FD-WOL.woff2') format('woff2'),
+       url('Samim-Bold-FD-WOL.woff') format('woff'),
+       url('Samim-Bold-FD-WOL.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Samim FD WOL;
+  src: url('Samim-Medium-FD-WOL.eot');
+  src: url('Samim-Medium-FD-WOL.eot?#iefix') format('embedded-opentype'),
+       url('Samim-Medium-FD-WOL.woff2') format('woff2'),
+       url('Samim-Medium-FD-WOL.woff') format('woff'),
+       url('Samim-Medium-FD-WOL.ttf') format('truetype');
+  font-weight: 500;
+}

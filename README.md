@@ -102,7 +102,7 @@ npm install samim-font
 <link href="https://cdn.rawgit.com/rastikerdar/samim-font/v[X.Y.Z]/dist/font-face.css" rel="stylesheet" type="text/css" />
 ```
 
-Replace [X.Y.Z] with the latest version (e.g. 4.0.4) and integrate the font into your CSS:
+Replace [X.Y.Z] with the latest version (e.g. 4.0.5) and integrate the font into your CSS:
 
 ```
 font-family: 'Samim', sans-serif;
