@@ -90,12 +90,6 @@ Grab the [latest release](https://github.com/rastikerdar/samim-font/releases/lat
 bower install samim-font --save
 ```
 
-#### npm
-
-```shell
-npm install samim-font
-```
-
 #### [RawGit](https://rawgit.com) CDN
 
 ```html
