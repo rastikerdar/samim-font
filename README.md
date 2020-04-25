@@ -90,10 +90,10 @@ Grab the [latest release](https://github.com/rastikerdar/samim-font/releases/lat
 bower install samim-font --save
 ```
 
-#### [RawGit](https://rawgit.com) CDN
+#### [jsDelivr](https://www.jsdelivr.com/) CDN
 
 ```html
-<link href="https://cdn.rawgit.com/rastikerdar/samim-font/v[X.Y.Z]/dist/font-face.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/samim-font@v[X.Y.Z]/dist/font-face.css" rel="stylesheet" type="text/css" />
 ```
 
 Replace [X.Y.Z] with the latest version (e.g. 4.0.5) and integrate the font into your CSS:
