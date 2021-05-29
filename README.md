@@ -9,6 +9,8 @@
 
 [![npm version](https://badge.fury.io/js/samim-font.svg)](https://badge.fury.io/js/samim-font)
 
+## توسعه این پروژه متوقف و بایگانی شده است. این موضوع شامل تمامی ابعاد پروژه از طراحی گرفته تا رفع اشکال می‌شود. قسمت ایشوهای مخزن همچنان باز است.
+
 <p dir="rtl" align="right">فونت فارسی صمیم</p>
 <p dir="rtl" align="right">
   <a href="https://rastikerdar.github.io/samim-font">نمایش فونت - صفحه رسمی پروژه</a>
